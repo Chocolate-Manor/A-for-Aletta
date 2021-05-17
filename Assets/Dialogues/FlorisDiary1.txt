@@ -1,0 +1,31 @@
+:: Airport Entrance (diary format) [Floris Diary Thoughtful]
+Something was coming. I knew of it.
+[[Write|2]]
+
+:: 2 [Floris Diary Thoughtful]
+Actually by the time I arrived, it was already there. I could feel its presence. I could smell the rot. It was a creature of old, one I haven't seen before, but have encountered similar.
+[[Write|3]]
+
+:: 3 [Floris Diary Thoughtful]
+Usually, creature like this fade. Or at least, they don't exactly make it all the way through an inter-continental flight. Its influence weakens, the further away it is from its land of origin. But things have changed.
+[[Write|4]]
+
+:: 4 [Floris Diary Contempt]
+Globalization, youngsters staring at their phones 24/7 for their chat app or photo thing. I sure miss the time when letter was the only means of long distance communication, all you had to do was bribe the postman. Now, once an idea takes root, it spreads like a plague. 
+[[write|5]]
+
+:: 5 [Floris Diary Thoughtful]
+Thankfully, unlike a real plague, plague of the mind has a source. Destroy the source, and the plague would be no more. 
+[[Write|6]]
+
+:: 6 [Floris Diary HideThePain]
+Usually.
+[[Write|7]]
+[[Go to sleep|8]]
+
+:: 7 [Floris Diary Tired]
+I probably should hit the sack.
+[[Go to sleep|8]]
+
+:: 8 [Floris Diary Away]
+... ...
