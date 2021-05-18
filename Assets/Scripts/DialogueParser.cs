@@ -9,7 +9,7 @@ using UnityEngine.XR;
 public class DialogueParser
 {
     private const string StartTag = "START";
-    private const string EndTag = "End";
+    private const string EndTag = "END";
 
     public struct Response
     {
@@ -48,7 +48,7 @@ public class DialogueParser
         public NodeInfo nodeInfo;
         public string dialogueText;
         public List<Response> Responses;
-
+        
         public bool isEndNode()
         {
             return tags.Contains(EndTag);
@@ -57,13 +57,24 @@ public class DialogueParser
 
     public class Dialogue
     {
-        private Dictionary<string, Node> nodes;
-        private string titleOfStartNode;
+        public Dictionary<string, Node> Nodes;
+        public string TitleOfStartNode;
 
         public Dialogue(TextAsset textAsset)
         {
-            nodes = new Dictionary<string, Node>();
+            Nodes = new Dictionary<string, Node>();
             Parse(textAsset);
+        }
+
+        public Node GetNode(string nodeTitle)
+        {
+            return Nodes[nodeTitle];
+        }
+
+        public Node GetStartNode()
+        {
+            UnityEngine.Assertions.Assert.IsNotNull( TitleOfStartNode );
+            return Nodes [ TitleOfStartNode ];
         }
         
         /// <summary>
@@ -106,8 +117,8 @@ public class DialogueParser
             const int indexOfContentStart = 5;
             for (int i = indexOfContentStart; i < nodeData.Length; i++)
             {
-                //Debug.Log(nodeData[i]);
-                using (StringReader reader = new StringReader(nodeData[i]))
+                string curNodeText = nodeData[i];
+                using (StringReader reader = new StringReader(curNodeText))
                 {
                     //title
                     string firstLine = reader.ReadLine();
@@ -123,7 +134,15 @@ public class DialogueParser
                     NodeInfo nodeInfo = new NodeInfo(tags[0], tags[1], tags[2]);
                     
                     //text
-                    string dialogueText = reader.ReadLine().Trim();
+                    int dialogueStart = curNodeText.IndexOf("}") + 1;
+                    int dialogueEnd = curNodeText.IndexOf("[[") == -1 ? curNodeText.Length : curNodeText.IndexOf("[["); 
+                    string dialogueText = curNodeText.Substring(dialogueStart, dialogueEnd - dialogueStart).Trim();
+                    int dialogueTextLength = dialogueText.Split('\n').Length;
+                    for (int k = 0; k < dialogueTextLength; k++)
+                    {   
+                        //skip over the lines that had the dialogue.
+                        reader.ReadLine();
+                    }
 
                     //make the node
                     Node curNode = new Node();
@@ -135,15 +154,15 @@ public class DialogueParser
                     //set the starting title if applies
                     if (curNode.tags.Contains(StartTag))
                     {
-                        UnityEngine.Assertions.Assert.IsTrue(null == titleOfStartNode);
-                        titleOfStartNode = curNode.Title;
+                        UnityEngine.Assertions.Assert.IsTrue(null == TitleOfStartNode);
+                        TitleOfStartNode = curNode.Title;
                     }
                     
                     //parse responses and add them to current Node
                     ParseAndAddResponses(reader, curNode);
                     
                     //add node to dictionary finally
-                    nodes[curNode.Title] = curNode;
+                    Nodes[curNode.Title] = curNode;
                 }
             }
         }

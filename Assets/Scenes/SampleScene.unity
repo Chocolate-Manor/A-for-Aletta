@@ -1324,6 +1324,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 1399278302}
     m_Modifications:
     - target: {fileID: 2386839421217785256, guid: 37fcb4df60dea034ea099ed3421f196b, type: 3}
+      propertyPath: m_text
+      value: "That is not the Point. \nWe have Trtied, And things just didn't work
+        out.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386839421217785256, guid: 37fcb4df60dea034ea099ed3421f196b, type: 3}
       propertyPath: m_fontColor.b
       value: 0
       objectReference: {fileID: 0}

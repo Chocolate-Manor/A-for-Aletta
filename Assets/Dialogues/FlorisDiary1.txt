@@ -23,6 +23,8 @@ DeRail
 
 :: Airport Entrance (diary format) [Floris Diary Thoughtful START] {"position":"2330,817","size":"100,100"}
 Something was coming. I knew of it.
+Yeah. Shouldn't have waited.
+Nope.
 [[Write|2dogsliketopiss]]
 
 :: 2 [Floris Diary Thoughtful] {"position":"2330,968","size":"100,100"}
@@ -51,4 +53,6 @@ I probably should hit the sack.
 [[Go to sleep|8]]
 
 :: 8 [Floris Diary Away END] {"position":"2330,1871","size":"100,100"}
-... ...
+Sleeping.
+I am totally Sleeping.
+Well it's just a test really. 
