@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-
+    public TextAsset twineTxt;
+    
     void Start()
     {
-        Character Floris = CharacterManager.Instance.GetCharacterByName("Floris");
-        Debug.Log(Floris.characterName);
+        // Character Floris = CharacterManager.Instance.GetCharacterByName("Floris");
+        // Debug.Log(Floris.characterName);
+
+        DialogueParser.Dialogue dialogue = new DialogueParser.Dialogue(twineTxt);
     }
 
 

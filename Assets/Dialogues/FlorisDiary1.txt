@@ -1,31 +1,54 @@
-:: Airport Entrance (diary format) [Floris Diary Thoughtful]
-Something was coming. I knew of it.
-[[Write|2]]
+:: StoryTitle
+DeRail
 
-:: 2 [Floris Diary Thoughtful]
+:: StoryData
+{
+ "ifid": "72E0C14C-FF8D-4A0B-95BD-4ED96DB7336D",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "0.25",
+ "start": "Airport Entrance (diary format)",
+ "tag-colors": {
+  "START": "yellow",
+  "END": "yellow"
+ }
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: Airport Entrance (diary format) [Floris Diary Thoughtful START] {"position":"2330,817","size":"100,100"}
+Something was coming. I knew of it.
+[[Write|2dogsliketopiss]]
+
+:: 2 [Floris Diary Thoughtful] {"position":"2330,968","size":"100,100"}
 Actually by the time I arrived, it was already there. I could feel its presence. I could smell the rot. It was a creature of old, one I haven't seen before, but have encountered similar.
 [[Write|3]]
 
-:: 3 [Floris Diary Thoughtful]
+:: 3 [Floris Diary Thoughtful] {"position":"2328,1117","size":"100,100"}
 Usually, creature like this fade. Or at least, they don't exactly make it all the way through an inter-continental flight. Its influence weakens, the further away it is from its land of origin. But things have changed.
 [[Write|4]]
 
-:: 4 [Floris Diary Contempt]
+:: 4 [Floris Diary Contempt] {"position":"2329,1267","size":"100,100"}
 Globalization, youngsters staring at their phones 24/7 for their chat app or photo thing. I sure miss the time when letter was the only means of long distance communication, all you had to do was bribe the postman. Now, once an idea takes root, it spreads like a plague. 
 [[write|5]]
 
-:: 5 [Floris Diary Thoughtful]
+:: 5 [Floris Diary Thoughtful] {"position":"2329,1417","size":"100,100"}
 Thankfully, unlike a real plague, plague of the mind has a source. Destroy the source, and the plague would be no more. 
 [[Write|6]]
 
-:: 6 [Floris Diary HideThePain]
+:: 6 [Floris Diary HideThePain] {"position":"2330,1568","size":"100,100"}
 Usually.
 [[Write|7]]
 [[Go to sleep|8]]
 
-:: 7 [Floris Diary Tired]
+:: 7 [Floris Diary Tired] {"position":"2180,1716","size":"100,100"}
 I probably should hit the sack.
 [[Go to sleep|8]]
 
-:: 8 [Floris Diary Away]
+:: 8 [Floris Diary Away END] {"position":"2330,1871","size":"100,100"}
 ... ...
