@@ -22,8 +22,8 @@ public class DialogueParser
     public struct NodeInfo
     {
         public string Character;
-        public string TextBoxType;
-        public string Emotion;
+        public string TextBox;
+        public string Portrait;
     }
     
 

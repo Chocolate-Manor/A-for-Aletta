@@ -20,18 +20,18 @@ public class Character : ScriptableObject
     
     public Sprite GetPortraitByName(string portraitName)
     {
-        if (portraitNameIndex.Count != portraits.Count) throw new Exception("PortraitsIndex size and the amount of portraits does not match");
+        if (portraitNameIndex.Count != portraits.Count) throw new InvalidOperationException("PortraitsIndex size and the amount of portraits does not match");
         int i = portraitNameIndex.IndexOf(portraitName); 
-        if (i == -1) throw new Exception("Portrait name not found in portraitNameIndex.");
+        if (i == -1) throw new ArgumentException("Portrait name not found in portraitNameIndex.");
 
         return portraits[i];
     }
     
     public Sprite GetTextBoxByName(string textBoxName)
     {
-        if (textBoxNameIndex.Count != textBoxes.Count) throw new Exception("TextBox size and the amount of textboxes does not match");
+        if (textBoxNameIndex.Count != textBoxes.Count) throw new InvalidOperationException("TextBox size and the amount of textboxes does not match");
         int i = textBoxNameIndex.IndexOf(textBoxName); 
-        if (i == -1) throw new Exception("TextBox name not found in textBoxNameIndex.");
+        if (i == -1) throw new ArgumentException("TextBox name not found in textBoxNameIndex.");
 
         return textBoxes[i];
     }
