@@ -25,7 +25,7 @@ DeRail
 Something was coming. I knew of it.
 Yeah. Shouldn't have waited.
 Nope.
-[[Write|2]]
+[[That's not..what I meant. You bloody bafoon...why won't you listen?|2]]
 
 :: 2 [Floris Diary Thoughtful] {"position":"2330,968","size":"100,100"}
 Actually by the time I arrived, it was already there. I could feel its presence. I could smell the rot. It was a creature of old, one I haven't seen before, but have encountered similar.

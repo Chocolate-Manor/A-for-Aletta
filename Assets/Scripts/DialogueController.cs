@@ -77,7 +77,7 @@ public class DialogueController : MonoBehaviour
             ButtonController buttonController = curButton.GetComponent<ButtonController>();
             
             //Set-up visual
-            buttonController.tmp.text = node.Responses[i].DisplayText;
+            buttonController.tmp.text = (i+1) + ". " + node.Responses[i].DisplayText;
 
             //Set-up on-click event
             //responseIndex reference is necessary because c# lambda
@@ -96,7 +96,7 @@ public class DialogueController : MonoBehaviour
         //disable all buttons of current node
         foreach (Button button in buttonsOfCurNode)
         {
-            button.enabled = false;
+            button.interactable = false;
         }
         
         //invoke delegate event
