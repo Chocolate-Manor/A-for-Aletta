@@ -51,7 +51,7 @@ public class DialogueController : MonoBehaviour
         
         //scroll to the bottom
         Canvas.ForceUpdateCanvases();
-        scroll.velocity = new Vector2 (0f, 1000f);
+        scroll.velocity = new Vector2 (0f, 2000f);
     }
 
     private void SetupTextBoxAndPortrait(Node node)
