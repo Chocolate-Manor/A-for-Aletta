@@ -4,21 +4,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using static DialogueParser;
 using UnityEngine.PlayerLoop;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class DialogueController : MonoBehaviour
 {
-    public GameObject Panel;
+    public GameObject panel;
     
-    public GameObject Textbox;
-    public GameObject Button;
-    public GameObject Image;
-    public Image Portrait;
+    public GameObject textbox;
+    public GameObject button;
+    public GameObject image;
+    public Image portrait;
     public ScrollRect scroll;
+    
+    public AudioSource audioSource;
+    public AudioClip clickSound;
+    public AudioClip flipSound;
     
     private int curDialogueIndex = 0;
     private Dialogue curDialogue;
     private Node curNode;
+    private Character curCharacter;
 
     public delegate void NodeEnteredHandler(Node node);
     public event NodeEnteredHandler NodeEnteredEvent;
@@ -27,6 +33,7 @@ public class DialogueController : MonoBehaviour
     {   
         //event set-up
         NodeEnteredEvent += OnNodeEntered;
+        isTyping = false;
         
         Clear();
         InitializeNextDialogue();
@@ -45,30 +52,67 @@ public class DialogueController : MonoBehaviour
 
     private void OnNodeEntered(Node node)
     {   
+        audioSource.PlayOneShot(flipSound);
         SetupTextBoxAndPortrait(node);
-        
-        SetupResponses(node);
+
+        StartCoroutine(WaitForTypingFinishThenSetUpResponses(node));
         
         //scroll to the bottom
         Canvas.ForceUpdateCanvases();
-        scroll.velocity = new Vector2 (0f, 2000f);
+        scroll.velocity = new Vector2 (0f, 500f);
+    }
+
+    private IEnumerator WaitForTypingFinishThenSetUpResponses(Node node)
+    {
+        yield return new WaitUntil(() => !isTyping);
+        SetupResponses(node);
+    }
+    
+    
+
+    private bool isTyping;
+    private IEnumerator Typewrite(string text, TextBoxController textBoxController)
+    {
+        isTyping = true;
+        textBoxController.tmp.text = "";
+        
+        string[] lines = text.Split("\n"[0]);
+        foreach (string line in lines)
+        {
+            foreach (char c in line)
+            {
+                textBoxController.tmp.text += c;
+                
+                //play audio
+                // if (c != ' ')
+                // {
+                //     audioSource.PlayOneShot(curCharacter.characterVoice);
+                // }
+
+                yield return new WaitForSeconds(0.05f);
+            }
+
+            textBoxController.tmp.text += "\n";
+            yield return new WaitForSeconds(0.1f);
+        }
+        isTyping = false;
     }
 
     private void SetupTextBoxAndPortrait(Node node)
     {   
         //instantiate and gain control
-        GameObject curTextbox = Instantiate(Textbox, Panel.transform);
+        GameObject curTextbox = Instantiate(textbox, panel.transform);
         TextBoxController textBoxController = curTextbox.GetComponent<TextBoxController>();
         
         //get current character data
-        Character curCharacter = CharacterManager.Instance.GetCharacterByName(node.nodeInfo.Character);
+        curCharacter = CharacterManager.Instance.GetCharacterByName(node.nodeInfo.Character);
         
         //set textbox & portrait
         textBoxController.textBoxImage.sprite = curCharacter.GetTextBoxByName(node.nodeInfo.TextBox);
-        Portrait.sprite = curCharacter.GetPortraitByName(node.nodeInfo.Portrait);
+        portrait.sprite = curCharacter.GetPortraitByName(node.nodeInfo.Portrait);
         
         //set text
-        textBoxController.tmp.text = node.dialogueText;
+        StartCoroutine(Typewrite(node.dialogueText, textBoxController));
     }
 
     private void SetupResponses(Node node)
@@ -78,7 +122,7 @@ public class DialogueController : MonoBehaviour
         for (int i = 0; i < node.Responses.Count; i++)
         {
             //Instantiate & gain control
-            GameObject curButton = Instantiate(Button, Panel.transform);
+            GameObject curButton = Instantiate(button, panel.transform);
             ButtonController buttonController = curButton.GetComponent<ButtonController>();
             
             //Set-up visual
@@ -94,7 +138,8 @@ public class DialogueController : MonoBehaviour
     
 
     private void ChooseResponse( int responseIndex, List<Button> buttonsOfCurNode)
-    {
+    {   
+        audioSource.PlayOneShot(clickSound);
         string nextNodeID = curNode.Responses[responseIndex].DestinationNode;
         curNode = curDialogue.GetNode(nextNodeID);
         
@@ -113,7 +158,7 @@ public class DialogueController : MonoBehaviour
 
     private void Clear()
     {
-        foreach (Transform child in Panel.transform)
+        foreach (Transform child in panel.transform)
         {
             Destroy(child.gameObject);
         }

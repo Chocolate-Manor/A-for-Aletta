@@ -23,24 +23,29 @@ DeRail
 
 :: Airport Entrance (diary format) [Floris Diary Thoughtful START] {"position":"2330,817","size":"100,100"}
 Something was coming. I knew of it.
-Yeah. Shouldn't have waited.
-Nope.
 [[That's not..what I meant. You bloody bafoon...why won't you listen?|2]]
 
 :: 2 [Floris Diary Thoughtful] {"position":"2330,968","size":"100,100"}
-Actually by the time I arrived, it was already there. I could feel its presence. I could smell the rot. It was a creature of old, one I haven't seen before, but have encountered similar.
+Actually by the time I arrived, it was already there.
+I could feel its presence. I could smell the rot.
+It was a creature of old, one I haven't seen before, but have encountered similar.
 [[Write|3]]
 
 :: 3 [Floris Diary Thoughtful] {"position":"2328,1117","size":"100,100"}
-Usually, creature like this fade. Or at least, they don't exactly make it all the way through an inter-continental flight. Its influence weakens, the further away it is from its land of origin. But things have changed.
+Usually, creature like this fade.
+Or at least, they don't exactly make it all the way through an inter-continental flight.
+Its influence weakens, the further away it is from its land of origin. But things have changed.
 [[Write|4]]
 
 :: 4 [Floris Diary Contempt] {"position":"2329,1267","size":"100,100"}
-Globalization, youngsters staring at their phones 24/7 for their chat app or photo thing. I sure miss the time when letter was the only means of long distance communication, all you had to do was bribe the postman. Now, once an idea takes root, it spreads like a plague. 
+Globalization, youngsters staring at their phones 24/7 for their chat app or photo thing.
+I sure miss the time when letter was the only means of long distance communication, all you had to do was bribe the postman.
+Now, once an idea takes root, it spreads like a plague.
 [[write|5]]
 
 :: 5 [Floris Diary Thoughtful] {"position":"2329,1417","size":"100,100"}
-Thankfully, unlike a real plague, plague of the mind has a source. Destroy the source, and the plague would be no more. 
+Thankfully, unlike a real plague, plague of the mind has a source.
+Destroy the source, and the plague would be no more.
 [[Write|6]]
 
 :: 6 [Floris Diary HideThePain] {"position":"2330,1568","size":"100,100"}
