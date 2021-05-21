@@ -64,7 +64,10 @@ public class DialogueController : MonoBehaviour
         
         //scroll to the bottom
         Canvas.ForceUpdateCanvases();
-        scroll.velocity = new Vector2 (0f, 500f);
+        if (scroll.verticalNormalizedPosition > 0)
+        {
+            scroll.velocity = new Vector2 (0f, 500f);
+        }
     }
 
     private IEnumerator WaitForTypingFinishThenSetUpResponses(Node node)
@@ -102,10 +105,17 @@ public class DialogueController : MonoBehaviour
                 // {
                 //     audioSource.PlayOneShot(curCharacter.characterVoice);
                 // }
-
                 yield return new WaitForSeconds(0.05f);
             }
-
+            
+            //smart downward scrolls while typewriting..(but don't have super long paragraphs)
+            Canvas.ForceUpdateCanvases();
+            if (scroll.verticalNormalizedPosition > 0)
+            {
+                scroll.velocity = new Vector2 (0f, 500f);
+            }
+            
+            
             textBoxController.tmp.text += "\n";
             yield return new WaitForSeconds(0.1f);
         }
