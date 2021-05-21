@@ -25,9 +25,14 @@ public class DialogueController : MonoBehaviour
     private Dialogue curDialogue;
     private Node curNode;
     private Character curCharacter;
+    private string curText;
+    private TextBoxController curTextBoxController;
+
+    private Coroutine curTypeRoutine;
 
     public delegate void NodeEnteredHandler(Node node);
     public event NodeEnteredHandler NodeEnteredEvent;
+    
     
     private void Start()
     {   
@@ -67,8 +72,17 @@ public class DialogueController : MonoBehaviour
         yield return new WaitUntil(() => !isTyping);
         SetupResponses(node);
     }
-    
-    
+
+    private void Update()
+    {   
+        //implement skip text
+        if (isTyping && Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            StopCoroutine(curTypeRoutine);
+            curTextBoxController.tmp.text = curText;
+            isTyping = false;
+        }
+    }
 
     private bool isTyping;
     private IEnumerator Typewrite(string text, TextBoxController textBoxController)
@@ -112,7 +126,9 @@ public class DialogueController : MonoBehaviour
         portrait.sprite = curCharacter.GetPortraitByName(node.nodeInfo.Portrait);
         
         //set text
-        StartCoroutine(Typewrite(node.dialogueText, textBoxController));
+        curTypeRoutine = StartCoroutine(Typewrite(node.dialogueText, textBoxController));
+        curText = node.dialogueText;
+        curTextBoxController = textBoxController;
     }
 
     private void SetupResponses(Node node)
