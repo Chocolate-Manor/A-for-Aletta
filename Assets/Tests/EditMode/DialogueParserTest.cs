@@ -12,7 +12,7 @@ public class DialogueParserTest
     [OneTimeSetUp]
     public void Setup()
     {
-        textAsset = Resources.Load<TextAsset>("testDialogue");
+        textAsset = Resources.Load<TextAsset>("Dialogues/testDialogue");
         dialogue = new DialogueParser.Dialogue(textAsset);
     }
 

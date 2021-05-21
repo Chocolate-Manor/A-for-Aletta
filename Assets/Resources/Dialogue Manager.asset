@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bd6a7ed5b1349a46896528ae7ecaa0c, type: 3}
-  m_Name: Floris
+  m_Script: {fileID: 11500000, guid: 0b4960159d2323643a2b233790339614, type: 3}
+  m_Name: Dialogue Manager
   m_EditorClassIdentifier: 
-  characterName: Floris
-  portraitNameIndex: []
-  portraits: []
-  textBoxNameIndex: []
-  textBoxes: []
-  characterVoice: {fileID: 0}
+  dialogues:
+  - {fileID: 4900000, guid: 4b75ff88602d25d4d81de1e4f5deb5b9, type: 3}
+  - {fileID: 4900000, guid: b960466d4832af044b3106b587efccf6, type: 3}
