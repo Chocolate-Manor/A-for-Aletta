@@ -288,6 +288,7 @@ MonoBehaviour:
   Button: {fileID: 3176220455685518212, guid: 80d3e4282d2764f4ebe41798753fdf3f, type: 3}
   Image: {fileID: 1310701825956212121, guid: f485a890749b84d4a88cc7260185b6e8, type: 3}
   Portrait: {fileID: 2074231174}
+  scroll: {fileID: 1746570388}
 --- !u!1001 &238533752
 PrefabInstance:
   m_ObjectHideFlags: 0

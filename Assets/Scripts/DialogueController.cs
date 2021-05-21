@@ -14,6 +14,7 @@ public class DialogueController : MonoBehaviour
     public GameObject Button;
     public GameObject Image;
     public Image Portrait;
+    public ScrollRect scroll;
     
     private int curDialogueIndex = 0;
     private Dialogue curDialogue;
@@ -47,6 +48,10 @@ public class DialogueController : MonoBehaviour
         SetupTextBoxAndPortrait(node);
         
         SetupResponses(node);
+        
+        //scroll to the bottom
+        Canvas.ForceUpdateCanvases();
+        scroll.velocity = new Vector2 (0f, 1000f);
     }
 
     private void SetupTextBoxAndPortrait(Node node)

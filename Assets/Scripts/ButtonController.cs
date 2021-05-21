@@ -12,14 +12,14 @@ public class ButtonController : MonoBehaviour
 
     public Sprite clickedImage;
     
-    private void Start()
-    {
-        button.onClick.AddListener(SetClickedImage);
-    }
-
-    private void SetClickedImage()
-    {
-        button.image.sprite = clickedImage;
-        tmp.margin = new Vector4(tmp.margin.x, tmp.margin.y + 30, tmp.margin.z, tmp.margin.w);
-    }
+    // private void Start()
+    // {
+    //     button.onClick.AddListener(SetClickedImage);
+    // }
+    //
+    // private void SetClickedImage()
+    // {
+    //     button.image.sprite = clickedImage;
+    //     tmp.margin = new Vector4(tmp.margin.x, tmp.margin.y + 30, tmp.margin.z, tmp.margin.w);
+    // }
 }
