@@ -88,7 +88,11 @@ public class DialogueController : MonoBehaviour
             curTextBoxController.tmp.text = curText;
             isTyping = false;
         }
-        ScrollToBottom();
+
+        if (isTyping)
+        {
+            ScrollToBottom();
+        }
     }
 
     private bool isTyping;
@@ -156,6 +160,9 @@ public class DialogueController : MonoBehaviour
             int responseIndex = i;
             buttonController.button.onClick.AddListener(delegate { ChooseResponse(responseIndex, buttonsOfCurNode); });
         }
+        
+        //after responses are set-up, scroll to bottom
+        ScrollToBottom();
     }
     
 
