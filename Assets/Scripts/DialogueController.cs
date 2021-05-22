@@ -54,19 +54,22 @@ public class DialogueController : MonoBehaviour
         //invoke delegate event
         NodeEnteredEvent(curNode);
     }
-
+    
+    
     private void OnNodeEntered(Node node)
     {   
         audioSource.PlayOneShot(flipSound);
         SetupTextBoxAndPortrait(node);
 
         StartCoroutine(WaitForTypingFinishThenSetUpResponses(node));
-        
-        //scroll to the bottom
+    }
+
+    private void ScrollToBottom()
+    {
         Canvas.ForceUpdateCanvases();
         if (scroll.verticalNormalizedPosition > 0)
         {
-            scroll.velocity = new Vector2 (0f, 500f);
+            scroll.verticalNormalizedPosition = 0;
         }
     }
 
@@ -85,6 +88,7 @@ public class DialogueController : MonoBehaviour
             curTextBoxController.tmp.text = curText;
             isTyping = false;
         }
+        ScrollToBottom();
     }
 
     private bool isTyping;
@@ -101,20 +105,12 @@ public class DialogueController : MonoBehaviour
                 textBoxController.tmp.text += c;
                 
                 //play audio
-                // if (c != ' ')
-                // {
-                //     audioSource.PlayOneShot(curCharacter.characterVoice);
-                // }
+                if (c != ' ')
+                {
+                    audioSource.PlayOneShot(curCharacter.characterVoice);
+                }
                 yield return new WaitForSeconds(0.05f);
             }
-            
-            //smart downward scrolls while typewriting..(but don't have super long paragraphs)
-            Canvas.ForceUpdateCanvases();
-            if (scroll.verticalNormalizedPosition > 0)
-            {
-                scroll.velocity = new Vector2 (0f, 500f);
-            }
-            
             
             textBoxController.tmp.text += "\n";
             yield return new WaitForSeconds(0.1f);

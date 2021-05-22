@@ -317,7 +317,7 @@ MonoBehaviour:
   scroll: {fileID: 1746570388}
   audioSource: {fileID: 219821659}
   clickSound: {fileID: 8300000, guid: 218e63b91e65613488a32753b3b24e6a, type: 3}
-  flipSound: {fileID: 8300000, guid: 16772ad4899989041aa9c8121c72f18b, type: 3}
+  flipSound: {fileID: 8300000, guid: e60eee7556d847a44856abd28374954b, type: 3}
 --- !u!82 &219821659
 AudioSource:
   m_ObjectHideFlags: 0
@@ -328,8 +328,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_audioClip: {fileID: 8300000, guid: ff58332657d074a4ab6532c1db074f2f, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
