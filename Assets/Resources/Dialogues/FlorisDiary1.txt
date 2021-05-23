@@ -22,7 +22,9 @@ DeRail
 
 
 :: Airport Entrance (diary format) [Floris Diary Thoughtful START] {"position":"2330,817","size":"100,100"}
-Something was coming. I knew of it.
+This is the third day in a row that I have woken up and catching myself smiling like an idiot. It's getting absurd.
+It wouldn't concern me if there's something in my life worth smiling about. However, as it usually goes, there is none. It's just the plain old sitting in the back of the class and waiting for graduation. 
+It's hard to make friends as a new transfer, especially with language difficulties. I am just here to go through the system anyway. 2 years of this, and I get my shot at one of the world's top 50 university.
 [[That's not..what I meant. You bloody bafoon...why won't you listen?|2]]
 
 :: 2 [Floris Diary Thoughtful] {"position":"2330,968","size":"100,100"}
