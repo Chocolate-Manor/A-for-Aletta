@@ -22,33 +22,27 @@ DeRail
 
 
 :: Airport Entrance (diary format) [Floris Diary Thoughtful START] {"position":"2330,817","size":"100,100"}
-This is the third day in a row that I have woken up and catching myself smiling like an idiot. It's getting absurd.
-It wouldn't concern me if there's something in my life worth smiling about. However, as it usually goes, there is none. It's just the plain old sitting in the back of the class and waiting for graduation. 
-It's hard to make friends as a new transfer, especially with language difficulties. I am just here to go through the system anyway. 2 years of this, and I get my shot at one of the world's top 50 university.
-[[That's not..what I meant. You bloody bafoon...why won't you listen?|2]]
+A gentle breeze.
+I could hear the sound of leaves rustling. I look down, and see the familiar wooden desk full of scratch marks and little holes, holes filled up with chalk.
+I reach my hand down to its side, and was not surprised to find that piece of gum, one that was impossible to remove, even with the help of a utility knife.
+[[I am back here. Back to before I left.|2]]
 
 :: 2 [Floris Diary Thoughtful] {"position":"2330,968","size":"100,100"}
-Actually by the time I arrived, it was already there.
-I could feel its presence. I could smell the rot.
-It was a creature of old, one I haven't seen before, but have encountered similar.
-[[Write|3]]
+And she stands there, in front of me. 
+She calls out my name. 
+[[I wanted to answer, but something was in my throat.|3]]
 
 :: 3 [Floris Diary Thoughtful] {"position":"2328,1117","size":"100,100"}
-Usually, creature like this fade.
-Or at least, they don't exactly make it all the way through an inter-continental flight.
-Its influence weakens, the further away it is from its land of origin. But things have changed.
-[[Write|4]]
+"Jing, don't make me repeat myself."
+[["Just 5 more minutes. Please!"|4]]
 
 :: 4 [Floris Diary Contempt] {"position":"2329,1267","size":"100,100"}
-Globalization, youngsters staring at their phones 24/7 for their chat app or photo thing.
-I sure miss the time when letter was the only means of long distance communication, all you had to do was bribe the postman.
-Now, once an idea takes root, it spreads like a plague.
-[[write|5]]
+"Son, we've got a plane to catch."
+[[She'll turn up. She'll turn up! I am sure!|5]]
 
 :: 5 [Floris Diary Thoughtful] {"position":"2329,1417","size":"100,100"}
-Thankfully, unlike a real plague, plague of the mind has a source.
-Destroy the source, and the plague would be no more.
-[[Write|6]]
+"Son, Tian isn't coming."
+[[No, you are lying. She promised she'll come.|6]]
 
 :: 6 [Floris Diary HideThePain] {"position":"2330,1568","size":"100,100"}
 Usually.

@@ -28,5 +28,5 @@ MonoBehaviour:
   textBoxNameIndex:
   - Diary
   textBoxes:
-  - {fileID: 21300000, guid: b69a41ca721bd1a47b047fd95e9abf1c, type: 3}
+  - {fileID: 21300000, guid: e8ece0f65350e4f4c954d1ba54334f2f, type: 3}
   characterVoice: {fileID: 8300000, guid: 39330e61b040dfb40bd33773374f7c7e, type: 3}
