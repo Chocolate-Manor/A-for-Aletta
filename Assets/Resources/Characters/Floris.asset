@@ -9,24 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bd6a7ed5b1349a46896528ae7ecaa0c, type: 3}
+  m_Script: {fileID: 11500000, guid: 75acd971b46fe294390ef4a22d667168, type: 3}
   m_Name: Floris
   m_EditorClassIdentifier: 
-  characterName: Floris
-  portraitNameIndex:
-  - Thoughtful
-  - Contempt
-  - HideThePain
-  - Tired
-  - Away
-  portraits:
-  - {fileID: 21300000, guid: 19050807d0e83ce40905c037d7cb794d, type: 3}
-  - {fileID: 21300000, guid: 19050807d0e83ce40905c037d7cb794d, type: 3}
-  - {fileID: 21300000, guid: 19050807d0e83ce40905c037d7cb794d, type: 3}
-  - {fileID: 21300000, guid: 19050807d0e83ce40905c037d7cb794d, type: 3}
-  - {fileID: 21300000, guid: a1b2e36ccc03c94409bb798a57e11bc8, type: 3}
-  textBoxNameIndex:
-  - Diary
-  textBoxes:
-  - {fileID: 21300000, guid: e8ece0f65350e4f4c954d1ba54334f2f, type: 3}
-  characterVoice: {fileID: 8300000, guid: 39330e61b040dfb40bd33773374f7c7e, type: 3}
+  CharacterName: 
+  textBoxSprite: {fileID: 0}

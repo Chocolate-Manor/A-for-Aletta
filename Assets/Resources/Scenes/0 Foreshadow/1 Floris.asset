@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d9f784b3e720e94689408db3c42b387, type: 3}
-  m_Name: Character Manager
+  m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
+  m_Name: 1 Floris
   m_EditorClassIdentifier: 
-  characterNameIndex:
-  - Floris
-  characters:
-  - {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+  DialogueLines: []
