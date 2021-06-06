@@ -12,6 +12,7 @@ public class SceneController : MonoBehaviour
     public Image BGImage;
     public TextMeshProUGUI BGText;
     public AudioSource audioSource;
+    public Animator camAnim;
     
     private Conversation curConv;
     private int curLineIndex = 0;
@@ -136,6 +137,10 @@ public class SceneController : MonoBehaviour
     /// <param name="curLine"></param>
     private void SetUpTextBox(DialogueLine curLine)
     {
+        if (curLine.screenShake)
+        {
+            CamShake();
+        }
         GameObject curDialogueBox;
         if (curLine.isReversed)
         {
@@ -148,7 +153,14 @@ public class SceneController : MonoBehaviour
         DialogueBoxController dialogueBoxController = curDialogueBox.GetComponent<DialogueBoxController>();
         if (curLine.hideMouth) dialogueBoxController.mouth.SetActive(false);
         dialogueBoxController.portrait.sprite = curLine.portrait;
-        StartCoroutine(TypeWrite(curLine.text, dialogueBoxController, curLine.typeSpeed));
+        if (curLine.typeSpeed > 0)
+        {
+            StartCoroutine(TypeWrite(curLine.text, dialogueBoxController, curLine.typeSpeed));
+        }
+        else
+        {
+            dialogueBoxController.dialogueText.text = curLine.text;
+        }
         dialogueBoxController.dialogueText.fontSize = curLine.textSize;
         dialogueBoxController.dialogueText.color = curLine.textColor;
         dialogueBoxController.nameText.text = curLine.character.CharacterName;
@@ -193,5 +205,10 @@ public class SceneController : MonoBehaviour
             ScrollToBottom();
         }
         curLineIndex++;
+    }
+
+    private void CamShake()
+    {
+        camAnim.SetTrigger("Shake");
     }
 }
