@@ -13,6 +13,8 @@ public class Conversation : ScriptableObject
     public string sceneHeading;
     public AnimatorController aniController;
     public Vector2Int maskSoftness = new Vector2Int(300, 0);
+    public AudioClip backgroundMusic;
+    
     public List<DialogueLine> dialogueLines;
 
     public bool Valid => dialogueLines != null && dialogueLines.Count > 0;

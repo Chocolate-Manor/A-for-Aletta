@@ -11,7 +11,8 @@ public class SceneController : MonoBehaviour
     public Animator BGAnimator;
     public Image BGImage;
     public TextMeshProUGUI BGText;
-
+    public AudioSource audioSource;
+    
     private Conversation curConv;
     private int curLineIndex = 0;
 
@@ -68,6 +69,8 @@ public class SceneController : MonoBehaviour
         BGAnimator.runtimeAnimatorController = curConv.aniController;
         BGText.text = curConv.sceneHeading;
         BGImage.sprite = curConv.background;
+        audioSource.clip = curConv.backgroundMusic;
+        audioSource.Play();
     }
     
     /// <summary>

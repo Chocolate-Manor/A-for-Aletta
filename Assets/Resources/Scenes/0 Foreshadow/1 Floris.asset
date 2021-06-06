@@ -16,6 +16,7 @@ MonoBehaviour:
   sceneHeading: EXT. BETWIXT AND BETWEEN -NIGHT
   aniController: {fileID: 9100000, guid: d4915dc001109ec4aa17a256efb96090, type: 2}
   maskSoftness: {x: 300, y: 0}
+  backgroundMusic: {fileID: 8300000, guid: 214bacee2fda7c143b58b9cfd405056d, type: 3}
   dialogueLines:
   - portrait: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -44,7 +45,7 @@ MonoBehaviour:
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     textColor: {r: 0.34901962, g: 0.5882353, b: 0.7176471, a: 1}
     textSize: 30
-    typeSpeed: 0.02
+    typeSpeed: 0
     isImage: 0
     Image: {fileID: 0}
     screenShake: 0
