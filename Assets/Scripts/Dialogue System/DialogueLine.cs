@@ -15,6 +15,9 @@ public class DialogueLine {
     public bool isImage;
     public Sprite Image;
 
+    public bool screenShake;
+    public bool isReversed;
+
     [TextArea(2, 5)] public string text;
 
     public DialogueLine()
@@ -23,6 +26,7 @@ public class DialogueLine {
         textSize = 30f;
         typeSpeed = 0.1f;
         isImage = false;
+        isReversed = false;
     }
 }
 

@@ -12,39 +12,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
   m_Name: 1 Floris
   m_EditorClassIdentifier: 
-  background: {fileID: 0}
-  ac: {fileID: 0}
-  DialogueLines:
-  - portrait: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
-    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+  background: {fileID: 8491751637624109711, guid: e8f7ee0f912bfe946939f72cc3d5cf86, type: 3}
+  sceneHeading: EXT. BETWIXT AND BETWEEN -NIGHT
+  aniController: {fileID: 9100000, guid: d4915dc001109ec4aa17a256efb96090, type: 2}
+  maskSoftness: {x: 300, y: 0}
+  dialogueLines:
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
     textColor: {r: 1, g: 1, b: 1, a: 1}
     textSize: 30
     typeSpeed: 0.1
     isImage: 0
     Image: {fileID: 0}
-    text: 'Idiot. '
-  - portrait: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
-    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    screenShake: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
     textColor: {r: 1, g: 1, b: 1, a: 1}
     textSize: 30
     typeSpeed: 0.1
     isImage: 0
     Image: {fileID: 0}
-    text: That ritual. Of course it had to be that ritual. Now he'll either shatter
-      into a thousand pieces like a broken china, or...
-  - portrait: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
-    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
-    textColor: {r: 0.34901962, g: 0.5882353, b: 0.7176471, a: 1}
+    screenShake: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
     textSize: 30
     typeSpeed: 0.1
     isImage: 0
     Image: {fileID: 0}
-    text: '[clenches fist on forehead]'
-  - portrait: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
-    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
-    textColor: {r: 0.34901962, g: 0.5882353, b: 0.7176471, a: 1}
+    screenShake: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
     textSize: 30
     typeSpeed: 0.1
-    isImage: 1
-    Image: {fileID: 21300000, guid: 1b49027026e178a47b849e9f0fca5f0a, type: 3}
-    text: '[clenches fist on forehead]'
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    text: 

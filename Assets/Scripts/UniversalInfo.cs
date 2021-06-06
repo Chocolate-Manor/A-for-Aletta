@@ -3,5 +3,5 @@ using System.Collections.Generic;
 
 public static class UniversalInfo
 {
-    public static int currentConversation = 0;
+    public static int curConvIndex = 0;
 }

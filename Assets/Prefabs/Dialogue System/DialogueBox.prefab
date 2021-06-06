@@ -378,6 +378,7 @@ GameObject:
   - component: {fileID: 3608926344400408600}
   - component: {fileID: 3608926344400408603}
   - component: {fileID: 3608926344400408602}
+  - component: {fileID: 3069271607481450868}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -470,6 +471,22 @@ MonoBehaviour:
   m_ChildScaleWidth: 1
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 1
+--- !u!114 &3069271607481450868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3608926344400408596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a020341cd0e5aac419f3b5a6cd376eb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBG: {fileID: 3608926345751645102}
+  dialogueText: {fileID: 3608926344053393288}
+  portrait: {fileID: 3608926345129580906}
+  nameText: {fileID: 787205509}
 --- !u!1 &3608926345129580903
 GameObject:
   m_ObjectHideFlags: 0

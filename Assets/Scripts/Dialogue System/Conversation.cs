@@ -4,23 +4,26 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.Animations;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu(fileName = "New Conversation", menuName = "Scriptable Objects/Conversation")]
 public class Conversation : ScriptableObject
 {
     public Sprite background;
-    public AnimatorController ac;
-    public List<DialogueLine> DialogueLines;
+    public string sceneHeading;
+    public AnimatorController aniController;
+    public Vector2Int maskSoftness = new Vector2Int(300, 0);
+    public List<DialogueLine> dialogueLines;
 
-    public bool Valid => DialogueLines != null && DialogueLines.Count > 0;
+    public bool Valid => dialogueLines != null && dialogueLines.Count > 0;
     
     public void AssignDefaults()
     {
-        for (int i = 0; i < DialogueLines.Count; i++)
+        for (int i = 0; i < dialogueLines.Count; i++)
         {
-            if (DialogueLines[i].portrait == null)
+            if (dialogueLines[i].portrait == null)
             {
-                DialogueLines[i] = new DialogueLine();
+                dialogueLines[i] = new DialogueLine();
             }
         }
     }
