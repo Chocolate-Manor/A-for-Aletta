@@ -10,4 +10,5 @@ public class DialogueBoxController : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public Image portrait;
     public TextMeshProUGUI nameText;
+    public GameObject mouth;
 }

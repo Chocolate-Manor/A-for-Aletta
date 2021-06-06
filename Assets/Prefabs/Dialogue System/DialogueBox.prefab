@@ -487,6 +487,7 @@ MonoBehaviour:
   dialogueText: {fileID: 3608926344053393288}
   portrait: {fileID: 3608926345129580906}
   nameText: {fileID: 787205509}
+  mouth: {fileID: 3608926344259321703}
 --- !u!1 &3608926345129580903
 GameObject:
   m_ObjectHideFlags: 0

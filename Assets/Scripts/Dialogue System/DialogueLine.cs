@@ -17,12 +17,13 @@ public class DialogueLine {
 
     public bool screenShake;
     public bool isReversed;
-
+    public bool hideMouth;
+    
     [TextArea(2, 5)] public string text;
 
     public DialogueLine()
     {
-        textColor = Color.white;
+        textColor = new Color32(129, 129, 129, 255);
         textSize = 30f;
         typeSpeed = 0.1f;
         isImage = false;

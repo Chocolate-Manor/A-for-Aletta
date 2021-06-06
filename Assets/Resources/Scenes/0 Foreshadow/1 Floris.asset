@@ -17,48 +17,59 @@ MonoBehaviour:
   aniController: {fileID: 9100000, guid: d4915dc001109ec4aa17a256efb96090, type: 2}
   maskSoftness: {x: 300, y: 0}
   dialogueLines:
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    textColor: {r: 1, g: 1, b: 1, a: 1}
+  - portrait: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.1
     isImage: 0
     Image: {fileID: 0}
     screenShake: 0
-    text: 
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    textColor: {r: 1, g: 1, b: 1, a: 1}
+    isReversed: 0
+    hideMouth: 0
+    text: Idiot.
+  - portrait: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.1
+    typeSpeed: 0.02
     isImage: 0
     Image: {fileID: 0}
     screenShake: 0
-    text: 
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    textColor: {r: 1, g: 1, b: 1, a: 1}
+    isReversed: 0
+    hideMouth: 0
+    text: That ritual. Of course it had to be that ritual. Now he'll either shatter
+      into a thousand pieces like a broken china, or...
+  - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    textColor: {r: 0.34901962, g: 0.5882353, b: 0.7176471, a: 1}
     textSize: 30
-    typeSpeed: 0.1
+    typeSpeed: 0.02
     isImage: 0
     Image: {fileID: 0}
     screenShake: 0
-    text: 
+    isReversed: 0
+    hideMouth: 1
+    text: '[clenches fist on forehead]'
   - portrait: {fileID: 0}
     character: {fileID: 0}
-    textColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
+    typeSpeed: 0.01
+    isImage: 1
+    Image: {fileID: 21300000, guid: 1b49027026e178a47b849e9f0fca5f0a, type: 3}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    text: 
+  - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 50
     typeSpeed: 0.1
     isImage: 0
     Image: {fileID: 0}
-    screenShake: 0
-    text: 
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    textColor: {r: 1, g: 1, b: 1, a: 1}
-    textSize: 30
-    typeSpeed: 0.1
-    isImage: 0
-    Image: {fileID: 0}
-    screenShake: 0
-    text: 
+    screenShake: 1
+    isReversed: 0
+    hideMouth: 0
+    text: Idiot!

@@ -21,7 +21,7 @@ public class Conversation : ScriptableObject
     {
         for (int i = 0; i < dialogueLines.Count; i++)
         {
-            if (dialogueLines[i].portrait == null)
+            if (dialogueLines[i].portrait == null && !dialogueLines[i].isImage)
             {
                 dialogueLines[i] = new DialogueLine();
             }
