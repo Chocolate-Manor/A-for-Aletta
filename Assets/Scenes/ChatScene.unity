@@ -696,7 +696,7 @@ Canvas:
   m_RenderMode: 1
   m_Camera: {fileID: 1426075710}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -899,7 +899,7 @@ PrefabInstance:
     - target: {fileID: 3608926345129580906, guid: 11ae16f5c10fb12409ba2a937105384e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2060d19a7ec2c0c499beacdfd6eac681, type: 3}
+      objectReference: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
     - target: {fileID: 3608926345751645098, guid: 11ae16f5c10fb12409ba2a937105384e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1157,7 +1157,7 @@ PrefabInstance:
     - target: {fileID: 3608926345129580906, guid: 11ae16f5c10fb12409ba2a937105384e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2060d19a7ec2c0c499beacdfd6eac681, type: 3}
+      objectReference: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
     - target: {fileID: 3608926345751645098, guid: 11ae16f5c10fb12409ba2a937105384e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1460,7 +1460,7 @@ PrefabInstance:
     - target: {fileID: 3608926345129580906, guid: 11ae16f5c10fb12409ba2a937105384e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d4de93ecf08d68e45be6a89bbb7bda9a, type: 3}
+      objectReference: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
     - target: {fileID: 3608926345751645098, guid: 11ae16f5c10fb12409ba2a937105384e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2036,6 +2036,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3608926345129580906, guid: 11ae16f5c10fb12409ba2a937105384e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
     - target: {fileID: 3608926345751645098, guid: 11ae16f5c10fb12409ba2a937105384e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
