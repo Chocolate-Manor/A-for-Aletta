@@ -25,7 +25,6 @@ MonoBehaviour:
     typeSpeed: 0.05
     isImage: 0
     Image: {fileID: 0}
-    imageSoftness: {x: 0, y: 0}
     screenShake: 0
     isReversed: 0
     hideMouth: 0
@@ -39,7 +38,6 @@ MonoBehaviour:
     typeSpeed: 0.1
     isImage: 0
     Image: {fileID: 0}
-    imageSoftness: {x: 0, y: 0}
     screenShake: 0
     isReversed: 0
     hideMouth: 0
@@ -52,7 +50,6 @@ MonoBehaviour:
     typeSpeed: 0.02
     isImage: 0
     Image: {fileID: 0}
-    imageSoftness: {x: 0, y: 0}
     screenShake: 0
     isReversed: 0
     hideMouth: 0
@@ -66,7 +63,6 @@ MonoBehaviour:
     typeSpeed: 0.05
     isImage: 0
     Image: {fileID: 0}
-    imageSoftness: {x: 0, y: 0}
     screenShake: 0
     isReversed: 0
     hideMouth: 0
@@ -79,22 +75,8 @@ MonoBehaviour:
     typeSpeed: 0.01
     isImage: 0
     Image: {fileID: 0}
-    imageSoftness: {x: 0, y: 0}
     screenShake: 1
     isReversed: 0
     hideMouth: 0
     isNarration: 0
     text: Idiot!
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.01
-    isImage: 1
-    Image: {fileID: 21300000, guid: 1b49027026e178a47b849e9f0fca5f0a, type: 3}
-    imageSoftness: {x: 250, y: 300}
-    screenShake: 0
-    isReversed: 0
-    hideMouth: 0
-    isNarration: 0
-    text: 
