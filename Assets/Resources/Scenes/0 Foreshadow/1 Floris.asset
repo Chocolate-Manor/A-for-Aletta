@@ -18,6 +18,20 @@ MonoBehaviour:
   maskSoftness: {x: 300, y: 0}
   backgroundMusic: {fileID: 8300000, guid: 214bacee2fda7c143b58b9cfd405056d, type: 3}
   dialogueLines:
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    isImage: 0
+    Image: {fileID: 0}
+    imageSoftness: {x: 0, y: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 1
+    text: 'Floris has his hands on the yoke. The rain pours around the cockpit, like
+      sticks on a drum, yet his hand is steady as a surgeon. '
   - portrait: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -25,9 +39,11 @@ MonoBehaviour:
     typeSpeed: 0.1
     isImage: 0
     Image: {fileID: 0}
+    imageSoftness: {x: 0, y: 0}
     screenShake: 0
     isReversed: 0
     hideMouth: 0
+    isNarration: 0
     text: Idiot.
   - portrait: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -36,22 +52,39 @@ MonoBehaviour:
     typeSpeed: 0.02
     isImage: 0
     Image: {fileID: 0}
+    imageSoftness: {x: 0, y: 0}
     screenShake: 0
     isReversed: 0
     hideMouth: 0
+    isNarration: 0
     text: That ritual. Of course it had to be that ritual. Now he'll either shatter
       into a thousand pieces like a broken china, or...
   - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
-    textColor: {r: 0.34901962, g: 0.5882353, b: 0.7176471, a: 1}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0
+    typeSpeed: 0.05
     isImage: 0
     Image: {fileID: 0}
+    imageSoftness: {x: 0, y: 0}
     screenShake: 0
     isReversed: 0
-    hideMouth: 1
-    text: '[clenches fist on forehead]'
+    hideMouth: 0
+    isNarration: 1
+    text: Floris clenches his fist on his forehead. The plane shakes.
+  - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 50
+    typeSpeed: 0.01
+    isImage: 0
+    Image: {fileID: 0}
+    imageSoftness: {x: 0, y: 0}
+    screenShake: 1
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Idiot!
   - portrait: {fileID: 0}
     character: {fileID: 0}
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -59,18 +92,9 @@ MonoBehaviour:
     typeSpeed: 0.01
     isImage: 1
     Image: {fileID: 21300000, guid: 1b49027026e178a47b849e9f0fca5f0a, type: 3}
+    imageSoftness: {x: 250, y: 300}
     screenShake: 0
     isReversed: 0
     hideMouth: 0
+    isNarration: 0
     text: 
-  - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
-    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 50
-    typeSpeed: 0.1
-    isImage: 0
-    Image: {fileID: 0}
-    screenShake: 1
-    isReversed: 0
-    hideMouth: 0
-    text: Idiot!

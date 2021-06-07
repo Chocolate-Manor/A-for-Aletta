@@ -18,6 +18,8 @@ public class DialogueLine {
     public bool screenShake;
     public bool isReversed;
     public bool hideMouth;
+
+    public bool isNarration;
     
     [TextArea(2, 5)] public string text;
 
@@ -28,6 +30,7 @@ public class DialogueLine {
         typeSpeed = 0.1f;
         isImage = false;
         isReversed = false;
+        isNarration = false;
     }
 }
 

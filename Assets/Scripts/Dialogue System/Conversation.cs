@@ -23,7 +23,8 @@ public class Conversation : ScriptableObject
     {
         for (int i = 0; i < dialogueLines.Count; i++)
         {
-            if (dialogueLines[i].portrait == null && !dialogueLines[i].isImage)
+            DialogueLine curLine = dialogueLines[i];
+            if (curLine.portrait == null && !curLine.isImage && !curLine.isNarration)
             {
                 dialogueLines[i] = new DialogueLine();
             }

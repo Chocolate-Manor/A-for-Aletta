@@ -25,6 +25,7 @@ public class SceneController : MonoBehaviour
     public GameObject dialogueBox;
     public GameObject dialogueBoxInvert;
     public GameObject continueButton;
+    public GameObject narrationBox;
     
     private void Awake()
     {   
@@ -137,22 +138,34 @@ public class SceneController : MonoBehaviour
     /// <param name="curLine"></param>
     private void SetUpTextBox(DialogueLine curLine)
     {
-        if (curLine.screenShake)
-        {
-            CamShake();
-        }
+        if (curLine.screenShake) CamShake();
         GameObject curDialogueBox;
-        if (curLine.isReversed)
+        if (curLine.isNarration)
         {
-            curDialogueBox = Instantiate(dialogueBoxInvert, panel.transform);
+            curDialogueBox = Instantiate(narrationBox, panel.transform);
         }
         else
         {
-            curDialogueBox = Instantiate(dialogueBox, panel.transform);
+            curDialogueBox = curLine.isReversed
+                ? Instantiate(dialogueBoxInvert, panel.transform)
+                : Instantiate(dialogueBox, panel.transform);
         }
+        
         DialogueBoxController dialogueBoxController = curDialogueBox.GetComponent<DialogueBoxController>();
-        if (curLine.hideMouth) dialogueBoxController.mouth.SetActive(false);
-        dialogueBoxController.portrait.sprite = curLine.portrait;
+        
+        //if isn't narration, then don't ignore mouth, portrait and name text since they exist
+        //Nor is there need to set textBG.
+        if (!curLine.isNarration)
+        {
+            if (curLine.hideMouth) dialogueBoxController.mouth.SetActive(false);
+            dialogueBoxController.portrait.sprite = curLine.portrait;
+            dialogueBoxController.nameText.text = curLine.character.CharacterName;
+            dialogueBoxController.textBG.sprite = curLine.character.textBoxSprite;
+        }
+        dialogueBoxController.dialogueText.fontSize = curLine.textSize;
+        dialogueBoxController.dialogueText.color = curLine.textColor;
+        
+        //Only do typewrite if type speed is above 0.
         if (curLine.typeSpeed > 0)
         {
             StartCoroutine(TypeWrite(curLine.text, dialogueBoxController, curLine.typeSpeed));
@@ -161,10 +174,6 @@ public class SceneController : MonoBehaviour
         {
             dialogueBoxController.dialogueText.text = curLine.text;
         }
-        dialogueBoxController.dialogueText.fontSize = curLine.textSize;
-        dialogueBoxController.dialogueText.color = curLine.textColor;
-        dialogueBoxController.nameText.text = curLine.character.CharacterName;
-        dialogueBoxController.textBG.sprite = curLine.character.textBoxSprite;
     }
 
     private bool continueButtonSpawned = false;
@@ -193,6 +202,7 @@ public class SceneController : MonoBehaviour
 
         DialogueLine curLine = CurLine();
         
+        //set up either image or box
         if (!curLine.isImage)
         {
             SetUpTextBox(curLine);
@@ -200,11 +210,17 @@ public class SceneController : MonoBehaviour
         }
         else
         {
-            GameObject curImage = Instantiate(image, panel.transform);
-            curImage.GetComponent<Image>().sprite = curLine.Image;
+            SetupImage(curLine);
             ScrollToBottom();
         }
         curLineIndex++;
+    }
+
+    private void SetupImage(DialogueLine curLine)
+    {
+        GameObject curImage = Instantiate(image, panel.transform);
+        ImageController imageController = curImage.GetComponent<ImageController>();
+        imageController.image.sprite = curLine.Image;
     }
 
     private void CamShake()
