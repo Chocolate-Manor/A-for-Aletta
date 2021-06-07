@@ -34,7 +34,6 @@ public class SceneController : MonoBehaviour
         
         ClearPanel();
         SetupScene();
-        NextLine();
     }
 
     private void Update()
@@ -63,7 +62,8 @@ public class SceneController : MonoBehaviour
     }
     
     /// <summary>
-    /// Set up the mask, animator controller, scene title and background image. 
+    /// Set up the mask, animator controller, scene title and background image.
+    /// As well as reset the conversation, starts the next line.
     /// </summary>
     private void SetupScene()
     {
@@ -71,16 +71,27 @@ public class SceneController : MonoBehaviour
         BGAnimator.runtimeAnimatorController = curConv.aniController;
         BGText.text = curConv.sceneHeading;
         BGImage.sprite = curConv.background;
-        audioSource.clip = curConv.backgroundMusic;
-        audioSource.Play();
+        
+        //avoid replaying the same song
+        if (audioSource.clip != curConv.backgroundMusic)
+        {
+            audioSource.clip = curConv.backgroundMusic;
+            audioSource.Play();
+        }
+        
+        //remember to reset curLineIndex..
+        curLineIndex = 0;
+        NextLine();
+        continueButtonSpawned = false;
     }
     
     /// <summary>
     /// Load the next scene for the conversation
     /// </summary>
-    private void NextScene()
+    private void NextConv()
     {   
-        Debug.Log("into next scene!");
+        //trigger the nextConv event
+        UniversalInfo.nextSceneEvent(UniversalInfo.curConvIndex);
         
         //increment
         UniversalInfo.curConvIndex++;
@@ -189,7 +200,7 @@ public class SceneController : MonoBehaviour
             if (!continueButtonSpawned)
             {
                 GameObject curButton = Instantiate(continueButton, panel.transform);
-                curButton.GetComponent<Button>().onClick.AddListener(NextScene);
+                curButton.GetComponent<Button>().onClick.AddListener(NextConv);
                 continueButtonSpawned = true;
                 ScrollToBottom();
                 return;
