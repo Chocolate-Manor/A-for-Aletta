@@ -123,13 +123,14 @@ public class SceneController : MonoBehaviour
         string[] lines = text.Split("\n"[0]);
         foreach (string line in lines)
         {
-            foreach (char c in line)
+            string lineTrim = line.Trim();
+            foreach (char c in lineTrim)
             {
                 dialogueBoxController.dialogueText.text += c;
                 yield return new WaitForSeconds(typeSpeed);
             }
-            dialogueBoxController.dialogueText.text += "\n";
-            yield return new WaitForSeconds(0.1f);
+            dialogueBoxController.dialogueText.text += " ";
+            yield return new WaitForSeconds(0.4f);
         }
         isTyping = false;
     }
