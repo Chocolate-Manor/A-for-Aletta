@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler
 {
@@ -39,6 +40,10 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     private Camera cam;
 
     private Vector2 input = Vector2.zero;
+    
+    //my modification
+    private Vector2 originalHandleSizeDelta;
+    private Image handleImage;
 
     protected virtual void Start()
     {
@@ -55,11 +60,19 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
         handle.anchorMax = center;
         handle.pivot = center;
         handle.anchoredPosition = Vector2.zero;
+        
+        //my modification
+        originalHandleSizeDelta = handle.sizeDelta;
+        handleImage = handle.gameObject.GetComponent<Image>();
     }
 
     public virtual void OnPointerDown(PointerEventData eventData)
     {
         OnDrag(eventData);
+        
+        //my mod
+        handle.sizeDelta = handle.sizeDelta * 1.2f;
+        handleImage.color = new Color(1, 1, 1, 0.4f);
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -133,6 +146,10 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     {
         input = Vector2.zero;
         handle.anchoredPosition = Vector2.zero;
+        
+        //my mod
+        handle.sizeDelta = originalHandleSizeDelta;
+        handleImage.color = Color.white;
     }
 
     protected Vector2 ScreenPointToAnchoredPosition(Vector2 screenPosition)
