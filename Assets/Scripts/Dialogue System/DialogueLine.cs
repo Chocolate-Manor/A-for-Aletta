@@ -7,7 +7,10 @@ using UnityEngine;
 public class DialogueLine {
     public Sprite portrait;
     public Character character;
-
+    
+    public string nameOverwrite;
+    public bool hasNameOverwrite;
+    
     public Color textColor = Color.white;
     public float textSize = 30f;
     public float typeSpeed = 0.1f;
@@ -21,7 +24,7 @@ public class DialogueLine {
 
     public bool isNarration;
     
-    [TextArea(2, 5)] public string text;
+    [TextArea(2, 10)] public string text;
 
     public DialogueLine()
     {
@@ -31,6 +34,7 @@ public class DialogueLine {
         isImage = false;
         isReversed = false;
         isNarration = false;
+        hasNameOverwrite = false;
     }
 }
 

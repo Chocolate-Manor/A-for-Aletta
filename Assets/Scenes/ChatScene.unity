@@ -3725,7 +3725,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1602989643}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 439951618}
+        m_TargetAssemblyTypeName: DialogueController, Scripts
+        m_MethodName: NextLineOnButtonClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1602989646
 MonoBehaviour:
   m_ObjectHideFlags: 0

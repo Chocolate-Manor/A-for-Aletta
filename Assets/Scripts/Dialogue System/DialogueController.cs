@@ -35,7 +35,18 @@ public class DialogueController : MonoBehaviour
         ClearPanel();
         SetupScene();
     }
-
+    
+    /// <summary>
+    /// The external method attached to the action button. So that on click we get the next line of dialogue. 
+    /// </summary>
+    public void NextLineOnButtonClick()
+    {
+        if (!isTyping)
+        {
+            NextLine();
+        }
+    }
+    
     private void Update()
     {
         // if (Input.GetButtonDown("Fire1") && !isTyping)
@@ -171,7 +182,8 @@ public class DialogueController : MonoBehaviour
         {
             if (curLine.hideMouth) dialogueBoxController.mouth.SetActive(false);
             dialogueBoxController.portrait.sprite = curLine.portrait;
-            dialogueBoxController.nameText.text = curLine.character.CharacterName;
+            //deals with nameOverwrite
+            dialogueBoxController.nameText.text = curLine.hasNameOverwrite ? curLine.nameOverwrite : curLine.character.CharacterName;
             dialogueBoxController.textBG.sprite = curLine.character.textBoxSprite;
         }
         dialogueBoxController.dialogueText.fontSize = curLine.textSize;
