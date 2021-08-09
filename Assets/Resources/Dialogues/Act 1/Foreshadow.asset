@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
   m_Name: Foreshadow
   m_EditorClassIdentifier: 
-  background: {fileID: 8491751637624109711, guid: e8f7ee0f912bfe946939f72cc3d5cf86, type: 3}
-  sceneHeading: EXT. BETWIXT AND BETWEEN -NIGHT
-  aniController: {fileID: 9100000, guid: d4915dc001109ec4aa17a256efb96090, type: 2}
-  maskSoftness: {x: 300, y: 0}
-  backgroundMusic: {fileID: 8300000, guid: cf2f1af783d29c84ca8690e5d0f0505f, type: 3}
+  background: {fileID: 21300000, guid: f61b47acce8a38241b6596811be6c31d, type: 3}
+  sceneHeading: EXT. UNKNOWN - NIGHT
+  aniController: {fileID: 0}
+  maskSoftness: {x: 0, y: 0}
+  backgroundMusic: {fileID: 8300000, guid: 3c02f836e60c2dd4f8a84798a8593786, type: 3}
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -24,7 +24,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.03
     isImage: 0
     Image: {fileID: 0}
     screenShake: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.03
     isImage: 0
     Image: {fileID: 0}
     screenShake: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
       dresses in a run-of-the-mill blue coat.  \nThe only thing on him that draws
       attention is a service medal filled with clasps, \nand a discolored crochet
       glove."
-  - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
+  - portrait: {fileID: 21300000, guid: e56cc9251a9a1ed4e8b427c3d91cc1ac, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: Woman
     hasNameOverwrite: 1
@@ -110,7 +110,7 @@ MonoBehaviour:
     hideMouth: 0
     isNarration: 1
     text: 'The old man places his gloved hand in his pocket. '
-  - portrait: {fileID: 21300000, guid: 269f88b370082ca42b84a745992c3ea3, type: 3}
+  - portrait: {fileID: 21300000, guid: 96ddca60ca25ddd4f9920bdd5b08f467, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: Still man
     hasNameOverwrite: 1
@@ -124,7 +124,7 @@ MonoBehaviour:
     hideMouth: 0
     isNarration: 0
     text: Don't worry.
-  - portrait: {fileID: 21300000, guid: 269f88b370082ca42b84a745992c3ea3, type: 3}
+  - portrait: {fileID: 21300000, guid: e48422af7df006d40b8ef28a4bc4b7bc, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: Still man
     hasNameOverwrite: 1
@@ -138,7 +138,7 @@ MonoBehaviour:
     hideMouth: 0
     isNarration: 0
     text: It's in the past.
-  - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
+  - portrait: {fileID: 21300000, guid: 51376f6434ae25148979631c9735b215, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: Woman
     hasNameOverwrite: 1
@@ -166,7 +166,7 @@ MonoBehaviour:
     hideMouth: 0
     isNarration: 0
     text: You have anyone else?
-  - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
+  - portrait: {fileID: 21300000, guid: e56cc9251a9a1ed4e8b427c3d91cc1ac, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: Woman
     hasNameOverwrite: 1
@@ -180,7 +180,7 @@ MonoBehaviour:
     hideMouth: 0
     isNarration: 0
     text: Um-
-  - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
+  - portrait: {fileID: 21300000, guid: e56cc9251a9a1ed4e8b427c3d91cc1ac, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: Woman
     hasNameOverwrite: 1
@@ -214,16 +214,16 @@ MonoBehaviour:
     hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.03
     isImage: 0
     Image: {fileID: 0}
     screenShake: 0
     isReversed: 0
     hideMouth: 0
     isNarration: 1
-    text: "The old man straightens his suit, \nthen turns around to leave. \nThe
+    text: "The old man straightens his coat, \nthen turns around to leave. \nThe
       plump woman leans forward, \nas if wanting to say something. "
-  - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
+  - portrait: {fileID: 21300000, guid: e56cc9251a9a1ed4e8b427c3d91cc1ac, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: Woman
     hasNameOverwrite: 1
@@ -249,7 +249,7 @@ MonoBehaviour:
     screenShake: 0
     isReversed: 0
     hideMouth: 0
-    isNarration: 0
+    isNarration: 1
     text: "The old man pauses for a second, \nthen continues walking. "
   - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -263,7 +263,7 @@ MonoBehaviour:
     screenShake: 0
     isReversed: 0
     hideMouth: 0
-    isNarration: 1
+    isNarration: 0
     text: ...
   - portrait: {fileID: 21300000, guid: 269f88b370082ca42b84a745992c3ea3, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}

@@ -1,0 +1,709 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
+  m_Name: School 1.2
+  m_EditorClassIdentifier: 
+  background: {fileID: 0}
+  sceneHeading: 
+  aniController: {fileID: 0}
+  maskSoftness: {x: 300, y: 0}
+  backgroundMusic: {fileID: 0}
+  dialogueLines:
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Seeing you leaving the room, Nicolas waves to you with his signature grin.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Yo, Jing! Have you heard?
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Emma and Harvey broke up. Yesterday, on the train. I've got witness.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: 'You raise your eyebrows, attempting to create an expression of disbelief. '
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: By that, you mean yourself?
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: No no no, my good sir. All the cammies saw it too, just ask one of them.
+      It was a real sight too, an actual kick in the balls. I can still hear poor
+      Harvey screeching.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Oh no, Emma, no no no, I didn't-AHHHHHHHHHHHH!
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Heh.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: You have to give it to him. That impression was on point. Ah well... You
+      reach for your wallet, but stops half-way.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: You mind I go confirm this with Harvey real quick?
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Uh-uh.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Nicolas shakes his index finger. It reminds you of your old homeschool
+      teacher.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Sneaky sneaky. You know how this works, even if you convince Harvey to
+      get Emma back for the fourth time, that aren't gonna count. So...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Nicolas reaches his hand out in anticipation.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Sign. How much was it again?
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: A shilling 2 pence. Although I can let go that 2 pence because I am just
+      so generous a soul.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Let me see...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Nicolas suddenly withdrew his hand.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: ...?
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Actually, on second thought, you can pay me later.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Huh?
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Nicolas squeezes out a smirk.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: I won't keep you anymore, brother. Peace.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: After dropping that line in a purposely loud voice, he disappears down
+      the stairs in a flash.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: You hear a high-pitched voice behind you.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Oh hey, Jing, what a coincidence!
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: You bitch.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Ummm?
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Ahem. Not you. Nic.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: But you are close. Or maybe you have already gone over and beyond?
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: The boy you hang out with? He's funny.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Cecilia says that with an extremely wide smile. One that's about to fall
+      off her face.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: He surely is.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: You mutters that in a tone that you think is sarcastic.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: So, Ah...What's up?
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: You try not to look at her directly.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: What do you mean what's up? The new season of Witches And Pirates is out!
+      You saw it right? I really like the new character, Godwin. Isn't he cool?
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Well, I haven't really had-
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Oh boy...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Oh you haven't? You really should!  Although I totally understand. School
+      and stuff, right? Midterm was such a pain. You know, I was totally surprised
+      when Nancy told me you were also a fan. It's a good show, but not a lot of
+      people I know have watched it!...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: ...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: (dialogue)
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: I mean-
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: (words)
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Uh-huh.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+      eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+      in culpa qui officia deserunt mollit anim id est laborum.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: Ummm...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    textSize: 0
+    typeSpeed: 0
+    isImage: 0
+    Image: {fileID: 0}
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    text: When you got out the school gate, the sun had already set.
