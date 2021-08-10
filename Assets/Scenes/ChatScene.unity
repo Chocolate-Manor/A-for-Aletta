@@ -235,7 +235,7 @@ PlayableDirector:
   m_GameObject: {fileID: 44975978}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 8b0d72ee2712c714ca70154f6a2d09ca, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 21d6cbdfbd23c3c47abec48fe185268f, type: 2}
   m_InitialState: 0
   m_WrapMode: 0
   m_DirectorUpdateMode: 1
@@ -263,6 +263,8 @@ PlayableDirector:
     value: {fileID: 1472822839}
   - key: {fileID: -8330579550349555901, guid: 8b0d72ee2712c714ca70154f6a2d09ca, type: 2}
     value: {fileID: 1426075712}
+  - key: {fileID: 7486519105018703504, guid: 8b0d72ee2712c714ca70154f6a2d09ca, type: 2}
+    value: {fileID: 2054817898}
   m_ExposedReferences:
     m_References:
     - 06f860ad2de5c254fb99835e34a83d2b: {fileID: 44975978}
@@ -757,6 +759,7 @@ MonoBehaviour:
   camAnim: {fileID: 439951619}
   panel: {fileID: 22156754}
   scroll: {fileID: 707485970}
+  director: {fileID: 44975979}
   image: {fileID: 7179781993107644834, guid: 468b4f1d3ecbbf9479e3b692f63255d3, type: 3}
   dialogueBox: {fileID: 3608926344400408596, guid: 11ae16f5c10fb12409ba2a937105384e, type: 3}
   dialogueBoxInvert: {fileID: 3608926344400408596, guid: 3516de466aa51fe4da4999555de32772, type: 3}

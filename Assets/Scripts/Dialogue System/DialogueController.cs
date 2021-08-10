@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.UI;
 
 public class DialogueController : MonoBehaviour
@@ -19,6 +20,8 @@ public class DialogueController : MonoBehaviour
 
     public GameObject panel;
     public ScrollRect scroll;
+
+    public PlayableDirector director;
     
     //presets
     public GameObject image;
@@ -226,25 +229,19 @@ public class DialogueController : MonoBehaviour
 
         DialogueLine curLine = CurLine();
         
-        //set up either image or box
-        if (!curLine.isImage)
-        {
-            SetUpTextBox(curLine);
-            ScrollToBottom();
-        }
-        else
-        {
-            SetupImage(curLine);
-            ScrollToBottom();
-        }
+        PlayPlayableAsset(curLine);
+        SetUpTextBox(curLine);
+        ScrollToBottom();
         curLineIndex++;
     }
 
-    private void SetupImage(DialogueLine curLine)
+    private void PlayPlayableAsset(DialogueLine curLine)
     {
-        GameObject curImage = Instantiate(image, panel.transform);
-        ImageController imageController = curImage.GetComponent<ImageController>();
-        imageController.image.sprite = curLine.Image;
+        if (curLine.hasPlayable)
+        {
+            director.playableAsset = curLine.playableAsset;
+            director.Play();
+        }
     }
 
     private void CamShake()
