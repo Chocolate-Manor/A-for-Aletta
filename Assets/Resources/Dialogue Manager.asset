@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &11400000
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 32
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13,5 +13,13 @@ MonoBehaviour:
   m_Name: Dialogue Manager
   m_EditorClassIdentifier: 
   dialogues:
-  - {fileID: 11400000, guid: cd9d672b27d514740868bceee93f2703, type: 2}
-  - {fileID: 11400000, guid: cd9d672b27d514740868bceee93f2703, type: 2}
+  - {fileID: 11400000, guid: 0e0d86a5517b4304bbdefbaf7528f89d, type: 2}
+  - {fileID: 11400000, guid: 0e0d86a5517b4304bbdefbaf7528f89d, type: 2}
+  - {fileID: 11400000, guid: 0e0d86a5517b4304bbdefbaf7528f89d, type: 2}
+  - {fileID: 11400000, guid: 0e0d86a5517b4304bbdefbaf7528f89d, type: 2}
+  - {fileID: 11400000, guid: 0e0d86a5517b4304bbdefbaf7528f89d, type: 2}
+  - {fileID: 11400000, guid: 0e0d86a5517b4304bbdefbaf7528f89d, type: 2}
+  - {fileID: 11400000, guid: 0e0d86a5517b4304bbdefbaf7528f89d, type: 2}
+  - {fileID: 11400000, guid: 0e0d86a5517b4304bbdefbaf7528f89d, type: 2}
+  - {fileID: 11400000, guid: 0e0d86a5517b4304bbdefbaf7528f89d, type: 2}
+  - {fileID: 11400000, guid: 0e0d86a5517b4304bbdefbaf7528f89d, type: 2}

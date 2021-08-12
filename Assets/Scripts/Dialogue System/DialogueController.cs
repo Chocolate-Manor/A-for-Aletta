@@ -8,10 +8,7 @@ using UnityEngine.UI;
 
 public class DialogueController : MonoBehaviour
 {
-    public RectMask2D BGMask;
-    public Animator BGAnimator;
-    public Image BGImage;
-    public TextMeshProUGUI BGText;
+    public TextMeshProUGUI titleText;
     public AudioSource audioSource;
     public Animator camAnim;
     
@@ -21,8 +18,6 @@ public class DialogueController : MonoBehaviour
     public GameObject panel;
     public ScrollRect scroll;
 
-    public PlayableDirector director;
-    
     //presets
     public GameObject image;
     public GameObject dialogueBox;
@@ -30,11 +25,15 @@ public class DialogueController : MonoBehaviour
     public GameObject continueButton;
     public GameObject narrationBox;
     
+    //fade in fade out animator
+    public Animation fadeAnimation;
+    public AnimationClip fadeIn;
+    public AnimationClip fadeout;
+    
     private void Awake()
     {   
         //load the current conversation
         curConv = DialogueManager.Instance.dialogues[UniversalInfo.curConvIndex];
-        
         ClearPanel();
         SetupScene();
     }
@@ -80,12 +79,11 @@ public class DialogueController : MonoBehaviour
     /// As well as reset the conversation, starts the next line.
     /// </summary>
     private void SetupScene()
-    {
-        BGMask.softness = curConv.maskSoftness;
-        BGAnimator.runtimeAnimatorController = curConv.aniController;
-        BGText.text = curConv.sceneHeading;
-        BGImage.sprite = curConv.background;
+    {   
+        //print the curConv index for debug reasons
+        Debug.Log(UniversalInfo.curConvIndex);
         
+        titleText.text = curConv.sceneHeading;
         //avoid replaying the same song
         if (audioSource.clip != curConv.backgroundMusic)
         {
@@ -96,7 +94,7 @@ public class DialogueController : MonoBehaviour
         //remember to reset curLineIndex..
         curLineIndex = 0;
         NextLine();
-        continueButtonSpawned = false;
+        haveFadedOut = false;
     }
     
     /// <summary>
@@ -202,47 +200,65 @@ public class DialogueController : MonoBehaviour
             dialogueBoxController.dialogueText.text = curLine.text;
         }
     }
-
-    private bool continueButtonSpawned = false;
+    
+    //set to false in scene set up. 
+    private bool haveFadedOut = false;
     
     /// <summary>
     /// Load the nextLine in the conversation
     /// </summary>
     private void NextLine()
     {
-        //if end reached, go into next conversation
+        //ignore all inputs if it is fading out. 
+        if (isFadeingOut) return;
+        
+        //if end reached
         if (curLineIndex >= curConv.dialogueLines.Count)
         {
-            if (!continueButtonSpawned)
+            //fadeout if it is not done.
+            if (!haveFadedOut)
             {
-                GameObject curButton = Instantiate(continueButton, panel.transform);
-                curButton.GetComponent<Button>().onClick.AddListener(NextConv);
-                continueButtonSpawned = true;
-                ScrollToBottom();
+                StartCoroutine(FadeOut());
+                haveFadedOut = true;
                 return;
             }
-            else
-            {
-                return;
-            }
+            
+            //if fade out had already been done, go to next conv and fade in. 
+            NextConv();
+            FadeIn();
+            return;
         }
+
 
         DialogueLine curLine = CurLine();
         
-        PlayPlayableAsset(curLine);
         SetUpTextBox(curLine);
         ScrollToBottom();
         curLineIndex++;
     }
 
-    private void PlayPlayableAsset(DialogueLine curLine)
+    private bool isFadeingOut = false;
+    
+    private IEnumerator FadeOut()
     {
-        if (curLine.hasPlayable)
+        isFadeingOut = true;
+        
+        //the fadeout 
+        fadeAnimation.Play("Transition fade out");
+        while (fadeAnimation.isPlaying)
         {
-            director.playableAsset = curLine.playableAsset;
-            director.Play();
+            yield return new WaitForEndOfFrame();
         }
+
+        isFadeingOut = false;
     }
+
+    private void FadeIn()
+    {
+        fadeAnimation.Play("Transition fade in");
+    }
+    
+    
 
     private void CamShake()
     {

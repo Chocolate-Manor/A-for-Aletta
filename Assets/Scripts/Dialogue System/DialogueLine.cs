@@ -22,10 +22,6 @@ public class DialogueLine {
 
     public bool isNarration;
     
-    //control director
-    public bool hasPlayable;
-    public PlayableAsset playableAsset;
-    
     [TextArea(2, 10)] public string text;
 
     public DialogueLine()
@@ -36,7 +32,6 @@ public class DialogueLine {
         isReversed = false;
         isNarration = false;
         hasNameOverwrite = false;
-        hasPlayable = false;
     }
 }
 

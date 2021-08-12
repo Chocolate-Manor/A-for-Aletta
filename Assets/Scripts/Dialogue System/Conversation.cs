@@ -9,10 +9,7 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(fileName = "New Conversation", menuName = "Scriptable Objects/Conversation")]
 public class Conversation : ScriptableObject
 {
-    public Sprite background;
     public string sceneHeading;
-    public AnimatorController aniController;
-    public Vector2Int maskSoftness = new Vector2Int(300, 0);
     public AudioClip backgroundMusic;
     
     public List<DialogueLine> dialogueLines;
