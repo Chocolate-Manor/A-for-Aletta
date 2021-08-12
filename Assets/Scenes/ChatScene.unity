@@ -1686,10 +1686,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3608926344053393288, guid: 3516de466aa51fe4da4999555de32772, type: 3}
       propertyPath: m_text
-      value: No no no, my good sir. All the tans saw it too, just ask one of them.  
-        It was such a sight too, an actual kick in the balls. I can still hear poor
-        Harvey screeching.
+      value: What ever mate. I can just say whatever blah balh bvalh adsadsa
       objectReference: {fileID: 0}
+    - target: {fileID: 3608926344053393288, guid: 3516de466aa51fe4da4999555de32772, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d979c1abd7084a6488cf9658eb42771c, type: 2}
+    - target: {fileID: 3608926344053393288, guid: 3516de466aa51fe4da4999555de32772, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6241463911455530299, guid: d979c1abd7084a6488cf9658eb42771c, type: 2}
     - target: {fileID: 3608926344053393290, guid: 3516de466aa51fe4da4999555de32772, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1846,6 +1852,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3608926345751645102, guid: 3516de466aa51fe4da4999555de32772, type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3608926345751645102, guid: 3516de466aa51fe4da4999555de32772, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: be8961b4f36bb044cb0ef11b5c272d58, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3516de466aa51fe4da4999555de32772, type: 3}
 --- !u!224 &997030103 stripped
@@ -2478,17 +2492,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXT. BETWIXT AND BETWEEN -NIGHT
+  m_text: EXT. Strange Classroom - Night
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4bf353a8d40bacd4b99a44b08e441c89, type: 2}
-  m_sharedMaterial: {fileID: -5815285565787422570, guid: 4bf353a8d40bacd4b99a44b08e441c89, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b06e8b1596e88cd4d9d25e5f95a8aee2, type: 2}
+  m_sharedMaterial: {fileID: 8492081452467075914, guid: b06e8b1596e88cd4d9d25e5f95a8aee2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284966759
-  m_fontColor: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+    rgba: 4286677377
+  m_fontColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

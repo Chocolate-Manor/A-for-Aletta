@@ -12,10 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
   m_Name: Foreshadow
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: f61b47acce8a38241b6596811be6c31d, type: 3}
   sceneHeading: EXT. UNKNOWN - NIGHT
-  aniController: {fileID: 0}
-  maskSoftness: {x: 0, y: 0}
   backgroundMusic: {fileID: 8300000, guid: 3c02f836e60c2dd4f8a84798a8593786, type: 3}
   dialogueLines:
   - portrait: {fileID: 0}
@@ -29,8 +26,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
-    hasPlayable: 1
-    playableAsset: {fileID: 11400000, guid: 8b0d72ee2712c714ca70154f6a2d09ca, type: 2}
     text: "A bustling office. \nBusy-looking people are rushing in and out, \nfolders
       in hand. \nTypewriter clicks fill up the room, \ncreating a synchronized humming.
       \nAmong this chaos, \none figure stands incredibly still, \nas if used to such
@@ -46,8 +41,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: A fallen woman?
   - portrait: {fileID: 21300000, guid: a49b9f8af836be244ab174a07c40f321, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -60,14 +53,12 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: "The figure questions aridly. \nIt's a figure of an old man, \none that
       dresses in a run-of-the-mill blue coat.  \nThe only thing on him that draws
       attention is a service medal filled with clasps, \nand a discolored crochet
       glove."
   - portrait: {fileID: 21300000, guid: e56cc9251a9a1ed4e8b427c3d91cc1ac, type: 3}
-    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    character: {fileID: 11400000, guid: 9f72afbb99c3ed54a9bb9b2085dc85d5, type: 2}
     nameOverwrite: Woman
     hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -77,8 +68,6 @@ MonoBehaviour:
     isReversed: 1
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: "Yes. \nA young manifestation,\nat that. \nNot that I am trying to... \nWe
       are short on staff."
   - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
@@ -92,8 +81,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: "Saying that, \nthe plump woman drifts her eye to the man's glove. \nThen,
       \nas if suddenly realizing something, \nshe jerks her head back. "
   - portrait: {fileID: 0}
@@ -107,8 +94,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: 'The old man places his gloved hand in his pocket. '
   - portrait: {fileID: 21300000, guid: 96ddca60ca25ddd4f9920bdd5b08f467, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -121,8 +106,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: Don't worry.
   - portrait: {fileID: 21300000, guid: e48422af7df006d40b8ef28a4bc4b7bc, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -135,11 +118,9 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: It's in the past.
   - portrait: {fileID: 21300000, guid: 51376f6434ae25148979631c9735b215, type: 3}
-    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    character: {fileID: 11400000, guid: 9f72afbb99c3ed54a9bb9b2085dc85d5, type: 2}
     nameOverwrite: Woman
     hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -149,8 +130,6 @@ MonoBehaviour:
     isReversed: 1
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: So you'll take it?
   - portrait: {fileID: 21300000, guid: 269f88b370082ca42b84a745992c3ea3, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -163,11 +142,9 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: You have anyone else?
   - portrait: {fileID: 21300000, guid: e56cc9251a9a1ed4e8b427c3d91cc1ac, type: 3}
-    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    character: {fileID: 11400000, guid: 9f72afbb99c3ed54a9bb9b2085dc85d5, type: 2}
     nameOverwrite: Woman
     hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -177,11 +154,9 @@ MonoBehaviour:
     isReversed: 1
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: Um-
   - portrait: {fileID: 21300000, guid: e56cc9251a9a1ed4e8b427c3d91cc1ac, type: 3}
-    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    character: {fileID: 11400000, guid: 9f72afbb99c3ed54a9bb9b2085dc85d5, type: 2}
     nameOverwrite: Woman
     hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -191,8 +166,6 @@ MonoBehaviour:
     isReversed: 1
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: No.
   - portrait: {fileID: 21300000, guid: 269f88b370082ca42b84a745992c3ea3, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -205,8 +178,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: 'Then it''s settled. '
   - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -219,12 +190,10 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
-    hasPlayable: 1
-    playableAsset: {fileID: 11400000, guid: ad13b6e71dbe1c145aa579273cdef92c, type: 2}
     text: "The old man straightens his coat, \nthen turns around to leave. \nThe
       plump woman leans forward, \nas if wanting to say something. "
   - portrait: {fileID: 21300000, guid: e56cc9251a9a1ed4e8b427c3d91cc1ac, type: 3}
-    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    character: {fileID: 11400000, guid: 9f72afbb99c3ed54a9bb9b2085dc85d5, type: 2}
     nameOverwrite: Woman
     hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -234,8 +203,6 @@ MonoBehaviour:
     isReversed: 1
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: "Take care of yourself, \nyou hear?"
   - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -248,8 +215,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: "The old man pauses for a second, \nthen continues walking. "
   - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -262,8 +227,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 1
-    playableAsset: {fileID: 11400000, guid: 21d6cbdfbd23c3c47abec48fe185268f, type: 2}
     text: ...
   - portrait: {fileID: 21300000, guid: 269f88b370082ca42b84a745992c3ea3, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -276,8 +239,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: "I appreciate the concern, \nBrie."
   - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -290,8 +251,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 0
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: But there's simply no need.
   - portrait: {fileID: 21300000, guid: d603be00add3e734592d5d52c02c4966, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -304,6 +263,4 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
-    hasPlayable: 0
-    playableAsset: {fileID: 0}
     text: He draws his hand out of the pocket.
