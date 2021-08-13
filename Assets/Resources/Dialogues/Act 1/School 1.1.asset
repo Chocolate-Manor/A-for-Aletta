@@ -12,21 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
   m_Name: School 1.1
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 1b49027026e178a47b849e9f0fca5f0a, type: 3}
   sceneHeading: INT. CLASSROOM - DAY
-  aniController: {fileID: 0}
-  maskSoftness: {x: 300, y: 0}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 7f2010b2c0d312a479e1e20780e145ac, type: 3}
   dialogueLines:
   - portrait: {fileID: 0}
-    character: {fileID: 0}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    textSize: 0
-    typeSpeed: 0
-    isImage: 0
-    Image: {fileID: 0}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
     screenShake: 0
     isReversed: 0
     hideMouth: 0
@@ -34,15 +29,13 @@ MonoBehaviour:
     text: "Class is over. \nPeople are packing up and leaving, \npushing each other.
       \nYou hear couples talking loudly about the upcoming house parties, \nhorse
       races, \nor just superficial sweet nothings as they leave."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    textSize: 0
-    typeSpeed: 0
-    isImage: 0
-    Image: {fileID: 0}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
     screenShake: 0
     isReversed: 0
     hideMouth: 0
@@ -52,11 +45,9 @@ MonoBehaviour:
     character: {fileID: 0}
     nameOverwrite: 
     hasNameOverwrite: 0
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    textSize: 0
-    typeSpeed: 0
-    isImage: 0
-    Image: {fileID: 0}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
     screenShake: 0
     isReversed: 0
     hideMouth: 0
@@ -66,25 +57,22 @@ MonoBehaviour:
     character: {fileID: 0}
     nameOverwrite: 
     hasNameOverwrite: 0
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    textSize: 0
-    typeSpeed: 0
-    isImage: 0
-    Image: {fileID: 0}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
     screenShake: 0
     isReversed: 0
     hideMouth: 0
     isNarration: 1
-    text: Nicolas is leaning against the wall as he always do.
+    text: "After the classroom is relatively empty, \nyou stroll slowly out of the
+      room."
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
     hasNameOverwrite: 0
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    textSize: 0
-    typeSpeed: 0
-    isImage: 0
-    Image: {fileID: 0}
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
     screenShake: 0
     isReversed: 0
     hideMouth: 0

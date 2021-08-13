@@ -21,6 +21,9 @@ public class DialogueLine {
     public bool hideMouth;
 
     public bool isNarration;
+
+    public AudioClip musicToSwitchTo;
+    public bool switchMusic;
     
     [TextArea(2, 10)] public string text;
 
@@ -28,10 +31,11 @@ public class DialogueLine {
     {
         textColor = new Color32(129, 129, 129, 255);
         textSize = 30f;
-        typeSpeed = 0.1f;
+        typeSpeed = 0.05f;
         isReversed = false;
         isNarration = false;
         hasNameOverwrite = false;
+        switchMusic = false;
     }
 }
 

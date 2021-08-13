@@ -231,7 +231,11 @@ public class DialogueController : MonoBehaviour
 
 
         DialogueLine curLine = CurLine();
-        
+        if (curLine.switchMusic)
+        {
+            audioSource.clip = curLine.musicToSwitchTo;
+            audioSource.Play();
+        }
         SetUpTextBox(curLine);
         ScrollToBottom();
         curLineIndex++;
