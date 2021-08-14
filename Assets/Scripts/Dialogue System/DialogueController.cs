@@ -17,7 +17,8 @@ public class DialogueController : MonoBehaviour
 
     public GameObject panel;
     public ScrollRect scroll;
-
+    public GameObject panelPrefab;
+    
     //presets
     public GameObject image;
     public GameObject dialogueBox;
@@ -93,11 +94,7 @@ public class DialogueController : MonoBehaviour
         
         //remember to reset curLineIndex..
         curLineIndex = 0;
-        
-        //tries to pull it. Didn't work. Guess I need to...just spawn it over and over again. 
-        // Canvas.ForceUpdateCanvases();
-        // scroll.velocity = new Vector2(0f, 20000f);
-        
+
         NextLine();
 
         haveFadedOut = false;
@@ -121,7 +118,7 @@ public class DialogueController : MonoBehaviour
         ClearPanel();
         
         //to make panel be in correct location
-        ResetPanelLocation();
+        //ResetPanelLocation();
 
         //Setup all over again
         SetupScene();
@@ -129,16 +126,9 @@ public class DialogueController : MonoBehaviour
 
     private void ClearPanel()
     {
-        foreach (Transform child in panel.transform)
-        {
-            Destroy(child.gameObject);
-        }
-    }
-
-    private void ResetPanelLocation()
-    {   
-        Canvas.ForceUpdateCanvases();
-        panel.transform.position = new Vector3(panel.transform.position.x, 0, panel.transform.position.z);
+        Destroy(panel.gameObject);
+        panel = Instantiate(panelPrefab, scroll.transform);
+        scroll.content = panel.GetComponent<RectTransform>();
     }
 
     private bool isTyping;
