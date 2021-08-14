@@ -5,6 +5,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.UI;
+using UnityEngine.Rendering;
+
 
 public class DialogueController : MonoBehaviour
 {
@@ -26,6 +28,7 @@ public class DialogueController : MonoBehaviour
     //fade in fade out animator
     public Animation fadeAnimation;
     public Image cover;
+    public GameObject volumeObject;
     
     private void Awake()
     {   
@@ -86,6 +89,16 @@ public class DialogueController : MonoBehaviour
         {
             audioSource.clip = curConv.backgroundMusic;
             audioSource.Play();
+        }
+        
+        //turn on bloom
+        if (curConv.bloomOn)
+        {
+            volumeObject.SetActive(true);
+        }
+        else
+        {
+            volumeObject.SetActive(false);
         }
 
         //remember to reset curLineIndex..

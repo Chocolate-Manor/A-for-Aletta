@@ -13,6 +13,7 @@ public class Conversation : ScriptableObject
     public AudioClip backgroundMusic;
 
     public bool hasWhiteTransition;
+    public bool bloomOn;
 
     public List<DialogueLine> dialogueLines;
 

@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneHeading: INT. STRANGE CLASSROOM - DAY
   backgroundMusic: {fileID: 8300000, guid: c731feb68d846b14e9375974f2b83c49, type: 3}
+  hasWhiteTransition: 0
+  bloomOn: 1
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}

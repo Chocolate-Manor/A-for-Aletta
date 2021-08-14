@@ -15,6 +15,7 @@ MonoBehaviour:
   sceneHeading: INT. BEDROOM - NIGHT
   backgroundMusic: {fileID: 8300000, guid: 93b5ae05573176c49a98929e826683f1, type: 3}
   hasWhiteTransition: 1
+  bloomOn: 0
   dialogueLines:
   - portrait: {fileID: 21300000, guid: 73e695f6980b90b48ae0156d212be49d, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
@@ -88,5 +89,5 @@ MonoBehaviour:
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 8300000, guid: c731feb68d846b14e9375974f2b83c49, type: 3}
-    switchMusic: 1
+    switchMusic: 0
     text: 'And you ran. '
