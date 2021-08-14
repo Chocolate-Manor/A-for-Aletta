@@ -20,17 +20,12 @@ public class DialogueController : MonoBehaviour
     public GameObject panelPrefab;
     
     //presets
-    public GameObject image;
     public GameObject dialogueBox;
-    public GameObject dialogueBoxInvert;
-    public GameObject continueButton;
     public GameObject narrationBox;
     
     //fade in fade out animator
     public Animation fadeAnimation;
-    public AnimationClip fadeIn;
-    public AnimationClip fadeout;
-    
+
     private void Awake()
     {   
         //load the current conversation
@@ -184,7 +179,6 @@ public class DialogueController : MonoBehaviour
         //Nor is there need to set textBG.
         if (!curLine.isNarration)
         {
-            if (curLine.hideMouth) dialogueBoxController.mouth.SetActive(false);
             dialogueBoxController.portrait.sprite = curLine.portrait;
             //deals with nameOverwrite
             dialogueBoxController.nameText.text = curLine.hasNameOverwrite ? curLine.nameOverwrite : curLine.character.CharacterName;

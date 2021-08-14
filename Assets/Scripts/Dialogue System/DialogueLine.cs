@@ -17,7 +17,6 @@ public class DialogueLine {
     public float typeSpeed = 0.1f;
 
     public bool screenShake;
-    public bool hideMouth;
 
     public bool isNarration;
 

@@ -11,7 +11,7 @@ public class Conversation : ScriptableObject
 {
     public string sceneHeading;
     public AudioClip backgroundMusic;
-    
+
     public List<DialogueLine> dialogueLines;
 
     public bool Valid => dialogueLines != null && dialogueLines.Count > 0;

@@ -1,0 +1,455 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
+  m_Name: Home 1.1
+  m_EditorClassIdentifier: 
+  sceneHeading: INT. HOME - NIGHT
+  backgroundMusic: {fileID: 8300000, guid: b890e57fdf9072241816d67ef32c163d, type: 3}
+  dialogueLines:
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Third floor, \napartment six. \nYou scramble to try to find the right
+      key, \nbut it's by no means an easy job in the dark. \nJust this moment, \nyou
+      hear streetlights lighting up one by one, \nmarking the start of evening.\nWell.
+      \nAt least that makes it easier for you to see. "
+  - portrait: {fileID: 21300000, guid: 2e1b56463e37d524ba499649c81ac516, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You notice one of the spring couplets next to the door is peeling off.
+  - portrait: {fileID: 21300000, guid: 2e1b56463e37d524ba499649c81ac516, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Bi \nFei \nQue \nSi \nGuan \nWei \nNiao, \nBing \nDi \nChang\nKai \nBian
+      \nLi \nZhi.\r\n(Flying side by side like Guanwei bird, \nBlossoming in concord
+      like how Acacia confusa's branches merge together.)"
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You read the spring couplet out loud, \nfor no apparent reason. "
+  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 32
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Poetic.
+  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You pull both couplets off the wall, \ncurled them in a ball and threw
+      them off the balcony. "
+  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "The door swings open. \nYou find a petite woman in front of you, \nswinging
+      a spatula in the air. "
+  - portrait: {fileID: 21300000, guid: 409015911cad4c449a869a9903ad0ba4, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You are, \nlate. \nVery, \nlate."
+  - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Um, \nI got held up. \nIt won't happen again. "
+  - portrait: {fileID: 21300000, guid: 409015911cad4c449a869a9903ad0ba4, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'Uh-huh. '
+  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "She stares at you for a half second, \nthen squeezes out a smirk."
+  - portrait: {fileID: 21300000, guid: 5fae56f2c0661cf409b0f2fd2468bd03, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'Don''t tell me...
+
+      that girl again?'
+  - portrait: {fileID: 21300000, guid: d01414559127fa34eb69d626ade9ac5f, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.05
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "What? \nNo!"
+  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You jump.
+  - portrait: {fileID: 21300000, guid: 409015911cad4c449a869a9903ad0ba4, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.06
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Then what? \nFess up. \nAnd don't lie. \nIf I catch a wind that you do,
+      \nno more pocket money for you, \nsonny. \nYou know how much I hate lying."
+  - portrait: {fileID: 21300000, guid: b5aff451c80db404f881e4ce2b5554cb, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Ah-
+  - portrait: {fileID: 21300000, guid: b5aff451c80db404f881e4ce2b5554cb, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: I-
+  - portrait: {fileID: 21300000, guid: 4c94e6b540827f840944388cd83f5e31, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: 4c94e6b540827f840944388cd83f5e31, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'Ok...
+
+      it''s that girl again.'
+  - portrait: {fileID: 21300000, guid: 4c94e6b540827f840944388cd83f5e31, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Her grin widens.
+  - portrait: {fileID: 21300000, guid: 5fae56f2c0661cf409b0f2fd2468bd03, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: I knew it.
+  - portrait: {fileID: 21300000, guid: 5fae56f2c0661cf409b0f2fd2468bd03, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Go for it, \nson!  \nYou are of that age. \nIt is that time of youth."
+  - portrait: {fileID: 21300000, guid: d01414559127fa34eb69d626ade9ac5f, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Huh?
+  - portrait: {fileID: 21300000, guid: d01414559127fa34eb69d626ade9ac5f, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 32
+    typeSpeed: 0.02
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "No! \nWhat? \nShouldn't you lecture me about the danger of sex or whatever
+      and at the end I would give in and agree to be a good boy for the rest of my
+      high school life?"
+  - portrait: {fileID: 21300000, guid: 5fae56f2c0661cf409b0f2fd2468bd03, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "And sounding like your grandma? \nNo thank you. \nWhy not? \nShe seems
+      to like you enough if she could hold you up for 4 hours. "
+  - portrait: {fileID: 21300000, guid: 22f96ea83523b0a4bb06de17111ad7fc, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.01
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Oh, \nyou mean monologuing about god knows what for 4 hours?! \nYeah.
+      \nIf that means love, \nthen I ain't got hope for this world!"
+  - portrait: {fileID: 21300000, guid: 6894201d6ceb5214889079d240af4d91, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Whoa.
+  - portrait: {fileID: 21300000, guid: 6894201d6ceb5214889079d240af4d91, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Okay. \nOkay. \nI'll back off. \nYou were much cuter back then when you'd
+      ask me to get you in the same cram school just because a certain girl was there."
+  - portrait: {fileID: 21300000, guid: 7320f99f9377cb24b9ffdc250ef920d9, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You fall silent.
+  - portrait: {fileID: 21300000, guid: 7320f99f9377cb24b9ffdc250ef920d9, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: e798b3da780407a4a9a113d2c8f2fdef, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: And whose fault do you think that is?
+  - portrait: {fileID: 21300000, guid: e798b3da780407a4a9a113d2c8f2fdef, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Before you know it, \nyou had rushed into your bedroom. \nYou lock the
+      door. "
+  - portrait: {fileID: 21300000, guid: 6894201d6ceb5214889079d240af4d91, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 32
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Wait! \nDon't you want dinner?"
