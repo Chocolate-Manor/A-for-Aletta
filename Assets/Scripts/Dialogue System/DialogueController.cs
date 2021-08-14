@@ -25,7 +25,8 @@ public class DialogueController : MonoBehaviour
     
     //fade in fade out animator
     public Animation fadeAnimation;
-
+    public Image cover;
+    
     private void Awake()
     {   
         //load the current conversation
@@ -86,7 +87,7 @@ public class DialogueController : MonoBehaviour
             audioSource.clip = curConv.backgroundMusic;
             audioSource.Play();
         }
-        
+
         //remember to reset curLineIndex..
         curLineIndex = 0;
 
@@ -211,7 +212,10 @@ public class DialogueController : MonoBehaviour
         
         //if end reached
         if (curLineIndex >= curConv.dialogueLines.Count)
-        {
+        {   
+            //set the correct fadeout color
+            cover.color = curConv.hasWhiteTransition ? Color.white : Color.black;
+            
             //fadeout if it is not done.
             if (!haveFadedOut)
             {

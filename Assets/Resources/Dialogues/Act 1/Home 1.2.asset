@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneHeading: INT. BEDROOM - NIGHT
   backgroundMusic: {fileID: 8300000, guid: 93b5ae05573176c49a98929e826683f1, type: 3}
+  hasWhiteTransition: 1
   dialogueLines:
   - portrait: {fileID: 21300000, guid: 73e695f6980b90b48ae0156d212be49d, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
@@ -38,8 +39,8 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'You lay in your bed. You stare at the bedroom ceiling. The light seems
-      to blink. '
+    text: "You lay in your bed. \nYou stare at the bedroom ceiling. \nThe light seems
+      to blink. "
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -63,8 +64,8 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'The air is burning. The humming of Cicadas surrounds you. You look ahead,
-      and see a girl in the distance. '
+    text: "The air is burning. \nThe humming of Cicadas surrounds you. \nYou look
+      ahead, \nand see a girl in the distance. "
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -83,9 +84,9 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.1
     screenShake: 0
     isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
+    musicToSwitchTo: {fileID: 8300000, guid: c731feb68d846b14e9375974f2b83c49, type: 3}
+    switchMusic: 1
     text: 'And you ran. '
