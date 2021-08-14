@@ -17,7 +17,6 @@ public class DialogueLine {
     public float typeSpeed = 0.1f;
 
     public bool screenShake;
-    public bool isReversed;
     public bool hideMouth;
 
     public bool isNarration;
@@ -32,7 +31,6 @@ public class DialogueLine {
         textColor = new Color32(129, 129, 129, 255);
         textSize = 30f;
         typeSpeed = 0.05f;
-        isReversed = false;
         isNarration = false;
         hasNameOverwrite = false;
         switchMusic = false;

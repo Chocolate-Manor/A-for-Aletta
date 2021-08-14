@@ -175,9 +175,7 @@ public class DialogueController : MonoBehaviour
         }
         else
         {
-            curDialogueBox = curLine.isReversed
-                ? Instantiate(dialogueBoxInvert, panel.transform)
-                : Instantiate(dialogueBox, panel.transform);
+            curDialogueBox = Instantiate(dialogueBox, panel.transform);
         }
         
         DialogueBoxController dialogueBoxController = curDialogueBox.GetComponent<DialogueBoxController>();
