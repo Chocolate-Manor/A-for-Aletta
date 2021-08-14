@@ -42,7 +42,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Yo, \nJing! \nHave you heard?"
+    text: "Yo, \nJinny! \nHave you heard?"
   - portrait: {fileID: 21300000, guid: b3bbd0d2a7f18974bbba8221497fc030, type: 3}
     character: {fileID: 11400000, guid: ebcf2b7c8b1493944b43f36919122c99, type: 2}
     nameOverwrite: 
@@ -158,7 +158,21 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'but you stop your hand halfway. '
-  - portrait: {fileID: 21300000, guid: 9a9aa2aea882e08429da14f348c5f1c8, type: 3}
+  - portrait: {fileID: 21300000, guid: 2e1b56463e37d524ba499649c81ac516, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: 46c25338f7d20754db3f68792f190545, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -570,20 +584,6 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Well, \nI haven't really had-"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isReversed: 0
-    hideMouth: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: Oh boy...
   - portrait: {fileID: 21300000, guid: 55ce26d47228f37429643d872cd141f8, type: 3}
     character: {fileID: 11400000, guid: 13cd3bca1986f2a49ac8f10d532461ea, type: 2}
     nameOverwrite: 

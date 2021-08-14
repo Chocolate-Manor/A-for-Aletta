@@ -25,8 +25,12 @@ MonoBehaviour:
     screenShake: 0
     isReversed: 0
     hideMouth: 0
-    isNarration: 0
-    text: Whatever?
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
   - portrait: {fileID: 21300000, guid: e48422af7df006d40b8ef28a4bc4b7bc, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: 
@@ -38,6 +42,8 @@ MonoBehaviour:
     isReversed: 1
     hideMouth: 0
     isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
     text: 'So you say. '
   - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
@@ -50,4 +56,278 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
     text: I don't really care.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.01
+    screenShake: 0
+    isReversed: 0
+    hideMouth: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+      ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus.

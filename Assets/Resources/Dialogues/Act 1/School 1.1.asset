@@ -26,6 +26,8 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
     text: "Class is over. \nPeople are packing up and leaving, \npushing each other.
       \nYou hear couples talking loudly about the upcoming house parties, \nhorse
       races, \nor just superficial sweet nothings as they leave."
@@ -40,6 +42,8 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
     text: ...
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -52,6 +56,8 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
     text: You click your pen in impatience.
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -64,6 +70,8 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
     text: "After the classroom is relatively empty, \nyou stroll slowly out of the
       room."
   - portrait: {fileID: 0}
@@ -77,4 +85,6 @@ MonoBehaviour:
     isReversed: 0
     hideMouth: 0
     isNarration: 1
-    text: Nicolas is leaning against the wall as he always do.
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Nicolas is leaning against the wall like he always do.

@@ -81,7 +81,7 @@ public class DialogueController : MonoBehaviour
     private void SetupScene()
     {   
         //print the curConv index for debug reasons
-        Debug.Log(UniversalInfo.curConvIndex);
+        //Debug.Log(UniversalInfo.curConvIndex);
         
         titleText.text = curConv.sceneHeading;
         //avoid replaying the same song
@@ -93,7 +93,13 @@ public class DialogueController : MonoBehaviour
         
         //remember to reset curLineIndex..
         curLineIndex = 0;
+        
+        //tries to pull it. Didn't work. Guess I need to...just spawn it over and over again. 
+        // Canvas.ForceUpdateCanvases();
+        // scroll.velocity = new Vector2(0f, 20000f);
+        
         NextLine();
+
         haveFadedOut = false;
     }
     
@@ -114,6 +120,9 @@ public class DialogueController : MonoBehaviour
         //clear all children of panel
         ClearPanel();
         
+        //to make panel be in correct location
+        ResetPanelLocation();
+
         //Setup all over again
         SetupScene();
     }
@@ -124,6 +133,12 @@ public class DialogueController : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+    }
+
+    private void ResetPanelLocation()
+    {   
+        Canvas.ForceUpdateCanvases();
+        panel.transform.position = new Vector3(panel.transform.position.x, 0, panel.transform.position.z);
     }
 
     private bool isTyping;
