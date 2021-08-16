@@ -29,6 +29,7 @@ public class DialogueController : MonoBehaviour
     public Animation fadeAnimation;
     public Image cover;
     public GameObject volumeObject;
+    public AudioClip dreamTransition;
     
     private void Awake()
     {   
@@ -228,12 +229,19 @@ public class DialogueController : MonoBehaviour
         {   
             //set the correct fadeout color
             cover.color = curConv.hasWhiteTransition ? Color.white : Color.black;
-            
+
             //fadeout if it is not done.
             if (!haveFadedOut)
             {
                 StartCoroutine(FadeOut());
                 haveFadedOut = true;
+                
+                //also plays transition sound for first time if it's dream transition
+                if (curConv.hasWhiteTransition)
+                {
+                    audioSource.Stop();
+                    audioSource.PlayOneShot(dreamTransition);
+                }
                 return;
             }
             

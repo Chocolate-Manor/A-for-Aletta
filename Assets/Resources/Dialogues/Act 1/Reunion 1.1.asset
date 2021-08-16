@@ -1,0 +1,485 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
+  m_Name: Reunion 1.1
+  m_EditorClassIdentifier: 
+  sceneHeading: INT. STRANGE CLASSROOM - DAY
+  backgroundMusic: {fileID: 8300000, guid: 49591913bccdb704199c7555596ead63, type: 3}
+  hasWhiteTransition: 0
+  bloomOn: 1
+  dialogueLines:
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You find yourself sitting in a classroom. \nIt's foreign, \nyet familiar. "
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You look to your left, \nand see rustling leaves. \nBeyond that, \nan
+      old building. \nYou see a cuju ball stuck on top, \ndeflated. "
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'A memory. '
+  - portrait: {fileID: 21300000, guid: ac35afd620aa18b4daade54133e14015, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Girl
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.01
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Ah! \nHe's here! \nRun!"
+  - portrait: {fileID: 21300000, guid: 320bbb1031de3ee4b9a7417103f30bdb, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Glasses boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 32
+    typeSpeed: 0.02
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Where?
+  - portrait: {fileID: 21300000, guid: 7d6eece3d9ffe9d4c8f6c5eaa9e3d501, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 32
+    typeSpeed: 0.03
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Heheheheh!
+  - portrait: {fileID: 21300000, guid: 7d6eece3d9ffe9d4c8f6c5eaa9e3d501, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.01
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Take this!
+  - portrait: {fileID: 21300000, guid: 320bbb1031de3ee4b9a7417103f30bdb, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Glasses boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.01
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Wait! \nDon't kick it!"
+  - portrait: {fileID: 21300000, guid: ac35afd620aa18b4daade54133e14015, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Girl
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.01
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Noo!
+  - portrait: {fileID: 21300000, guid: a9ad1a3997d0abd4f905bce0b5b99215, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Grouchy boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.02
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "That's our only ball! \nI am telling the teacher!"
+  - portrait: {fileID: 21300000, guid: 610a91522f6cca7428a43a2707a585ea, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.01
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'No!
+
+      Wait!'
+  - portrait: {fileID: 21300000, guid: 610a91522f6cca7428a43a2707a585ea, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.01
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You tattletale!
+  - portrait: {fileID: 21300000, guid: 73e695f6980b90b48ae0156d212be49d, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: 610a91522f6cca7428a43a2707a585ea, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You drift your gaze down, \nand see the various holes and carvings on
+      your desk. "
+  - portrait: {fileID: 21300000, guid: 610a91522f6cca7428a43a2707a585ea, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: A memory.
+  - portrait: {fileID: 21300000, guid: e7bb60a1652cfe74385b8ada9ca8661b, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Girl
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: What are you doing with those chalk?
+  - portrait: {fileID: 21300000, guid: 7d6eece3d9ffe9d4c8f6c5eaa9e3d501, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'I am fixing my desk. '
+  - portrait: {fileID: 21300000, guid: e7bb60a1652cfe74385b8ada9ca8661b, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Girl
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "By using chalk powder? \nI doubt that would work. "
+  - portrait: {fileID: 21300000, guid: 7d6eece3d9ffe9d4c8f6c5eaa9e3d501, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Not only chalk powder, \nbut also-\nwater. \nThen it becomes hard. \nSee?"
+  - portrait: {fileID: 21300000, guid: 7d6eece3d9ffe9d4c8f6c5eaa9e3d501, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "The girl touches the hole filled with chalk. \nShe turns around and came
+      back with a pencil. \nShe pokes the chalk lightly, \nand it breaks through.  "
+  - portrait: {fileID: 21300000, guid: e6ef062623844dd49ae8e4b265d5d48f, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Alright... \nMaybe it isn't that strong. "
+  - portrait: {fileID: 21300000, guid: e7bb60a1652cfe74385b8ada9ca8661b, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Girl
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "What if... \nWe use glue?\r\nI can borrow you mine. \nIt'd probably work
+      better than water."
+  - portrait: {fileID: 21300000, guid: 7d6eece3d9ffe9d4c8f6c5eaa9e3d501, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Good idea!
+  - portrait: {fileID: 21300000, guid: 7520f003d3bab83448e1e0f9334b811d, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "I mean... \nThanks. "
+  - portrait: {fileID: 21300000, guid: 64c8ed0f069a79041aede265dbc7a8d5, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Girl
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Um.
+  - portrait: {fileID: 21300000, guid: 37c2c630adb8eed4ab3c603a026b4d74, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.02
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "What are you two doing? \nI didn't permit talking!"
+  - portrait: {fileID: 21300000, guid: 610a91522f6cca7428a43a2707a585ea, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Boy
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.02
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Sorry! \nJust borrowing a pencil."
+  - portrait: {fileID: 21300000, guid: cdc5af177d384104eb9dd55f89cf0199, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Uh-huh.
+  - portrait: {fileID: 21300000, guid: 73e695f6980b90b48ae0156d212be49d, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: 73e695f6980b90b48ae0156d212be49d, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You close your eyes. \nYou know where you are."
+  - portrait: {fileID: 21300000, guid: 703fd2244293a384eacc7be107ebca51, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Ha...
+  - portrait: {fileID: 21300000, guid: 703fd2244293a384eacc7be107ebca51, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You stand up. \nYou were not expecting a trip down memory lane. "
+  - portrait: {fileID: 21300000, guid: 703fd2244293a384eacc7be107ebca51, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Suddenly, \nthe classroom door cracks open in a nasty squeak. \nYou snap
+      your gaze to the door, \nand see a thin hand quickly pulling away from the
+      handle."
+  - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: '!?'
+  - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Anyone there?
+  - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "The hand jumps upon hearing your voice. \nIt grabs the handle and shut
+      the door in a loud thud. \nRight after, \nquick and shaky footsteps can be
+      heard zooming across the hallway outside."
+  - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 32
+    typeSpeed: 0.01
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Wait!
+  - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: Teacher
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 32
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You chase after.

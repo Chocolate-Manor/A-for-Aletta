@@ -627,6 +627,7 @@ MonoBehaviour:
   fadeAnimation: {fileID: 125744129}
   cover: {fileID: 1364428925}
   volumeObject: {fileID: 1935145765}
+  dreamTransition: {fileID: 8300000, guid: 33b5392c9703dac40b3f69fc5a6ecc70, type: 3}
 --- !u!95 &439951619
 Animator:
   serializedVersion: 3
@@ -1493,7 +1494,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: EXT. Strange Classroom - Night
+  m_text: EXT. THAT CORRIDOR - Night
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b06e8b1596e88cd4d9d25e5f95a8aee2, type: 2}
   m_sharedMaterial: {fileID: 8492081452467075914, guid: b06e8b1596e88cd4d9d25e5f95a8aee2, type: 2}
@@ -2285,7 +2286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1935145766
 MonoBehaviour:
   m_ObjectHideFlags: 0
