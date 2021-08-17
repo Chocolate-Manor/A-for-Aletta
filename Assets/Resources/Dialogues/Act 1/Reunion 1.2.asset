@@ -16,6 +16,9 @@ MonoBehaviour:
   backgroundMusic: {fileID: 8300000, guid: bfd75b5ae8a39644895889348b8b800c, type: 3}
   hasWhiteTransition: 1
   bloomOn: 1
+  hasEnterSound: 0
+  enterSound: {fileID: 0}
+  hasExitSound: 1
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -363,7 +366,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "You looked at me in the eye and said it, \ndidn't you?!"
+    text: "You looked me in the eye and said it, \ndidn't you?!"
   - portrait: {fileID: 21300000, guid: 5c0748f0de081584cbb396b156d7063b, type: 3}
     character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
@@ -774,12 +777,12 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.07
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: ...Sorry, I...
+    text: "...Sorry, \nI..."
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -818,7 +821,7 @@ MonoBehaviour:
     text: 'It was...
 
       my fault.'
-  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+  - portrait: {fileID: 21300000, guid: e7c001e0d2b7a8a4eb705ce5928dda27, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -1073,7 +1076,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "That's...\nnot... \nEven if there's way to visit someone in a dream..."
+    text: "That's...\nnot... \nEven if there's a way to visit someone in a dream..."
   - portrait: {fileID: 21300000, guid: a540f42f289a07a42bfaca9faaa3e59c, type: 3}
     character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
@@ -1094,12 +1097,12 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: She put a finger over your lip.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: a540f42f289a07a42bfaca9faaa3e59c, type: 3}
+    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1122,18 +1125,6 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...Chalk boy?
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: 
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 

@@ -16,6 +16,9 @@ MonoBehaviour:
   backgroundMusic: {fileID: 8300000, guid: ce3c03fc433d7b44fb4431f7a0a98316, type: 3}
   hasWhiteTransition: 0
   bloomOn: 0
+  hasEnterSound: 0
+  enterSound: {fileID: 0}
+  hasExitSound: 1
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -66,7 +69,7 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You want to cough, but couldn't.
+    text: "You want to cough, \nbut couldn't."
   - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
@@ -78,7 +81,7 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You want to cry, but couldn't.
+    text: "You want to cry, \nbut couldn't."
   - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
@@ -90,7 +93,7 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You want to shout, but couldn't.
+    text: "You want to shout, \nbut couldn't."
   - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
@@ -102,4 +105,4 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Eventually, you fall asleep again.
+    text: "Eventually, \nyou fall asleep again."

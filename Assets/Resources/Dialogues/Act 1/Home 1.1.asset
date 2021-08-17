@@ -16,6 +16,9 @@ MonoBehaviour:
   backgroundMusic: {fileID: 8300000, guid: b890e57fdf9072241816d67ef32c163d, type: 3}
   hasWhiteTransition: 0
   bloomOn: 0
+  hasEnterSound: 1
+  enterSound: {fileID: 8300000, guid: f4eaea70dc7341b438ef07bfd72b278e, type: 3}
+  hasExitSound: 0
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}

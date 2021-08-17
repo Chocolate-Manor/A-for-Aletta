@@ -104,6 +104,13 @@ public class DialogueController : MonoBehaviour
 
         //remember to reset curLineIndex..
         curLineIndex = 0;
+        
+        //play enter sound;
+        if (curConv.hasEnterSound)
+        {
+            audioSource.PlayOneShot(curConv.enterSound);
+        }
+        
 
         NextLine();
 
@@ -237,7 +244,7 @@ public class DialogueController : MonoBehaviour
                 haveFadedOut = true;
                 
                 //also plays transition sound for first time if it's dream transition
-                if (curConv.hasWhiteTransition)
+                if (curConv.hasExitSound || curConv.hasWhiteTransition)
                 {
                     audioSource.Stop();
                     audioSource.PlayOneShot(dreamTransition);

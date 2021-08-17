@@ -14,7 +14,10 @@ public class Conversation : ScriptableObject
 
     public bool hasWhiteTransition;
     public bool bloomOn;
-
+    public bool hasEnterSound;
+    public AudioClip enterSound;
+    public bool hasExitSound;
+    
     public List<DialogueLine> dialogueLines;
 
     public bool Valid => dialogueLines != null && dialogueLines.Count > 0;

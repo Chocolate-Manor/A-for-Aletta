@@ -14,6 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneHeading: INT. CLASSROOM - DAY
   backgroundMusic: {fileID: 8300000, guid: 7f2010b2c0d312a479e1e20780e145ac, type: 3}
+  hasWhiteTransition: 0
+  bloomOn: 0
+  hasEnterSound: 1
+  enterSound: {fileID: 8300000, guid: 03699547038dee949bb69d9c4983fe40, type: 3}
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
@@ -23,8 +27,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -39,8 +41,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -53,8 +53,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -67,8 +65,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -82,8 +78,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
