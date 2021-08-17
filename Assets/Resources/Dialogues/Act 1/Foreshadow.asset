@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneHeading: EXT. UNKNOWN - NIGHT
   backgroundMusic: {fileID: 8300000, guid: 3c02f836e60c2dd4f8a84798a8593786, type: 3}
+  hasWhiteTransition: 1
+  bloomOn: 1
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -23,8 +25,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -40,8 +40,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.08
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -54,8 +52,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -71,8 +67,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -86,8 +80,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -101,8 +93,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -115,8 +105,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.08
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -129,8 +117,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.08
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -143,8 +129,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -157,8 +141,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.08
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -171,8 +153,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -185,8 +165,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -199,8 +177,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.08
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -213,8 +189,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -228,8 +202,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -242,8 +214,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -256,8 +226,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.1
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -270,8 +238,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.08
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -284,8 +250,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.08
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -298,8 +262,6 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isReversed: 0
-    hideMouth: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
