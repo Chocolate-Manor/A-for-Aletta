@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Home 1.1
   m_EditorClassIdentifier: 
   sceneHeading: INT. HOME - NIGHT
-  backgroundMusic: {fileID: 8300000, guid: b890e57fdf9072241816d67ef32c163d, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: d78f97f048fcf184bbb0861150f3ee45, type: 3}
   hasWhiteTransition: 0
   bloomOn: 0
   hasEnterSound: 1
-  enterSound: {fileID: 8300000, guid: f4eaea70dc7341b438ef07bfd72b278e, type: 3}
+  enterSound: {fileID: 8300000, guid: 3270e65b2004f9f409bb311d64cd469b, type: 3}
   hasExitSound: 0
   dialogueLines:
   - portrait: {fileID: 0}
@@ -358,8 +358,8 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Oh, \nyou mean monologuing about god knows what for 4 hours?! \nYeah.
-      \nIf that means love, \nthen I ain't got hope for this world!"
+    text: "Oh!\nyou mean monologuing about god knows what for 4 hours?! \nYeah. \nIf
+      that means love, \nthen I ain't got hope for this world!"
   - portrait: {fileID: 21300000, guid: 6894201d6ceb5214889079d240af4d91, type: 3}
     character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
     nameOverwrite: 

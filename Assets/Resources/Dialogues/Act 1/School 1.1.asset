@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: School 1.1
   m_EditorClassIdentifier: 
   sceneHeading: INT. CLASSROOM - DAY
-  backgroundMusic: {fileID: 8300000, guid: 7f2010b2c0d312a479e1e20780e145ac, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: b4db14d6c1a7a944caa5de49fb31a087, type: 3}
   hasWhiteTransition: 0
   bloomOn: 0
   hasEnterSound: 1
-  enterSound: {fileID: 8300000, guid: 03699547038dee949bb69d9c4983fe40, type: 3}
+  enterSound: {fileID: 8300000, guid: 2d7ecee7756fa70478c101046b929d3d, type: 3}
+  hasExitSound: 0
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}

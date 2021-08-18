@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Home 1.2
   m_EditorClassIdentifier: 
   sceneHeading: INT. BEDROOM - NIGHT
-  backgroundMusic: {fileID: 8300000, guid: 93b5ae05573176c49a98929e826683f1, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 2112596b3e7df3d438fd44cbfab71476, type: 3}
   hasWhiteTransition: 1
   bloomOn: 0
   hasEnterSound: 0

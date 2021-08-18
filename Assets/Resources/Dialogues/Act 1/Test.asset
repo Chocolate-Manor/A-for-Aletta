@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Test
   m_EditorClassIdentifier: 
   sceneHeading: Test
-  backgroundMusic: {fileID: 8300000, guid: b890e57fdf9072241816d67ef32c163d, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: d78f97f048fcf184bbb0861150f3ee45, type: 3}
   hasWhiteTransition: 0
   bloomOn: 0
   hasEnterSound: 1
-  enterSound: {fileID: 8300000, guid: 85660fdb7f64e214085e030e2dd57ceb, type: 3}
+  enterSound: {fileID: 8300000, guid: 3e378ee8df2f7ec40b2bfcfc2ef92ed9, type: 3}
+  hasExitSound: 0
   dialogueLines:
   - portrait: {fileID: 21300000, guid: 96ddca60ca25ddd4f9920bdd5b08f467, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}

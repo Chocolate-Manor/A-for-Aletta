@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Reunion 1.2
   m_EditorClassIdentifier: 
   sceneHeading: EXT. THE CORRIDOR - DAY
-  backgroundMusic: {fileID: 8300000, guid: bfd75b5ae8a39644895889348b8b800c, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 7b0fed6242e99094a8259c537a1de8f6, type: 3}
   hasWhiteTransition: 1
   bloomOn: 1
   hasEnterSound: 0
@@ -557,9 +557,9 @@ MonoBehaviour:
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 35
+    textSize: 32
     typeSpeed: 0.02
-    screenShake: 1
+    screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -583,7 +583,7 @@ MonoBehaviour:
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 35
     typeSpeed: 0.02
-    screenShake: 1
+    screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -1173,8 +1173,8 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "She covers your eyes. \nShe smells of a gentle fragrance that is familar,
-      \nyet you cannot tell which it is."
+    text: "She covers your eyes. \nShe smells of a gentle fragrance, \nyet you cannot
+      tell which it is."
   - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 

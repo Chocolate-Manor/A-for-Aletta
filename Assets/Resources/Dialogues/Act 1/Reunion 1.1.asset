@@ -13,9 +13,12 @@ MonoBehaviour:
   m_Name: Reunion 1.1
   m_EditorClassIdentifier: 
   sceneHeading: INT. STRANGE CLASSROOM - DAY
-  backgroundMusic: {fileID: 8300000, guid: 49591913bccdb704199c7555596ead63, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 33dc2d3635a61a045b7906bc6929fa5e, type: 3}
   hasWhiteTransition: 0
   bloomOn: 1
+  hasEnterSound: 0
+  enterSound: {fileID: 0}
+  hasExitSound: 0
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}
