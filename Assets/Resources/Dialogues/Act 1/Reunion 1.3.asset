@@ -19,6 +19,7 @@ MonoBehaviour:
   hasEnterSound: 0
   enterSound: {fileID: 0}
   hasExitSound: 1
+  exitSound: {fileID: 8300000, guid: d88fd530375c15a4c9a3d339dcb11fb1, type: 3}
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -57,7 +58,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "You want to say something, \nbut found it impossible to move a muscle.
-      \nIt feels as if someone is standing directly on your chest."
+      \nIt feels as if someone is standing directly atop your chest."
   - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 

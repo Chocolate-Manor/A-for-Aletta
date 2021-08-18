@@ -29,8 +29,7 @@ public class DialogueController : MonoBehaviour
     public Animation fadeAnimation;
     public Image cover;
     public GameObject volumeObject;
-    public AudioClip dreamTransition;
-    
+
     private void Awake()
     {   
         //load the current conversation
@@ -247,7 +246,7 @@ public class DialogueController : MonoBehaviour
                 if (curConv.hasExitSound || curConv.hasWhiteTransition)
                 {
                     audioSource.Stop();
-                    audioSource.PlayOneShot(dreamTransition);
+                    audioSource.PlayOneShot(curConv.exitSound);
                 }
                 return;
             }

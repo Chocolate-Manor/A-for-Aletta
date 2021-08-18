@@ -627,7 +627,7 @@ MonoBehaviour:
   fadeAnimation: {fileID: 125744129}
   cover: {fileID: 1364428925}
   volumeObject: {fileID: 1935145765}
-  dreamTransition: {fileID: 8300000, guid: 3e4fe645c6baa374da3ca9e437d68a8c, type: 3}
+  dreamTransition: {fileID: 8300000, guid: d88fd530375c15a4c9a3d339dcb11fb1, type: 3}
 --- !u!95 &439951619
 Animator:
   serializedVersion: 3

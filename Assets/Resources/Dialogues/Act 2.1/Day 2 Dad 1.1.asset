@@ -18,17 +18,239 @@ MonoBehaviour:
   bloomOn: 0
   hasEnterSound: 1
   enterSound: {fileID: 8300000, guid: 3e378ee8df2f7ec40b2bfcfc2ef92ed9, type: 3}
-  hasExitSound: 0
+  hasExitSound: 1
+  exitSound: {fileID: 8300000, guid: d88fd530375c15a4c9a3d339dcb11fb1, type: 3}
   dialogueLines:
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: e7c001e0d2b7a8a4eb705ce5928dda27, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
-    textColor: {r: 0, g: 0, b: 0, a: 0}
-    textSize: 0
-    typeSpeed: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 
+    text: ...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You stare at your food. \nYour head is in a muddle."
+  - portrait: {fileID: 21300000, guid: 409015911cad4c449a869a9903ad0ba4, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.02
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "What are you doing? \nYour breakfast is not gonna eat itself! \nHurry
+      up! \nTrain is in 5 minutes!"
+  - portrait: {fileID: 21300000, guid: e7c001e0d2b7a8a4eb705ce5928dda27, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Yeah.
+  - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 32
+    typeSpeed: 0.02
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Huh? \nOh no. \nI haven't packed."
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You snap yourself back to reality. \nDropping your spoon, \nyou rush into
+      your room to start packing. "
+  - portrait: {fileID: 21300000, guid: 409015911cad4c449a869a9903ad0ba4, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: I really hope you aren't drifting off like this in class!
+  - portrait: {fileID: 21300000, guid: 6894201d6ceb5214889079d240af4d91, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Oh. \nAlmost forgot."
+  - portrait: {fileID: 0}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Mom walks into your room, \na bag of buns in hand."
+  - portrait: {fileID: 21300000, guid: 6894201d6ceb5214889079d240af4d91, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Mind take these to your grandpa on the way home? \nI made too much."
+  - portrait: {fileID: 21300000, guid: 46c25338f7d20754db3f68792f190545, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: I don't have any space.
+  - portrait: {fileID: 21300000, guid: 46c25338f7d20754db3f68792f190545, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Wait, \nwhy me? \nHis shop is on your way to work."
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You look up, \nand see her brows furrowing up. \nShe hurls the bag towards
+      you. "
+  - portrait: {fileID: 21300000, guid: de8e10d247fbc1e4398a841522ab9dbd, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.02
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Hey!
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You catch it in a panic. \nOne bun almost fell out."
+  - portrait: {fileID: 21300000, guid: 409015911cad4c449a869a9903ad0ba4, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Just do it. \nI'll cook you steak."
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You stare at her in suspicion.
+  - portrait: {fileID: 21300000, guid: 80dab4d17dc468c42b8a5c5b1b2e2b15, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'Al...
+
+      right.'
+  - portrait: {fileID: 21300000, guid: 80dab4d17dc468c42b8a5c5b1b2e2b15, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You leave for school.
