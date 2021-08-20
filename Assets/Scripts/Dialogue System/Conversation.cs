@@ -19,6 +19,9 @@ public class Conversation : ScriptableObject
     public AudioClip enterSound;
     public bool hasExitSound;
     public AudioClip exitSound;
+
+    public bool isLastInEpisode;
+    public string nextEpisodeHeading;
     
     public List<DialogueLine> dialogueLines;
 

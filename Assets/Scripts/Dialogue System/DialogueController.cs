@@ -13,6 +13,8 @@ public class DialogueController : MonoBehaviour
     public TextMeshProUGUI titleText;
     public AudioSource audioSource;
     public Animator camAnim;
+
+    public TextMeshProUGUI episodeText;
     
     private Conversation curConv;
     private int curLineIndex = 0;
@@ -109,7 +111,7 @@ public class DialogueController : MonoBehaviour
         {
             audioSource.PlayOneShot(curConv.enterSound);
         }
-        
+
 
         NextLine();
 
@@ -223,6 +225,30 @@ public class DialogueController : MonoBehaviour
     private bool haveFadedOut = false;
     
     /// <summary>
+    /// set episode text if suitable, otherwise empty. Change text color accordingly due to transition color. 
+    /// </summary>
+    private void SetUpEpisodeHeading()
+    {
+        if (curConv.isLastInEpisode)
+        {
+            if (curConv.hasWhiteTransition)
+            {
+                episodeText.color = Color.black;
+            }
+            else
+            {
+                episodeText.color = Color.white;
+            }
+            episodeText.text = curConv.nextEpisodeHeading;
+        }
+        else
+        {
+            episodeText.text = "";
+        }
+    }
+    
+    
+    /// <summary>
     /// Load the nextLine in the conversation
     /// </summary>
     private void NextLine()
@@ -235,7 +261,13 @@ public class DialogueController : MonoBehaviour
         {   
             //set the correct fadeout color
             cover.color = curConv.hasWhiteTransition ? Color.white : Color.black;
-
+            
+            //set episode heading only at the end, otherwise it can sort of be seen during fade out.
+            SetUpEpisodeHeading();
+            
+            //turn off the bloom
+            volumeObject.SetActive(false);
+            
             //fadeout if it is not done.
             if (!haveFadedOut)
             {

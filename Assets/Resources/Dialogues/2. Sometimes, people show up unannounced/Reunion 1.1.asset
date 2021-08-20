@@ -19,6 +19,7 @@ MonoBehaviour:
   hasEnterSound: 0
   enterSound: {fileID: 0}
   hasExitSound: 0
+  exitSound: {fileID: 0}
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}

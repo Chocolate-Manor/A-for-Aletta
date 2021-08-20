@@ -19,6 +19,9 @@ MonoBehaviour:
   hasEnterSound: 1
   enterSound: {fileID: 8300000, guid: 3270e65b2004f9f409bb311d64cd469b, type: 3}
   hasExitSound: 0
+  exitSound: {fileID: 0}
+  isLastInEpisode: 0
+  nextEpisodeHeading: 
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -353,7 +356,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 35
-    typeSpeed: 0.01
+    typeSpeed: 0.03
     screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}

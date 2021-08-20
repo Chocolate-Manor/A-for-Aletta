@@ -10,17 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
-  m_Name: Home 1.2
+  m_Name: Day 2 Dad 1.3
   m_EditorClassIdentifier: 
-  sceneHeading: INT. BEDROOM - NIGHT
-  backgroundMusic: {fileID: 8300000, guid: 2112596b3e7df3d438fd44cbfab71476, type: 3}
-  hasWhiteTransition: 1
+  sceneHeading: EXT. CHINATOWN - AFTERNOON
+  backgroundMusic: {fileID: 8300000, guid: fccd639e1295b394c89d5f5812e1a0a9, type: 3}
+  hasWhiteTransition: 0
   bloomOn: 0
   hasEnterSound: 0
   enterSound: {fileID: 0}
-  hasExitSound: 1
-  exitSound: {fileID: 8300000, guid: 3e4fe645c6baa374da3ca9e437d68a8c, type: 3}
+  hasExitSound: 0
+  exitSound: {fileID: 0}
   dialogueLines:
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "After some dubious activities, \nyou are finally in front of your grandpa's
+      medicine shop. "
   - portrait: {fileID: 21300000, guid: 73e695f6980b90b48ae0156d212be49d, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
@@ -32,57 +45,33 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: ...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: I am going in.
+  - portrait: {fileID: 21300000, guid: 9bbf2e7d5909d8843860b736f8e15307, type: 3}
+    character: {fileID: 11400000, guid: ebcf2b7c8b1493944b43f36919122c99, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
+    isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "You lay in your bed. \nYou stare at the bedroom ceiling. \nThe light seems
-      to blink. "
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: "You'll be fine. \nI haven't seen my dad in like ever neither."
+  - portrait: {fileID: 21300000, guid: b5aff451c80db404f881e4ce2b5554cb, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
+    isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: A memory.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "The air is burning. \nThe humming of Cicadas surrounds you. \nYou look
-      ahead, \nand see a girl in the distance. "
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: You put a book on the waiting bench.
+    text: 'That''s a bit...
+
+      different.'
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -92,6 +81,30 @@ MonoBehaviour:
     typeSpeed: 0.1
     screenShake: 0
     isNarration: 1
-    musicToSwitchTo: {fileID: 8300000, guid: c731feb68d846b14e9375974f2b83c49, type: 3}
+    musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'And you ran. '
+    text: You pat Nicolas on his back.
+  - portrait: {fileID: 21300000, guid: d258236a32d5e9e4fac65b323ed17536, type: 3}
+    character: {fileID: 11400000, guid: ebcf2b7c8b1493944b43f36919122c99, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: '*Confused noises*'
+  - portrait: {fileID: 21300000, guid: cc249a7f12e72bf47a580efa89c2be67, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: So long.

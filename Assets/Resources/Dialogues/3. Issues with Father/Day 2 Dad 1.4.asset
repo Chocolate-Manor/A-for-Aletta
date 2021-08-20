@@ -10,18 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
-  m_Name: School 1.1
+  m_Name: Day 2 Dad 1.4
   m_EditorClassIdentifier: 
-  sceneHeading: INT. CLASSROOM - DAY
-  backgroundMusic: {fileID: 8300000, guid: b4db14d6c1a7a944caa5de49fb31a087, type: 3}
+  sceneHeading: INT. CHI XIU TANG - AFTERNOON
+  backgroundMusic: {fileID: 8300000, guid: 43774fc93377ec8409a5fd441df845c8, type: 3}
   hasWhiteTransition: 0
   bloomOn: 0
-  hasEnterSound: 1
-  enterSound: {fileID: 8300000, guid: 2d7ecee7756fa70478c101046b929d3d, type: 3}
+  hasEnterSound: 0
+  enterSound: {fileID: 0}
   hasExitSound: 0
+  exitSound: {fileID: 0}
+  isLastInEpisode: 1
+  nextEpisodeHeading: 'Segment four: Wet dreams'
   dialogueLines:
   - portrait: {fileID: 0}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    character: {fileID: 0}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -31,10 +34,22 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Class is over. \nPeople are packing up and leaving, \npushing each other.
-      \nYou hear couples talking loudly about the upcoming house parties, \nhorse
-      races, \nor just superficial sweet nothings as they leave."
-  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    text: "You step into the shop. \nImmediately, \nyou are greeted with the familiar
+      stench of dried herbs. \nYou look around, \nbut don't spot grandpa. \nA man
+      with glasses sits at the counter instead, magnifying glass and book in hand. "
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You sign.
+  - portrait: {fileID: 21300000, guid: e7c001e0d2b7a8a4eb705ce5928dda27, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -45,9 +60,9 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: ...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: 'Of course. '
+  - portrait: {fileID: 21300000, guid: e7c001e0d2b7a8a4eb705ce5928dda27, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -57,29 +72,4 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You click your pen in impatience.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "After the classroom is relatively empty, \nyou stroll slowly out of the
-      room."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: Nicolas is leaning against the wall like he always do.
+    text: 'There''s really only one thing that can phase that woman. '
