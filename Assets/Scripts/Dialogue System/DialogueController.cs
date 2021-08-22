@@ -13,8 +13,6 @@ public class DialogueController : MonoBehaviour
     public TextMeshProUGUI titleText;
     public AudioSource audioSource;
     public Animator camAnim;
-
-    public TextMeshProUGUI episodeText;
     
     private Conversation curConv;
     private int curLineIndex = 0;
@@ -34,6 +32,8 @@ public class DialogueController : MonoBehaviour
     
     //episode sound
     public AudioClip episodeSound;
+    public TextMeshProUGUI episodeText;
+    public GameObject episodeTextBox;
     
     private void Awake()
     {   
@@ -113,7 +113,6 @@ public class DialogueController : MonoBehaviour
 
         haveFadedOut = false;
         haveDisplayedEpisodeText = false;
-        episodeText.text = "";
     }
     
     /// <summary>
@@ -310,8 +309,10 @@ public class DialogueController : MonoBehaviour
     {
         isTypingEpisodeText = true;
         SetUpEpisodeHeading();
+        episodeTextBox.SetActive(true);
         audioSource.Stop();
         audioSource.PlayOneShot(episodeSound);
+        textmesh.text = "";
 
         string[] lines = text.Split("\n"[0]);
         foreach (string line in lines)
@@ -336,6 +337,7 @@ public class DialogueController : MonoBehaviour
     private IEnumerator FadeOut()
     {
         isFadeingOut = true;
+        episodeTextBox.SetActive(false);
         
         //the fadeout 
         fadeAnimation.Play("Transition fade out");

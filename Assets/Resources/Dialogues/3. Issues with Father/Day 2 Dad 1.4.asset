@@ -339,7 +339,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Her pickled carp is way better. \nShe puts sugar in it now, \nwhich somehow
+    text: "Her pickled carp is way better. \nShe put sugar in it now, \nwhich somehow
       brings out the umami."
   - portrait: {fileID: 21300000, guid: a966f67958b1d644fb1952317b43f737, type: 3}
     character: {fileID: 11400000, guid: c2307424b900a184898bc4fa2adf2047, type: 2}
@@ -358,9 +358,9 @@ MonoBehaviour:
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
+    textSize: 32
     typeSpeed: 0.03
-    screenShake: 0
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -489,7 +489,7 @@ MonoBehaviour:
     switchMusic: 0
     text: "You find your voice going lower and lower. \nFor a moment, \nyou feel
       like a little kid again."
-  - portrait: {fileID: 21300000, guid: 8f155c16d73a44d4f9d92eee1eca03cc, type: 3}
+  - portrait: {fileID: 21300000, guid: 450bfcae85f903349b6735ff30d3c199, type: 3}
     character: {fileID: 11400000, guid: c2307424b900a184898bc4fa2adf2047, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -501,14 +501,14 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: You'll understand it one day.
-  - portrait: {fileID: 21300000, guid: e8ddce6b504bd354fba154b6a6e56091, type: 3}
+  - portrait: {fileID: 21300000, guid: e798b3da780407a4a9a113d2c8f2fdef, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
+    textSize: 32
     typeSpeed: 0.05
-    screenShake: 0
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
