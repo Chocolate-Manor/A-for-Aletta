@@ -19,9 +19,9 @@ MonoBehaviour:
   hasEnterSound: 0
   enterSound: {fileID: 0}
   hasExitSound: 1
-  exitSound: {fileID: 8300000, guid: d88fd530375c15a4c9a3d339dcb11fb1, type: 3}
+  exitSound: {fileID: 8300000, guid: 3e4fe645c6baa374da3ca9e437d68a8c, type: 3}
   isLastInEpisode: 1
-  nextEpisodeHeading: 'Segment three: Issues with father'
+  nextEpisodeHeading: "Segment three: \nIssues with father"
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}

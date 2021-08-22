@@ -31,7 +31,10 @@ public class DialogueController : MonoBehaviour
     public Animation fadeAnimation;
     public Image cover;
     public GameObject volumeObject;
-
+    
+    //episode sound
+    public AudioClip episodeSound;
+    
     private void Awake()
     {   
         //load the current conversation
@@ -105,17 +108,12 @@ public class DialogueController : MonoBehaviour
 
         //remember to reset curLineIndex..
         curLineIndex = 0;
-        
-        //play enter sound;
-        if (curConv.hasEnterSound)
-        {
-            audioSource.PlayOneShot(curConv.enterSound);
-        }
-
 
         NextLine();
 
         haveFadedOut = false;
+        haveDisplayedEpisodeText = false;
+        episodeText.text = "";
     }
     
     /// <summary>
@@ -221,8 +219,6 @@ public class DialogueController : MonoBehaviour
         }
     }
     
-    //set to false in scene set up. 
-    private bool haveFadedOut = false;
     
     /// <summary>
     /// set episode text if suitable, otherwise empty. Change text color accordingly due to transition color. 
@@ -239,7 +235,6 @@ public class DialogueController : MonoBehaviour
             {
                 episodeText.color = Color.white;
             }
-            episodeText.text = curConv.nextEpisodeHeading;
         }
         else
         {
@@ -248,33 +243,29 @@ public class DialogueController : MonoBehaviour
     }
     
     
+    //set to false in scene set up. 
+    private bool haveFadedOut;
+    private bool haveDisplayedEpisodeText;
+    
     /// <summary>
     /// Load the nextLine in the conversation
     /// </summary>
     private void NextLine()
     {
-        //ignore all inputs if it is fading out. 
-        if (isFadeingOut) return;
-        
+        //ignore all inputs if it is fading out or displaying episode text
+        if (isFadeingOut || isTypingEpisodeText) return;
+
         //if end reached
         if (curLineIndex >= curConv.dialogueLines.Count)
-        {   
-            //set the correct fadeout color
+        {
             cover.color = curConv.hasWhiteTransition ? Color.white : Color.black;
-            
-            //set episode heading only at the end, otherwise it can sort of be seen during fade out.
             SetUpEpisodeHeading();
-            
-            //turn off the bloom
-            volumeObject.SetActive(false);
-            
-            //fadeout if it is not done.
+
             if (!haveFadedOut)
             {
                 StartCoroutine(FadeOut());
                 haveFadedOut = true;
                 
-                //also plays transition sound for first time if it's dream transition
                 if (curConv.hasExitSound || curConv.hasWhiteTransition)
                 {
                     audioSource.Stop();
@@ -284,9 +275,21 @@ public class DialogueController : MonoBehaviour
             }
             
             //if fade out had already been done, go to next conv and fade in. 
-            NextConv();
-            FadeIn();
-            return;
+            if (!curConv.isLastInEpisode || haveDisplayedEpisodeText)
+            {
+                //if not the last episode, then just fade in
+                NextConv();
+                FadeIn();
+                return;
+            }
+            else
+            {
+                //if is last episode, first display text
+                volumeObject.SetActive(false);
+                StartCoroutine(TypeWriteEpisodeText(curConv.nextEpisodeHeading, episodeText));
+                haveDisplayedEpisodeText = true;
+                return;
+            }
         }
 
 
@@ -300,6 +303,33 @@ public class DialogueController : MonoBehaviour
         ScrollToBottom();
         curLineIndex++;
     }
+    
+    
+    private bool isTypingEpisodeText;
+    private IEnumerator TypeWriteEpisodeText(string text, TextMeshProUGUI textmesh)
+    {
+        isTypingEpisodeText = true;
+        SetUpEpisodeHeading();
+        audioSource.Stop();
+        audioSource.PlayOneShot(episodeSound);
+
+        string[] lines = text.Split("\n"[0]);
+        foreach (string line in lines)
+        {
+            string lineTrim = line.Trim();
+            foreach (char c in lineTrim)
+            {
+                textmesh.text += c;
+                yield return new WaitForSeconds(0.08f);
+            }
+            textmesh.text += " ";
+            yield return new WaitForSeconds(0.4f);
+        }
+        isTypingEpisodeText = false;
+    }
+    
+    
+    
 
     private bool isFadeingOut = false;
     
@@ -316,10 +346,19 @@ public class DialogueController : MonoBehaviour
 
         isFadeingOut = false;
     }
-
+    
+    /// <summary>
+    /// It plays the fade in animation.
+    /// And because it is after next conv is called, it can play the correct enter sound. 
+    /// </summary>
     private void FadeIn()
     {
         fadeAnimation.Play("Transition fade in");
+        //play enter sound;
+        if (curConv.hasEnterSound)
+        {
+            audioSource.PlayOneShot(curConv.enterSound);
+        }
     }
     
     

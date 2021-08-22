@@ -21,7 +21,7 @@ public class Conversation : ScriptableObject
     public AudioClip exitSound;
 
     public bool isLastInEpisode;
-    public string nextEpisodeHeading;
+    [TextArea(2, 10)] public string nextEpisodeHeading;
     
     public List<DialogueLine> dialogueLines;
 

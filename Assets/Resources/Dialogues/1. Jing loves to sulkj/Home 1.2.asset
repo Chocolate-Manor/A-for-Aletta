@@ -21,7 +21,7 @@ MonoBehaviour:
   hasExitSound: 1
   exitSound: {fileID: 8300000, guid: 3e4fe645c6baa374da3ca9e437d68a8c, type: 3}
   isLastInEpisode: 1
-  nextEpisodeHeading: 'Segment two: Sometimes, people show up unannounced'
+  nextEpisodeHeading: "Segment two: \nSometimes, \npeople show up unannounced"
   dialogueLines:
   - portrait: {fileID: 21300000, guid: 73e695f6980b90b48ae0156d212be49d, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}

@@ -686,7 +686,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: NO!!!!!!!!
+    text: NO!
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 

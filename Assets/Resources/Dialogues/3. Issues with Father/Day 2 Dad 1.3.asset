@@ -20,6 +20,8 @@ MonoBehaviour:
   enterSound: {fileID: 0}
   hasExitSound: 0
   exitSound: {fileID: 0}
+  isLastInEpisode: 0
+  nextEpisodeHeading: 
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -57,7 +59,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "You'll be fine. \nI haven't seen my dad in like ever neither."
+    text: "You'll be fine. \nI haven't seen my dad in like forever neither."
   - portrait: {fileID: 21300000, guid: b5aff451c80db404f881e4ce2b5554cb, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
@@ -95,8 +97,8 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: '*Confused noises*'
-  - portrait: {fileID: 21300000, guid: cc249a7f12e72bf47a580efa89c2be67, type: 3}
+    text: ?????????
+  - portrait: {fileID: 21300000, guid: 9a9aa2aea882e08429da14f348c5f1c8, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
