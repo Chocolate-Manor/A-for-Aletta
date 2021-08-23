@@ -35,6 +35,9 @@ public class DialogueController : MonoBehaviour
     public TextMeshProUGUI episodeText;
     public GameObject episodeTextBox;
     
+    //audio fade animator
+    public Animation audioFadeAnimation;
+    
     private void Awake()
     {   
         //load the current conversation
@@ -94,8 +97,8 @@ public class DialogueController : MonoBehaviour
         {
             audioSource.clip = curConv.backgroundMusic;
             audioSource.Play();
-        }
-        
+        } 
+
         //turn on bloom
         if (curConv.bloomOn)
         {
@@ -290,17 +293,36 @@ public class DialogueController : MonoBehaviour
                 return;
             }
         }
-
-
+        
         DialogueLine curLine = CurLine();
         if (curLine.switchMusic)
         {
-            audioSource.clip = curLine.musicToSwitchTo;
-            audioSource.Play();
+            StartCoroutine(SwitchMusicWithTransition(curLine.musicToSwitchTo));
         }
         SetUpTextBox(curLine);
         ScrollToBottom();
         curLineIndex++;
+    }
+    
+    /// <summary>
+    /// fade out the previous music, but no need to actually fade into the new music since it should start with its start.
+    /// </summary>
+    /// <param name="clip"></param>
+    /// <returns></returns>
+    private IEnumerator SwitchMusicWithTransition(AudioClip clip)
+    {
+        audioFadeAnimation.Play("Audio fade out");
+        while (audioFadeAnimation.isPlaying)
+        {
+            yield return new WaitForEndOfFrame();
+        }
+        audioSource.clip = clip;
+        audioSource.Play();
+        audioFadeAnimation.Play("Audio fade in");
+        while (audioFadeAnimation.isPlaying)
+        {
+            yield return new WaitForEndOfFrame();
+        }
     }
     
     

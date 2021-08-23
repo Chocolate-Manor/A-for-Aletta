@@ -15,7 +15,7 @@ MonoBehaviour:
   sceneHeading: INT. THAT Classroom - night
   backgroundMusic: {fileID: 8300000, guid: 7b0fed6242e99094a8259c537a1de8f6, type: 3}
   hasWhiteTransition: 0
-  bloomOn: 0
+  bloomOn: 1
   hasEnterSound: 0
   enterSound: {fileID: 0}
   hasExitSound: 0

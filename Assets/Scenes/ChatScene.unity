@@ -609,6 +609,7 @@ MonoBehaviour:
   episodeSound: {fileID: 8300000, guid: 49d5ec3e4b6691540af9ac97fa4cc9ff, type: 3}
   episodeText: {fileID: 2583816810757531400}
   episodeTextBox: {fileID: 2583816810703990932}
+  audioFadeAnimation: {fileID: 461037162}
 --- !u!95 &439951619
 Animator:
   serializedVersion: 3
@@ -665,6 +666,7 @@ GameObject:
   - component: {fileID: 461037159}
   - component: {fileID: 461037158}
   - component: {fileID: 461037163}
+  - component: {fileID: 461037162}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Canvas
@@ -757,6 +759,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!111 &461037162
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461037157}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 3f41b9e4734017f4b931ceb85d150b8a, type: 2}
+  - {fileID: 7400000, guid: 6d04e7407e9c53b40a6ba972a0b3aad9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!82 &461037163
 AudioSource:
   m_ObjectHideFlags: 0
