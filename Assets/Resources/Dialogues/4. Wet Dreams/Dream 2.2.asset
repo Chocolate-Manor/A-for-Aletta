@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
-  m_Name: Dream 2.1
+  m_Name: Dream 2.2
   m_EditorClassIdentifier: 
-  sceneHeading: INT. THAT Classroom - night
-  backgroundMusic: {fileID: 8300000, guid: 7b0fed6242e99094a8259c537a1de8f6, type: 3}
+  sceneHeading: 
+  backgroundMusic: {fileID: 0}
   hasWhiteTransition: 0
   bloomOn: 0
   hasEnterSound: 0
@@ -31,48 +31,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "You find yourself again sitting at your old desk. \nIt's the exact same
-      as last time, \nexcept the outside is shrouded in complete darkness. \nNo stars,
-      \nnot a sign of the moon. "
-  - portrait: {fileID: 21300000, guid: 5ea3c183a38190347a8b4cee4d994364, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: ...
-  - portrait: {fileID: 21300000, guid: 4f0d85949137b8d45b50af9ccfe6e594, type: 3}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: Welcome back.
-  - portrait: {fileID: 21300000, guid: 5ea3c183a38190347a8b4cee4d994364, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: '!'
+    text: Some time passes.
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -81,35 +43,12 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "A warm breath on your neck. \nYou try to turn around, \nbut couldn't.
-      \nSomething soft and slender is tightening around your neck."
-  - portrait: {fileID: 21300000, guid: 4f0d85949137b8d45b50af9ccfe6e594, type: 3}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.08
-    screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "I missed you, \nyou know."
-  - portrait: {fileID: 21300000, guid: 91c25d7b9a1ff604c8b1e09ec2be1221, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "Hey, \nZhu...\nI..."
+    text: "You found her curling up at the end of the corridor,\nnext to a 'caution,
+      wet floor' sign. \nSeeing you approach, \nshe sticks herself to the wall, \nand
+      holds the sign in front of her like a shield."
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -118,23 +57,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "You did not expect to find her again. \nNor expect her to suddenly be
-      so forthcoming.\n"
-  - portrait: {fileID: 21300000, guid: 4f0d85949137b8d45b50af9ccfe6e594, type: 3}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Shhhh...
+    text: "For some reason, \nyou get a sense of deja vu."
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -143,62 +69,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: 'She put a finger over your lips. '
-  - portrait: {fileID: 21300000, guid: 5ffe8b7f2c9d3ba48a1ef46f90dc6552, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Wha-
-  - portrait: {fileID: 21300000, guid: 4f0d85949137b8d45b50af9ccfe6e594, type: 3}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: Don't say anything.
-  - portrait: {fileID: 0}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "You feel her head on your shoulder. \nYou find your heart thumping wildly."
-  - portrait: {fileID: 21300000, guid: d5a6df087a914ed4a9eebddf39482f9e, type: 3}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.08
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: 'Don''t...
-
-      say...
-
-      anything...'
+    text: One more step, I'll whack you with the sign.
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -207,22 +81,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: You feel something warm and wet on the side of your neck.
-  - portrait: {fileID: 21300000, guid: de8e10d247fbc1e4398a841522ab9dbd, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 35
-    typeSpeed: 0.01
-    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Zhu!
+    text: 
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -231,35 +93,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "You jump. \nYou hit your knee against the bottom of your desk, \nand it
-      flips over onto the ground in a lasting clang."
-  - portrait: {fileID: 21300000, guid: 02f134caa65896b499e71302564ec21a, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 35
-    typeSpeed: 0.03
-    screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "I am sorry! \nReally! \nDon't do this to me!"
-  - portrait: {fileID: 21300000, guid: cfad5999d210fb74999dbc1bebe7e6c4, type: 3}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: Do what to you?
+    text: 
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -268,23 +105,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "You turn around. \nYou see her grinning. \nShe inches forward, \nslowly,
-      \nlike a lion approaching her prey. "
-  - portrait: {fileID: 21300000, guid: 02f134caa65896b499e71302564ec21a, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 35
-    typeSpeed: 0.01
-    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: I am sorry!
+    text: 
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -293,22 +117,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: You exclaim.
-  - portrait: {fileID: 21300000, guid: cfad5999d210fb74999dbc1bebe7e6c4, type: 3}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You are sorry?
+    text: 
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -317,105 +129,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: She repeats.
-  - portrait: {fileID: 21300000, guid: 02f134caa65896b499e71302564ec21a, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 35
-    typeSpeed: 0.01
-    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'Really!
-
-      I am!'
-  - portrait: {fileID: 21300000, guid: 80dab4d17dc468c42b8a5c5b1b2e2b15, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: You are almost in tears.
-  - portrait: {fileID: 21300000, guid: cfad5999d210fb74999dbc1bebe7e6c4, type: 3}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: You are?
-  - portrait: {fileID: 21300000, guid: 91c25d7b9a1ff604c8b1e09ec2be1221, type: 3}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "She tilts her head. \nHer expression dreamy."
-  - portrait: {fileID: 21300000, guid: 91c25d7b9a1ff604c8b1e09ec2be1221, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: 'I found mother packing...
-
-      they had an argument...
-
-      things
-      were thrown...
-
-      I...'
-  - portrait: {fileID: 21300000, guid: bc55e947899dc9647a93b696b853b890, type: 3}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: 'She was crying...
-
-      I couldn''t...'
-  - portrait: {fileID: 0}
-    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: You drop onto your knees.
+    text: 
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -424,10 +141,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
+    isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Suddenly, \nyou hear her stepping away."
+    text: 
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -435,26 +152,11 @@ MonoBehaviour:
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: "You slowly raise your head, \nand see her covering her mouth. \nHer eyes
-      wide, \nas if in a panic."
-  - portrait: {fileID: 21300000, guid: a5d04ca911e29c340ba099904ecb0c1e, type: 3}
-    character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.03
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'I...
-
-      No...'
+    text: 
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -463,10 +165,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
+    isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: She runs out of the room.
+    text: 
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -475,7 +177,331 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 1
+    isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "You stay on the ground, \ndazed."
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 

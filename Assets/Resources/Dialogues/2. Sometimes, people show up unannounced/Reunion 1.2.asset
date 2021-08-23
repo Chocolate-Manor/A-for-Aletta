@@ -517,7 +517,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: I-
-  - portrait: {fileID: 21300000, guid: 8e4c9c9e15be0ad46bc7521d4ae451cb, type: 3}
+  - portrait: {fileID: 21300000, guid: 277273f7deba2ab48b6a19dc61c56e60, type: 3}
     character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -542,7 +542,7 @@ MonoBehaviour:
     switchMusic: 0
     text: "She starts to sound hoarse. \nA stingy feeling courses through your body.
       \nSomething thin and dark seems to grow out the edge of her eyes."
-  - portrait: {fileID: 21300000, guid: 8e4c9c9e15be0ad46bc7521d4ae451cb, type: 3}
+  - portrait: {fileID: 21300000, guid: 277273f7deba2ab48b6a19dc61c56e60, type: 3}
     character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -567,7 +567,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "No! \nWha-"
-  - portrait: {fileID: 21300000, guid: 8e4c9c9e15be0ad46bc7521d4ae451cb, type: 3}
+  - portrait: {fileID: 21300000, guid: 277273f7deba2ab48b6a19dc61c56e60, type: 3}
     character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -591,7 +591,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Huh?! \nThat's n-"
-  - portrait: {fileID: 21300000, guid: 5c0748f0de081584cbb396b156d7063b, type: 3}
+  - portrait: {fileID: 21300000, guid: 7758986773fc64140a632d2aa1d5f0c5, type: 3}
     character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -603,7 +603,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'Because that''s what you are after. '
-  - portrait: {fileID: 21300000, guid: 5c0748f0de081584cbb396b156d7063b, type: 3}
+  - portrait: {fileID: 21300000, guid: 7758986773fc64140a632d2aa1d5f0c5, type: 3}
     character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -615,7 +615,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'To feel important. '
-  - portrait: {fileID: 21300000, guid: 5c0748f0de081584cbb396b156d7063b, type: 3}
+  - portrait: {fileID: 21300000, guid: 7758986773fc64140a632d2aa1d5f0c5, type: 3}
     character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -627,7 +627,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "To feel that you have gotten the upper hand. \n"
-  - portrait: {fileID: 21300000, guid: 5c0748f0de081584cbb396b156d7063b, type: 3}
+  - portrait: {fileID: 21300000, guid: 7758986773fc64140a632d2aa1d5f0c5, type: 3}
     character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -639,7 +639,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'So that I''d feel desperate. '
-  - portrait: {fileID: 21300000, guid: 5c0748f0de081584cbb396b156d7063b, type: 3}
+  - portrait: {fileID: 21300000, guid: 7758986773fc64140a632d2aa1d5f0c5, type: 3}
     character: {fileID: 11400000, guid: 19c5cb255516aac438c9ac99f1001c5d, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
