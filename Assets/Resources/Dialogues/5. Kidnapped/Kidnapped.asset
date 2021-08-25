@@ -62,8 +62,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "An old man's voice. \nGrandpa? \nNo...it sounds a bit different. \nHowever,
-      \nthat voice is not entirely unfamiliar. \nYou squint your eyes, \nhowever
-      your vision remains a blur."
+      \nthat voice is not entirely unfamiliar. \nYou squint your eyes, \nyet your
+      vision remains a blur."
   - portrait: {fileID: 21300000, guid: eb5b088065ec9ec43b31eb8ba35508b9, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dialogue Manager
   m_EditorClassIdentifier: 
   dialogues:
-  - {fileID: 11400000, guid: b1f1a5c943e144245b50e889ace40756, type: 2}
-  - {fileID: 11400000, guid: a9e66a69c937adb49b6f86c3f28a4d46, type: 2}
-  - {fileID: 11400000, guid: 20763a20539774547a80fbf17c59411e, type: 2}
-  - {fileID: 11400000, guid: e32983c60caa40445a225ba084d31368, type: 2}
+  - {fileID: 11400000, guid: 038328fb965a13f4d8ddb77e9436b54d, type: 2}
+  - {fileID: 11400000, guid: f3e25d32000e1a9438b7cb97c1da0f59, type: 2}
+  - {fileID: 11400000, guid: 839e49d19ecd444478fb63fb555a6649, type: 2}
+  - {fileID: 11400000, guid: 038328fb965a13f4d8ddb77e9436b54d, type: 2}
   - {fileID: 11400000, guid: 6eb9d92a15ad6b142a0dc6130e5ce7bc, type: 2}
   - {fileID: 11400000, guid: 6ecacc148e2ca424885c3d844382da72, type: 2}
   - {fileID: 11400000, guid: 193dcb6fd88deb64cb4767178a9abfbf, type: 2}
