@@ -1,0 +1,636 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
+  m_Name: Can't sleep
+  m_EditorClassIdentifier: 
+  sceneHeading: INT. BEDROOM - NIGHT
+  backgroundMusic: {fileID: 8300000, guid: 2112596b3e7df3d438fd44cbfab71476, type: 3}
+  hasWhiteTransition: 1
+  bloomOn: 1
+  hasEnterSound: 0
+  enterSound: {fileID: 0}
+  hasExitSound: 1
+  exitSound: {fileID: 8300000, guid: 3e4fe645c6baa374da3ca9e437d68a8c, type: 3}
+  isLastInEpisode: 0
+  nextEpisodeHeading: 
+  dialogueLines:
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'You stare at your ceiling. '
+  - portrait: {fileID: 21300000, guid: 558b6c0b272b91f4d82072f3df5cb006, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: 558b6c0b272b91f4d82072f3df5cb006, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Ummm...
+  - portrait: {fileID: 21300000, guid: 9a9aa2aea882e08429da14f348c5f1c8, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "\"So you a ghost? \nBecause you've been haunting my dreams.\""
+  - portrait: {fileID: 21300000, guid: 2e1b56463e37d524ba499649c81ac516, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'Nah...
+
+      that sounds like a pick-up line.'
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: That literally is a pick-up line.
+  - portrait: {fileID: 21300000, guid: 2e1b56463e37d524ba499649c81ac516, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: eea54f736c3b7b5409a6828d399d2fc5, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "\"Can I get under your sheets? \nSince you are...\na ghost.\""
+  - portrait: {fileID: 21300000, guid: d451dcbe53f8c5c45bf711f751fc6c2a, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.01
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: '*Shudders*'
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Oh my. \nThe cringe. \nIt hits like a truck."
+  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Hell. \nWhat am I supposed to do, \nanyways?"
+  - portrait: {fileID: 21300000, guid: 2e1b56463e37d524ba499649c81ac516, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "And at dawn. \nReally? \nIsn't my life 'in danger'?"
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You rub your face.
+  - portrait: {fileID: 21300000, guid: 703fd2244293a384eacc7be107ebca51, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: '''Oh I''ll come at dawn because I look cool next to them sunrise.'''
+  - portrait: {fileID: 21300000, guid: 703fd2244293a384eacc7be107ebca51, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: '''Oh I only talk in short sentences and wear glove on one hand cus I am
+      just so edgy.'''
+  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...Geezer.
+  - portrait: {fileID: 21300000, guid: 2e1b56463e37d524ba499649c81ac516, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Why would I need to stall her in the first place?
+  - portrait: {fileID: 21300000, guid: 5fae56f2c0661cf409b0f2fd2468bd03, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: So it's about a girl after all?
+  - portrait: {fileID: 21300000, guid: 2e1b56463e37d524ba499649c81ac516, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Yeah. \nYou got that right."
+  - portrait: {fileID: 21300000, guid: d01414559127fa34eb69d626ade9ac5f, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.01
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Wait huh?!
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You find mom peeking through your bedroom door.
+  - portrait: {fileID: 21300000, guid: 2508c6679ed0e4b4eacecf811253c0e6, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.03
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Hey!! \nNo Eavesdropping! \nCan't a man have some privacy?"
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: She pouts.
+  - portrait: {fileID: 21300000, guid: 409015911cad4c449a869a9903ad0ba4, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Can't I be a bit worried? \nYou were passed out at your grandpa's for
+      the whole afternoon you know."
+  - portrait: {fileID: 21300000, guid: 5fae56f2c0661cf409b0f2fd2468bd03, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Well, \nat least now you seem energetic."
+  - portrait: {fileID: 21300000, guid: ecb609ca1d03da841b06647e7199f010, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.03
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: '"ZZZZZZZZ"'
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You make the loudest and most obnoxious snoring noise you can possibly
+      manage.
+  - portrait: {fileID: 21300000, guid: 409015911cad4c449a869a9903ad0ba4, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: The door closes.
+  - portrait: {fileID: 21300000, guid: 0226ad22437da414290f417a9a02e067, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Phew.
+  - portrait: {fileID: 21300000, guid: 558b6c0b272b91f4d82072f3df5cb006, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: So where was I...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: The door swings open.
+  - portrait: {fileID: 21300000, guid: de8e10d247fbc1e4398a841522ab9dbd, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.01
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: AHH!
+  - portrait: {fileID: 21300000, guid: 5fae56f2c0661cf409b0f2fd2468bd03, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Can't a mother gaze upon her cute sleeping son?
+  - portrait: {fileID: 21300000, guid: d01414559127fa34eb69d626ade9ac5f, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.03
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "I am seventeen! \nNot ten! \nGet out of my room already!"
+  - portrait: {fileID: 21300000, guid: 5fae56f2c0661cf409b0f2fd2468bd03, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Alright alright.
+  - portrait: {fileID: 21300000, guid: 6894201d6ceb5214889079d240af4d91, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Just a tip. \nIf you are having trouble thinking what to say to her, \nthen
+      just say what feels honest."
+  - portrait: {fileID: 21300000, guid: 6894201d6ceb5214889079d240af4d91, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: That beats lying to make her feel better every time.
+  - portrait: {fileID: 21300000, guid: b5aff451c80db404f881e4ce2b5554cb, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "That's not the... \nsituation, \nhere."
+  - portrait: {fileID: 21300000, guid: 5fae56f2c0661cf409b0f2fd2468bd03, type: 3}
+    character: {fileID: 11400000, guid: a92da2bfc16fb454f92f1e95b468d7c5, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Alright, \nsleep tight, \ndarling."
+  - portrait: {fileID: 21300000, guid: 76c75b69e36488744a8854d1f0a97532, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...Good night.
+  - portrait: {fileID: 21300000, guid: bbe47528a5511bd439a3bf8950032f8e, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: 558b6c0b272b91f4d82072f3df5cb006, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Sign.
+  - portrait: {fileID: 21300000, guid: 0226ad22437da414290f417a9a02e067, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Just be honest, \nhuh..."
+  - portrait: {fileID: 21300000, guid: 558b6c0b272b91f4d82072f3df5cb006, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: ecb609ca1d03da841b06647e7199f010, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: 5ea3c183a38190347a8b4cee4d994364, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.03
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: '!'
+  - portrait: {fileID: 21300000, guid: bbe47528a5511bd439a3bf8950032f8e, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'What if I just stay up till dawn,
+
+      and then fall asleep?
+
+      I
+      don''t need to confront her then?'
+  - portrait: {fileID: 21300000, guid: 855b63970c5c1dd40a50f002af0d7523, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Heh. \nI am so smart, \nit's terrifying."
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "After ten minutes, \nYou fall soundly asleep."

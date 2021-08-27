@@ -239,7 +239,8 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "...So I just need to burn the sage, \nand that's it?"
+    text: "...So I just need to burn the sage, \nand that's it?\nThen she can't kill
+      me?"
   - portrait: {fileID: 21300000, guid: aa24ee38c048e744fa976f0e9da29593, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: 
@@ -251,8 +252,8 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Yes.
-  - portrait: {fileID: 21300000, guid: f0ee42fddde3dcf48917a461b767ba7e, type: 3}
+    text: "Yes. \nFor most of the night, \nanyway."
+  - portrait: {fileID: 21300000, guid: eeba44594798d8247972bd1e482f693a, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -263,7 +264,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "I'll arrive at dawn. \nDon't die before then."
+    text: "I'll arrive at dawn. \nKeep her there, \nor all this will be for naught.  "
   - portrait: {fileID: 21300000, guid: bbe47528a5511bd439a3bf8950032f8e, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
