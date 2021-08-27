@@ -20,8 +20,8 @@ MonoBehaviour:
   enterSound: {fileID: 0}
   hasExitSound: 0
   exitSound: {fileID: 0}
-  isLastInEpisode: 1
-  nextEpisodeHeading: 'Segment 7: Thirty-First'
+  isLastInEpisode: 0
+  nextEpisodeHeading: 
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}
