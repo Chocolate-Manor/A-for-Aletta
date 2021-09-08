@@ -21,7 +21,7 @@ MonoBehaviour:
   hasExitSound: 0
   exitSound: {fileID: 0}
   isLastInEpisode: 1
-  nextEpisodeHeading: 'Segment 8: Reunion'
+  nextEpisodeHeading: 'Segment 8: "Reunion"'
   dialogueLines:
   - portrait: {fileID: 21300000, guid: d01414559127fa34eb69d626ade9ac5f, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
@@ -82,7 +82,7 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "You wake up to the smell of exhaust fumes. \nYou find you self lying on
+    text: "You wake up to the smell of exhaust fumes. \nYou find yourself lying on
       the ground next to your grandpa's shop."
   - portrait: {fileID: 0}
     character: {fileID: 0}

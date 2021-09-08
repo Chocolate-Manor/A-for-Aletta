@@ -15,7 +15,7 @@ MonoBehaviour:
   sceneHeading: INT. BEDROOM - NIGHT
   backgroundMusic: {fileID: 8300000, guid: 2112596b3e7df3d438fd44cbfab71476, type: 3}
   hasWhiteTransition: 1
-  bloomOn: 1
+  bloomOn: 0
   hasEnterSound: 0
   enterSound: {fileID: 0}
   hasExitSound: 1

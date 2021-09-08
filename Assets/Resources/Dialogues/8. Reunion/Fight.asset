@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
-  m_Name: health confrontation
+  m_Name: Fight
   m_EditorClassIdentifier: 
-  sceneHeading: INT. BEDROOM - NIGHT
-  backgroundMusic: {fileID: 8300000, guid: 2112596b3e7df3d438fd44cbfab71476, type: 3}
+  sceneHeading: INT. THE CORRIDOR - NIGHT
+  backgroundMusic: {fileID: 0}
   hasWhiteTransition: 0
-  bloomOn: 0
-  hasEnterSound: 0
-  enterSound: {fileID: 0}
+  bloomOn: 1
+  hasEnterSound: 1
+  enterSound: {fileID: 8300000, guid: affc788db62c3e74faaec349f099f625, type: 3}
   hasExitSound: 0
   exitSound: {fileID: 0}
   isLastInEpisode: 0
