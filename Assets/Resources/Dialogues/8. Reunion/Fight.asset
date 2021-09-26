@@ -19,7 +19,7 @@ MonoBehaviour:
   hasEnterSound: 1
   enterSound: {fileID: 8300000, guid: affc788db62c3e74faaec349f099f625, type: 3}
   hasExitSound: 0
-  exitSound: {fileID: 0}
+  exitSound: {fileID: 8300000, guid: 3e4fe645c6baa374da3ca9e437d68a8c, type: 3}
   isLastInEpisode: 0
   nextEpisodeHeading: 
   dialogueLines:
@@ -166,7 +166,7 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'KLANG. His gloved hand on the trigger. '
+    text: "KLANG. \nHis gloved hand on the trigger. "
   - portrait: {fileID: 21300000, guid: 316d55e70711e9c4fbac86b74c506a85, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
@@ -455,7 +455,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.1
+    typeSpeed: 0.2
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
@@ -765,7 +765,7 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You find yourself being lifted by the collar, and-
+    text: "You find yourself being lifted by the collar, \nand-"
   - portrait: {fileID: 21300000, guid: 316d55e70711e9c4fbac86b74c506a85, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
@@ -854,15 +854,15 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "You cover your ears. \nYou cower. \nThen with a deafening sound, \neverything
-      shatters. \nGlass shards rain down your face like a storm of sand. "
+    text: "You cover your ears. \nYou cower. \nThen with a deafening sound, \nevery
+      glass shatters. \nShards rain down your face like a storm of sand. "
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 8300000, guid: 7467901f2bc27084a95a21aabebee2d1, type: 3}
@@ -874,7 +874,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -886,7 +886,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -898,7 +898,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -911,7 +911,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -924,7 +924,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -936,7 +936,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -949,7 +949,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -961,7 +961,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -973,7 +973,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -985,7 +985,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -998,7 +998,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -1010,7 +1010,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -1022,7 +1022,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -1034,7 +1034,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -1050,7 +1050,7 @@ MonoBehaviour:
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 8300000, guid: a8902135b1c9e514798dcab3be669709, type: 3}
-    switchMusic: 0
+    switchMusic: 1
     text: And it peaks back.
   - portrait: {fileID: 21300000, guid: 2528da76d77866048abc309e977afa5a, type: 3}
     character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
@@ -1061,7 +1061,7 @@ MonoBehaviour:
     typeSpeed: 0.05
     screenShake: 0
     isNarration: 0
-    musicToSwitchTo: {fileID: 0}
+    musicToSwitchTo: {fileID: 8300000, guid: a8902135b1c9e514798dcab3be669709, type: 3}
     switchMusic: 0
     text: Grrowr...
   - portrait: {fileID: 21300000, guid: d01414559127fa34eb69d626ade9ac5f, type: 3}
@@ -1149,8 +1149,8 @@ MonoBehaviour:
     typeSpeed: 0.1
     screenShake: 0
     isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
+    musicToSwitchTo: {fileID: 8300000, guid: db6c9a9a33ec19e41b0ab52d9e99d96d, type: 3}
+    switchMusic: 1
     text: ...
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -1158,7 +1158,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
@@ -1206,7 +1206,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.1
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}

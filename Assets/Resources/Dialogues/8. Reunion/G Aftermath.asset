@@ -1,0 +1,568 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23696f8c916c30f40bdd399459ac4043, type: 3}
+  m_Name: G Aftermath
+  m_EditorClassIdentifier: 
+  sceneHeading: INT. STORM OF SORROWS - NIGHT
+  backgroundMusic: {fileID: 8300000, guid: db6c9a9a33ec19e41b0ab52d9e99d96d, type: 3}
+  hasWhiteTransition: 1
+  bloomOn: 1
+  hasEnterSound: 0
+  enterSound: {fileID: 0}
+  hasExitSound: 1
+  exitSound: {fileID: 8300000, guid: 3e4fe645c6baa374da3ca9e437d68a8c, type: 3}
+  isLastInEpisode: 1
+  nextEpisodeHeading: 'Segment 9: ?????'
+  dialogueLines:
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You open your eyes. \nYour vision blurry. "
+  - portrait: {fileID: 21300000, guid: eb5b088065ec9ec43b31eb8ba35508b9, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...So.
+  - portrait: {fileID: 21300000, guid: 4f4163e5441dfe3428f2e430570a234e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...You live.
+  - portrait: {fileID: 21300000, guid: eb5b088065ec9ec43b31eb8ba35508b9, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Where are we...?
+  - portrait: {fileID: 21300000, guid: bf52198023c3e8d44a758fac06b28d51, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.07
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Where indeed.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You blink. \nYou see Floris at the yoke. \nOutside the cockpit is the
+      familiar whiteness. \nYou could hear distant thunder. "
+  - portrait: {fileID: 21300000, guid: eb5b088065ec9ec43b31eb8ba35508b9, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Did...
+  - portrait: {fileID: 21300000, guid: eb5b088065ec9ec43b31eb8ba35508b9, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Did you kill her?
+  - portrait: {fileID: 21300000, guid: bf52198023c3e8d44a758fac06b28d51, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 21300000, guid: aa24ee38c048e744fa976f0e9da29593, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.07
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'No. '
+  - portrait: {fileID: 21300000, guid: eeba44594798d8247972bd1e482f693a, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.07
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'She was gone by the time I got up. '
+  - portrait: {fileID: 21300000, guid: aa24ee38c048e744fa976f0e9da29593, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.07
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: It's strange.
+  - portrait: {fileID: 21300000, guid: eb5b088065ec9ec43b31eb8ba35508b9, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: What is?
+  - portrait: {fileID: 21300000, guid: bf52198023c3e8d44a758fac06b28d51, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "That she didn't suck you dry, \nthough mortally wounded."
+  - portrait: {fileID: 21300000, guid: 5ea3c183a38190347a8b4cee4d994364, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 32
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: She's... Mortally wounded?
+  - portrait: {fileID: 21300000, guid: aa24ee38c048e744fa976f0e9da29593, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.07
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Yes.
+  - portrait: {fileID: 21300000, guid: bcca14618ab11cf42942f7c064d5bf87, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.03
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "If you hadn't attacked her! \nif-"
+  - portrait: {fileID: 21300000, guid: bf52198023c3e8d44a758fac06b28d51, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.07
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: THEN YOU'D JUST BE DELAYING THE INEVITABLE.
+  - portrait: {fileID: 21300000, guid: bcca14618ab11cf42942f7c064d5bf87, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.02
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: What inevitable?!
+  - portrait: {fileID: 21300000, guid: bf52198023c3e8d44a758fac06b28d51, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: What you already saw.
+  - portrait: {fileID: 21300000, guid: 5ea3c183a38190347a8b4cee4d994364, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: What will happen to her?
+  - portrait: {fileID: 21300000, guid: f0ee42fddde3dcf48917a461b767ba7e, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.07
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Nothing. \nMy job is done. \nShe's not going to survive with that wound. "
+  - portrait: {fileID: 21300000, guid: 2508c6679ed0e4b4eacecf811253c0e6, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.05
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "She'll just... \ndie?! "
+  - portrait: {fileID: 21300000, guid: bcca14618ab11cf42942f7c064d5bf87, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.02
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Take me back. \nTake me back right now! \nI order you! \nI am your customer,
+      \naren't I? \nAnd I am ordering you-"
+  - portrait: {fileID: 21300000, guid: aa24ee38c048e744fa976f0e9da29593, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You can't save an anare.
+  - portrait: {fileID: 21300000, guid: bcca14618ab11cf42942f7c064d5bf87, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.03
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: How do you kn-
+  - portrait: {fileID: 21300000, guid: 0e47322e06734aa4aaccff4653eaf782, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 37
+    typeSpeed: 0.02
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "BECAUSE SOMETIMES, \nTHAT'S JUST HOW IT IS!"
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'You see his gloved hand shudder. '
+  - portrait: {fileID: 21300000, guid: 703fd2244293a384eacc7be107ebca51, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Ha.
+  - portrait: {fileID: 21300000, guid: 703fd2244293a384eacc7be107ebca51, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Haha.
+  - portrait: {fileID: 21300000, guid: 56f3a1a43d407564f8caf18be0c2a97d, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: What's so funny?
+  - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Nothing.
+  - portrait: {fileID: 21300000, guid: 03222fe344f31a44a87c44d4c57c289b, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
+  - portrait: {fileID: 0}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'Floris slides a gas mask over his head. '
+  - portrait: {fileID: 21300000, guid: bbe47528a5511bd439a3bf8950032f8e, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: What are you doing?
+  - portrait: {fileID: 21300000, guid: 03222fe344f31a44a87c44d4c57c289b, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Nothing.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "He flips a switch on the dashboard. \nThe air around you suddenly gets
+      colder. "
+  - portrait: {fileID: 21300000, guid: b5aff451c80db404f881e4ce2b5554cb, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.03
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Cough, Cough-
+  - portrait: {fileID: 21300000, guid: 57e530106eac9a34cbb17b1d1b165e49, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.02
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: What is- COUGH-
+  - portrait: {fileID: 21300000, guid: bf52198023c3e8d44a758fac06b28d51, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.05
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Sweet dreams.
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: A dizziness fill your head.
