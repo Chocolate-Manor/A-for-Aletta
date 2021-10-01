@@ -13,16 +13,28 @@ MonoBehaviour:
   m_Name: Forgotten 1.2
   m_EditorClassIdentifier: 
   sceneHeading: INT. CLASSROOM - DAY
-  backgroundMusic: {fileID: 8300000, guid: 33dc2d3635a61a045b7906bc6929fa5e, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 86286a04c1c0fac46aa0878e22f33dbd, type: 3}
   hasWhiteTransition: 0
   bloomOn: 0
   hasEnterSound: 0
-  enterSound: {fileID: 0}
-  hasExitSound: 1
-  exitSound: {fileID: 0}
+  enterSound: {fileID: 8300000, guid: d88fd530375c15a4c9a3d339dcb11fb1, type: 3}
+  hasExitSound: 0
+  exitSound: {fileID: 8300000, guid: 2d7ecee7756fa70478c101046b929d3d, type: 3}
   isLastInEpisode: 0
   nextEpisodeHeading: 
   dialogueLines:
+  - portrait: {fileID: 0}
+    character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'After class. '
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -53,14 +65,14 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.07
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Umm...\nOh. \nCecilia?"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 46fdd699fabecca44851702ea267a428, type: 3}
+    character: {fileID: 11400000, guid: 13cd3bca1986f2a49ac8f10d532461ea, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -73,44 +85,58 @@ MonoBehaviour:
     text: "You alright? \nYou seem a bit...\nout of it today. \nYesterday... \nYou
       just suddenly fell. \nI totally still rooted for your team the whole way, \nof
       course! \nToo bad they lost in the end, \nI mean, \nwithout their star player...
-      Anyway, my point is..."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+      \nAnyway, \nmy point is..."
+  - portrait: {fileID: 21300000, guid: b4e6ad4b5bf710a44a5fa89d5c002407, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.07
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Oh... \nright, \nthat..."
+  - portrait: {fileID: 21300000, guid: b4e6ad4b5bf710a44a5fa89d5c002407, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.07
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Don't worry about it. \nI just didn't rest well, \nI think. \nHad something
+      on my mind..."
+  - portrait: {fileID: 21300000, guid: 5e0f68acaa645a74b9b4ef32c82ff728, type: 3}
+    character: {fileID: 11400000, guid: 13cd3bca1986f2a49ac8f10d532461ea, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.04
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "Oh, really? \nIf you want to talk about it, \nI am always willing to listen...
+      \nUm I don't mean it in a weird way, \nit's just that I want to lend a ear,
+      \nto a friend... \nyeah like that! \nTotally.."
+  - portrait: {fileID: 21300000, guid: b5aff451c80db404f881e4ce2b5554cb, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
-    screenShake: 0
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Oh... right, that...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: Don't worry about it. I just didn't rest well, I think. Had something on
-      my mind...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: Oh. Maybe... I would. In the future, perhaps. Thanks... Ceci.
+    text: "Oh. \nMaybe... \nI would. \nIn the future, \nperhaps. \nThanks... \nCeci."
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -123,75 +149,73 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'You witness a flush on her cheek. '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 608e264a38ae23442a1a14b55f245cea, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.04
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: No no no, it's fine. I mean it's probably something personal. I mean if
-      you don't want to talk about it, that's your freedom and all. If it can make
-      you faint in a middle of a game it's gotta be hella important... I can't lie
-      it kind of make me curious...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: "No no no, \nit's fine. \nI mean it's probably something personal. \nI
+      mean if you don't want to talk about it, \nthat's your freedom and all. \nIf
+      it can make you faint in a middle of a game it's gotta be hella important!
+      \nI can't lie it kind of make me curious..."
+  - portrait: {fileID: 21300000, guid: b4e6ad4b5bf710a44a5fa89d5c002407, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.07
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Oh... haha. I didn't mean it like that. It's actually, quite odd, really.
-      I wouldn't mind telling you...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: "Oh... \nhaha. \nI didn't mean it like that. \nIt's actually, \nquite odd,
+      \nreally. \nI wouldn't mind telling you..."
+  - portrait: {fileID: 21300000, guid: b4e6ad4b5bf710a44a5fa89d5c002407, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.07
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "...But I just can't seem to remember what it is. \r\n"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: b4e6ad4b5bf710a44a5fa89d5c002407, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.07
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Truth be told, I don't seem to remember anything after the game. It's
+    text: "Truth be told, \nI don't seem to remember anything after the game. \nIt's
       like I blacked out or something. \r\n"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 5e0f68acaa645a74b9b4ef32c82ff728, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.04
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'Oh no. It''s that bad? I can''t even imagine. Um, I did want to visit
-      you after the game but I somehow chickened out last minute... lame, right?
-      But...
-
-'
+    text: "Oh no. \nIt's that bad? \nI can't even imagine. \nUm, \nI did want to
+      visit you after the game but I somehow chickened out last minute... \nlame,
+      \nright? \nBut...\n"
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -204,18 +228,30 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: She stuffed a paper sack in your hand and ran off.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 608e264a38ae23442a1a14b55f245cea, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.04
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "It's gym, \nI need to go change, \nso ah... \nsee you later! "
+  - portrait: {fileID: 21300000, guid: b5aff451c80db404f881e4ce2b5554cb, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'It''s gym, I need to go change, so ah... see you later! '
+    text: "See... \nyou?"
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -224,19 +260,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: See... you?
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
@@ -248,7 +272,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'You loosen the string binding the sack. '
@@ -260,7 +284,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
@@ -272,7 +296,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: Cookies?

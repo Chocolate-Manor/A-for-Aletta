@@ -46,7 +46,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Next, Jing Lin'an.
+    text: "Next, \nJing Lin'an."
   - portrait: {fileID: 21300000, guid: 7ee300eac8ecd054687dc3c66a97c0ad, type: 3}
     character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
     nameOverwrite: Sub teacher
@@ -143,6 +143,18 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Ah, \nyes, \nright, \nsorry."
+  - portrait: {fileID: 21300000, guid: 4c94e6b540827f840944388cd83f5e31, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.2
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: ...
   - portrait: {fileID: 21300000, guid: b4e6ad4b5bf710a44a5fa89d5c002407, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
@@ -154,7 +166,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Um, \nah...which subject is this?"
+    text: "Um, \nah...\nwhich subject is this?"
   - portrait: {fileID: 21300000, guid: c2bc9c7d0af97a044ad9b182b6953e61, type: 3}
     character: {fileID: 11400000, guid: ebcf2b7c8b1493944b43f36919122c99, type: 2}
     nameOverwrite: 
@@ -178,8 +190,8 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Urgh. \nthat's it! \nI am reporting this to your form teacher."
-  - portrait: {fileID: 21300000, guid: c2bc9c7d0af97a044ad9b182b6953e61, type: 3}
+    text: "Urgh. \nthat's it! \nI am reporting this to your form teacher!"
+  - portrait: {fileID: 21300000, guid: 40dd2302b087c364cbdca0ad74fe81ed, type: 3}
     character: {fileID: 11400000, guid: ebcf2b7c8b1493944b43f36919122c99, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0

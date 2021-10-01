@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dialogue Manager
   m_EditorClassIdentifier: 
   dialogues:
-  - {fileID: 11400000, guid: 24bd4627817307c458cbc97c8fdbdc87, type: 2}
-  - {fileID: 11400000, guid: af110edd35d786745841831b1d0c2e5b, type: 2}
-  - {fileID: 11400000, guid: 47590c21a37a1f74990085787b126c02, type: 2}
+  - {fileID: 11400000, guid: 77df0d09f903cb84b863c2c7e76ca670, type: 2}
+  - {fileID: 11400000, guid: 77df0d09f903cb84b863c2c7e76ca670, type: 2}
+  - {fileID: 11400000, guid: a1f9d7eb1fef4f14f9c3839ddc368e32, type: 2}
   - {fileID: 11400000, guid: d4374d2b26a8c1b4badfdde7c9185278, type: 2}
   - {fileID: 11400000, guid: 6eb9d92a15ad6b142a0dc6130e5ce7bc, type: 2}
   - {fileID: 11400000, guid: 6ecacc148e2ca424885c3d844382da72, type: 2}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Forgotten 1.3
   m_EditorClassIdentifier: 
   sceneHeading: EXT. CROSSROAD - AFTERNOON
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 33dc2d3635a61a045b7906bc6929fa5e, type: 3}
   hasWhiteTransition: 0
   bloomOn: 0
   hasEnterSound: 1
@@ -23,20 +23,56 @@ MonoBehaviour:
   isLastInEpisode: 0
   nextEpisodeHeading: 
   dialogueLines:
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: c2bc9c7d0af97a044ad9b182b6953e61, type: 3}
+    character: {fileID: 11400000, guid: ebcf2b7c8b1493944b43f36919122c99, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: After school.
+  - portrait: {fileID: 21300000, guid: c2bc9c7d0af97a044ad9b182b6953e61, type: 3}
+    character: {fileID: 11400000, guid: ebcf2b7c8b1493944b43f36919122c99, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.08
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: You sure you are fine?
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: eb5b088065ec9ec43b31eb8ba35508b9, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.2
+    screenShake: 0
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: 'Umm? '
+  - portrait: {fileID: 21300000, guid: 5ea3c183a38190347a8b4cee4d994364, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 1
+    isNarration: 0
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: Oh.
+  - portrait: {fileID: 21300000, guid: 4c94e6b540827f840944388cd83f5e31, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -46,21 +82,9 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Umm? Oh.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: 'I... don''t know. '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: "I... \ndon't know. "
+  - portrait: {fileID: 21300000, guid: 4c94e6b540827f840944388cd83f5e31, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -71,8 +95,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: I keep feeling like I have forgotten something important.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: c2bc9c7d0af97a044ad9b182b6953e61, type: 3}
+    character: {fileID: 11400000, guid: ebcf2b7c8b1493944b43f36919122c99, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -83,8 +107,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: Umm.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: b3bbd0d2a7f18974bbba8221497fc030, type: 3}
+    character: {fileID: 11400000, guid: ebcf2b7c8b1493944b43f36919122c99, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -94,11 +118,11 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Probably just one of your mom's errands again? Don't worry about it. Go
-      home and sleep, you still look exhausted. I am going left. See you tomorrow,
-      Jinny.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: "Probably just one of your mom's errands again? \nDon't worry about it.
+      \nGo home and sleep, \nyou still look exhausted. \nI am going left. \nSee you
+      tomorrow, \nJinny."
+  - portrait: {fileID: 21300000, guid: b4e6ad4b5bf710a44a5fa89d5c002407, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -109,3 +133,15 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: Yeah.
+  - portrait: {fileID: 21300000, guid: b4e6ad4b5bf710a44a5fa89d5c002407, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.1
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You walk down the street.
