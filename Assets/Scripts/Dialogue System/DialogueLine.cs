@@ -20,7 +20,7 @@ public class DialogueLine {
     public AudioClip musicToSwitchTo;
     public bool switchMusic;
     
-    [TextArea(2, 10)] public string text;
+    [TextArea(2, 20)] public string text;
 
     public DialogueLine()
     {
