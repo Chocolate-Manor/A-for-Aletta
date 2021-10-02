@@ -305,8 +305,8 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Unfortunately, \nhis cry for help was unanswered. \nSoon, \nhe's the only
-      kid left behind. "
+    text: "Unfortunately, \nhis cry for help goes unanswered. \nSoon, \nhe's the
+      only kid left behind. "
   - portrait: {fileID: 21300000, guid: 0639c631f66806340a7da69d6c430773, type: 3}
     character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
     nameOverwrite: Dennis
@@ -789,9 +789,9 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.1
     screenShake: 0
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: They smell of a gentle fragrance.
+    text: They smell of a familiar gentle fragrance.

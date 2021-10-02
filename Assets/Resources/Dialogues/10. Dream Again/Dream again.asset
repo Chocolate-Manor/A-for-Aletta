@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Dream again
   m_EditorClassIdentifier: 
   sceneHeading: INT. STRANGE CLASSROOM - DAY
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 9b9ca48c7d52e3d40aab0561d3a5f4d1, type: 3}
   hasWhiteTransition: 0
-  bloomOn: 0
+  bloomOn: 1
   hasEnterSound: 0
   enterSound: {fileID: 0}
   hasExitSound: 0
@@ -31,12 +31,12 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You find yourself sitting in a classroom. It's foreign, yet familiar.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: "You find yourself sitting in a classroom. \nIt's foreign, \nyet familiar."
+  - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -55,13 +55,13 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'You look to your left, and see rustling leaves. Beyond that, an old building.
-      You see a cuju ball stuck on top, deflated. '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: "You look to your left, \nand see rustling leaves. \nBeyond that, \nan
+      old building. \nYou see a cuju ball stuck on top, \ndeflated. "
+  - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -80,13 +80,13 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You drift your gaze down, and see the various holes and carvings on your
-      desk.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: "You drift your gaze down, \nand see the various holes and carvings on
+      your desk."
+  - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -105,10 +105,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You look to the right, and see...
+    text: "You look to the right, \nand see..."
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -117,18 +117,18 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'Broken glass and fallen down desks. '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: e2d9c74269326414f8942cae6ea0c7b4, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    textSize: 32
+    typeSpeed: 0.03
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: Your head suddenly throbs like it's been dipped in oil.
@@ -153,12 +153,25 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You stumbles into the corridor, half leaning on the balcony wall.
+    text: "You stumbles into the corridor, \nhalf leaning on the balcony wall."
   - portrait: {fileID: 0}
     character: {fileID: 0}
+    nameOverwrite: 
+    hasNameOverwrite: 0
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 30
+    typeSpeed: 0.05
+    screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: "You look ahead, \nand see a piece of light blue fabric. \nA dark red color
+      soaks through it, \nmaking it seems like a prop from a haunted house."
+  - portrait: {fileID: 21300000, guid: 43a51c1d59690a34995213dfbc58fe39, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -168,29 +181,18 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You look ahead, and see a piece of light blue fabric. A dark red color
-      soaks through it, making it seems like a prop from a haunted house.
+    text: 'Is...
+
+      that...'
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
+    textSize: 33
     typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
-    text: Is...that...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
-    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
+    screenShake: 1
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: '*Bleat.*'
@@ -202,23 +204,25 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "You hear a lamb. It sounds exactly like the one you had met on the way
+    text: "You hear a lamb. \nIt sounds exactly like the one you had met on the way
       home. \r\n"
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
-    isNarration: 0
+    textSize: 33
+    typeSpeed: 0.03
+    screenShake: 1
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: '*Bleat-Bleat.*'
+    text: '*Bleat-
+
+      Bleat.*'
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -227,11 +231,11 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: It calls for you. But you cannot find it anywhere. The sound seems to come
-      from above.
+    text: "It calls for you. \nBut you cannot find it anywhere. \nThe sound seems
+      to come from above."
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -240,12 +244,12 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: '*Plip - plip*'
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+    text: "*Plip - \nplip*"
+  - portrait: {fileID: 21300000, guid: d88d23753402be242a2cee471c573bc4, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -264,10 +268,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: '*Plip - plip - ploop - plip - plip - plip - plip - ploop*'
+    text: "*Plip - \nplip - \nploop - \nplip - \nplip - \nplip - \nplip - \nploop*"
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -276,10 +280,10 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: You hear rain. You look up-
+    text: "You hear rain. \nYou look up-"
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -288,7 +292,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'And you see rainclouds against a light blue sky. '
@@ -298,9 +302,9 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.1
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: And you finally remember.
