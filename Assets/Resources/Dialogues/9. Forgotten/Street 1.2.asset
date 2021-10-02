@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneHeading: EXT. HOUSE - AFTERNOON
   backgroundMusic: {fileID: 8300000, guid: 3727cdea3ac967c4090737cfc64af9b1, type: 3}
-  hasWhiteTransition: 0
+  hasWhiteTransition: 1
   bloomOn: 0
   hasEnterSound: 0
   enterSound: {fileID: 0}
-  hasExitSound: 0
-  exitSound: {fileID: 0}
-  isLastInEpisode: 0
-  nextEpisodeHeading: 
+  hasExitSound: 1
+  exitSound: {fileID: 8300000, guid: 3e4fe645c6baa374da3ca9e437d68a8c, type: 3}
+  isLastInEpisode: 1
+  nextEpisodeHeading: 'Segment 10: Dream Again'
   dialogueLines:
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -447,14 +447,15 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "You catch him by the ankle, \nhis head an inch from the cobblestone ground."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+    text: "You catch him by the ankle, \nhis head an inch from the cobblestone ground
+      below."
+  - portrait: {fileID: 21300000, guid: 77b8dacb1353a4642a61e81d13fa58ac, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
@@ -463,20 +464,20 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "*HUFF \nHUFF \nHUFF \nHUFF...*"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: d2b608ad97aec824bbaa65a2b2c770e2, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    textSize: 33
+    typeSpeed: 0.04
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Hey! \nChink! \nWhat do you think you are doing! \nI could have died!"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 069a71f29937e3b4c9cb41bdb52cde3b, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -487,10 +488,10 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: You want another one?
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: 77b8dacb1353a4642a61e81d13fa58ac, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
@@ -500,8 +501,8 @@ MonoBehaviour:
     switchMusic: 0
     text: "No, \nNono. \nHaha, \nmy bad. \nIt would seem your eyes are not so small
       after all."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 2e1b56463e37d524ba499649c81ac516, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -512,8 +513,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 2e1b56463e37d524ba499649c81ac516, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -524,10 +525,10 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "So, \nwhat are you doing in that house?"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: 015394668868f8a4aad836baf2596cf0, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
@@ -537,18 +538,18 @@ MonoBehaviour:
     switchMusic: 0
     text: "Nothing, \njust playing. \nThe crone hasn't been home lately, \nso we
       get to play in the house undisturbed."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: d2f2ae5873bbd704db95b12078a4d81b, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    textSize: 33
+    typeSpeed: 0.04
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Ok, \nI answered your question, \nnow let me go!"
+    text: "Ok, \nI answered your question, \nnow LET ME GO!"
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -557,7 +558,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: He struggles.
@@ -569,7 +570,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: You suddenly feel like you want to say something like 'very poor choice
@@ -582,12 +583,12 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'But you resist that urge. '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 0226ad22437da414290f417a9a02e067, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -598,10 +599,10 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: Who's the crone?
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: 0639c631f66806340a7da69d6c430773, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
@@ -610,8 +611,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "The crone. \n'The' crone. \nWhat, \nyou not from around here?"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 0226ad22437da414290f417a9a02e067, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -622,10 +623,10 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'Nope. '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: d2b608ad97aec824bbaa65a2b2c770e2, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
@@ -642,45 +643,57 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: You lift him higher.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: d2f2ae5873bbd704db95b12078a4d81b, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    textSize: 33
+    typeSpeed: 0.03
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "There's an old woman that lives here! \nGrumpy, \ntends her garden all
       day! \nHer house is like a fortress, \nso whoever can infiltrate it gets to
       be captain!"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: d2f2ae5873bbd704db95b12078a4d81b, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
+    textSize: 33
+    typeSpeed: 0.03
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Although it seems like she's gone, \nand left the fence door unlocked!
       \nI was the one who discovered this, \nyou know! \nThose ungrateful bastards..."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
+  - portrait: {fileID: 21300000, guid: d2f2ae5873bbd704db95b12078a4d81b, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
+    textSize: 33
+    typeSpeed: 0.03
     screenShake: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 0}
+    switchMusic: 0
+    text: You drop him.
+  - portrait: {fileID: 21300000, guid: d2f2ae5873bbd704db95b12078a4d81b, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
+    textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    textSize: 35
+    typeSpeed: 0.04
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -693,12 +706,12 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'You put your hand on the fence door. '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: ec9f15df6fc14ec4a8882da53420ef87, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -709,8 +722,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: b2745361606b7204a8b0add0543eb1b6, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -721,10 +734,10 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: Get lost.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: 015394668868f8a4aad836baf2596cf0, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: Dennis
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
@@ -741,7 +754,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'You hear him running away. '
@@ -753,7 +766,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'You open the garden door. '
@@ -765,7 +778,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "And you are welcomed by a sea of red. \nEverywhere you look, \nyou see
@@ -778,7 +791,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: They smell of a gentle fragrance.
