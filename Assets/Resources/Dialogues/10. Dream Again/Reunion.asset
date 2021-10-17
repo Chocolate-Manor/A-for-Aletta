@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Reunion
   m_EditorClassIdentifier: 
   sceneHeading: INT. STRANGE CLASSROOM - DAY
-  backgroundMusic: {fileID: 8300000, guid: 9b9ca48c7d52e3d40aab0561d3a5f4d1, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: db6c9a9a33ec19e41b0ab52d9e99d96d, type: 3}
   hasWhiteTransition: 1
   bloomOn: 1
-  hasEnterSound: 0
-  enterSound: {fileID: 0}
+  hasEnterSound: 1
+  enterSound: {fileID: 8300000, guid: f6f99152f9aecce4aa0266a4350fe160, type: 3}
   hasExitSound: 1
   exitSound: {fileID: 8300000, guid: 3e4fe645c6baa374da3ca9e437d68a8c, type: 3}
   isLastInEpisode: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "The rain touches your face. \nIt is burning hot. \nThe moment it reaches
+    text: "The rain touch your face. \nIt is burning hot. \nThe moment it reaches
       your skin, \nit disappears into a white puff of smoke. "
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -169,9 +169,9 @@ MonoBehaviour:
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    textSize: 32
+    typeSpeed: 0.02
+    screenShake: 1
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -198,7 +198,7 @@ MonoBehaviour:
     typeSpeed: 0.01
     screenShake: 1
     isNarration: 0
-    musicToSwitchTo: {fileID: 8300000, guid: 7467901f2bc27084a95a21aabebee2d1, type: 3}
+    musicToSwitchTo: {fileID: 8300000, guid: b71234616aa01654da92d3072f722d7e, type: 3}
     switchMusic: 1
     text: AARRRRRGGGGGHHHH!
   - portrait: {fileID: 0}
@@ -274,7 +274,7 @@ MonoBehaviour:
     switchMusic: 0
     text: "Dark strings entangle you like a cocoon. \nUnlike before, \nthey carry
       no emotion, \nlike a combine harvester mowing through in uniform precision. "
-  - portrait: {fileID: 21300000, guid: 7320f99f9377cb24b9ffdc250ef920d9, type: 3}
+  - portrait: {fileID: 21300000, guid: d0efe7859a6b8154d9a26151764c004a, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -315,12 +315,12 @@ MonoBehaviour:
   - portrait: {fileID: 21300000, guid: 03222fe344f31a44a87c44d4c57c289b, type: 3}
     character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: '"Floris"'
-    hasNameOverwrite: 1
+    hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "\"What, \nyou thought she'd throw herself in your arms?\" "
@@ -330,7 +330,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.1
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
@@ -354,7 +354,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.1
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
@@ -370,7 +370,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.1
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
@@ -484,8 +484,8 @@ MonoBehaviour:
     typeSpeed: 0.05
     screenShake: 0
     isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
+    musicToSwitchTo: {fileID: 8300000, guid: f997b7c60d045384dbc2c45ac19bd4a9, type: 3}
+    switchMusic: 1
     text: You are giving up already?
   - portrait: {fileID: 21300000, guid: 80dab4d17dc468c42b8a5c5b1b2e2b15, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
@@ -608,7 +608,7 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: Lost?
+    text: Failed?
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -669,7 +669,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: And you chose to give up.
-  - portrait: {fileID: 21300000, guid: 7320f99f9377cb24b9ffdc250ef920d9, type: 3}
+  - portrait: {fileID: 21300000, guid: 43a51c1d59690a34995213dfbc58fe39, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -681,7 +681,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
-  - portrait: {fileID: 21300000, guid: e798b3da780407a4a9a113d2c8f2fdef, type: 3}
+  - portrait: {fileID: 21300000, guid: d88d23753402be242a2cee471c573bc4, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -705,7 +705,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'Just a voice in your head. '
-  - portrait: {fileID: 21300000, guid: e798b3da780407a4a9a113d2c8f2fdef, type: 3}
+  - portrait: {fileID: 21300000, guid: d88d23753402be242a2cee471c573bc4, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -729,7 +729,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'You''ll figure it out yourself. '
-  - portrait: {fileID: 21300000, guid: e798b3da780407a4a9a113d2c8f2fdef, type: 3}
+  - portrait: {fileID: 21300000, guid: d88d23753402be242a2cee471c573bc4, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
