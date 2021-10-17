@@ -86,7 +86,7 @@ MonoBehaviour:
     switchMusic: 0
     text: "You smile. \nYou wave your hand over the wound, \nand the bleeding stops.
       \r\n"
-  - portrait: {fileID: 21300000, guid: 46c25338f7d20754db3f68792f190545, type: 3}
+  - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "You bend down too. \nYou let her head rest on your shoulder."
-  - portrait: {fileID: 21300000, guid: e798b3da780407a4a9a113d2c8f2fdef, type: 3}
+  - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
@@ -388,7 +388,7 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: She wipes her face.
+    text: She tilts her head.
   - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
@@ -519,7 +519,7 @@ MonoBehaviour:
     typeSpeed: 0.02
     screenShake: 1
     isNarration: 0
-    musicToSwitchTo: {fileID: 0}
+    musicToSwitchTo: {fileID: 8300000, guid: 7b0fed6242e99094a8259c537a1de8f6, type: 3}
     switchMusic: 0
     text: Woah?
   - portrait: {fileID: 21300000, guid: b5aff451c80db404f881e4ce2b5554cb, type: 3}
@@ -580,8 +580,8 @@ MonoBehaviour:
     typeSpeed: 0.05
     screenShake: 0
     isNarration: 1
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
+    musicToSwitchTo: {fileID: 8300000, guid: 7b0fed6242e99094a8259c537a1de8f6, type: 3}
+    switchMusic: 1
     text: "Heath's feet leave the ground. \nThe golden light seem to envelope her
       whole. \nShe floats. \nThe ceiling disappears, \nand the sky open.  \r\n"
   - portrait: {fileID: 21300000, guid: 2508c6679ed0e4b4eacecf811253c0e6, type: 3}
@@ -669,7 +669,7 @@ MonoBehaviour:
     typeSpeed: 0.05
     screenShake: 0
     isNarration: 1
-    musicToSwitchTo: {fileID: 0}
+    musicToSwitchTo: {fileID: 8300000, guid: 77ea0871599e0ad44a4976432f73f122, type: 3}
     switchMusic: 0
     text: "Then you felt something in your hand. \nHeath's hand. \nYou look up, \nand
       see her surprised face."
@@ -728,7 +728,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 35
-    typeSpeed: 0.02
+    typeSpeed: 0.04
     screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
@@ -778,7 +778,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 35
-    typeSpeed: 0.02
+    typeSpeed: 0.04
     screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
@@ -1215,12 +1215,12 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 32
-    typeSpeed: 0.02
+    typeSpeed: 0.04
     screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "That doesn't matter! \nDon't you see? \nAs long as we have each other..."
+    text: "That doesn't matter! \nAs long as we have each other..."
   - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
@@ -1269,7 +1269,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "I love you, \nHeath. "
-  - portrait: {fileID: 21300000, guid: 59a12f7a42818bd4a80f748dbd38beb3, type: 3}
+  - portrait: {fileID: 21300000, guid: 92c9725cd4e33d846aa2dad8605f4bf5, type: 3}
     character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0

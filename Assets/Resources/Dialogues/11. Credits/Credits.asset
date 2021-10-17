@@ -87,7 +87,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "This game will probably just be buried. \nWell, \nit indefinately will
-      be buried, \nlike all creative product. \nHowever, \nit already brings a smile
+      be buried, \nlike all creative products. \nHowever, \nit already brings a smile
       to my face, \nknowing it might get dug up one day by someone curious, \nand
       bring them some joy. "
   - portrait: {fileID: 0}
@@ -104,7 +104,7 @@ MonoBehaviour:
     text: "Writing made me realize how you must grasple with the fear of putting
       a creative product to light. \nBut if you are reading this, \nand you are someone
       like me, \ndo it anyway. \nBecause at least then, \nyou've got nothing to regret.
-      \nBecause regret is a bitter thing, it bites you with a thousand tooth. "
+      \nBecause regret is a bitter thing, \nit bites you with a thousand tooth. "
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -116,10 +116,10 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'I still remember putting my first story online when I was in middle school.
-      Zombie survival with choices. And eventually I removed the choices and just
-      wrote whatever I wanted. I was just a kid then, but I will never forget the
-      support I was given, by strangers on the internet, no less. '
+    text: "I still remember putting my first story online when I was in middle school.\nZombie
+      survival with choices. \nAnd eventually I removed the choices and just wrote
+      whatever I wanted. \nI was just a kid then, \nbut I will never forget the support
+      I was given, \nby strangers on the internet, \nno less. "
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -131,7 +131,7 @@ MonoBehaviour:
     isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: 'I don''t mean to blab on. So I''ll leave you to it. Live, don''t wait. '
+    text: "I don't mean to blab on. \nSo I'll leave you to it. \nLive, \ndon't wait. "
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 

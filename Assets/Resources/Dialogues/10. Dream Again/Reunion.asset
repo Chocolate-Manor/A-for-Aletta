@@ -35,7 +35,7 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "It pours. \nViolently. \nYou stumble back into the classroom, \nand the
-      rain drops pounds the window like drums. \nYou close the door, \nhoping for
+      rain drops pound the windows like drums. \nYou close the door, \nhoping for
       some refuge from the rain.  "
   - portrait: {fileID: 0}
     character: {fileID: 0}

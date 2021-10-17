@@ -245,7 +245,7 @@ MonoBehaviour:
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.07
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
@@ -372,8 +372,8 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Wait, \nhow do you know the nature of the storm? \nI don't remember mentioning
-      any of it."
+    text: "Wait, \nhow do you know the nature of the storm? \nI don't remember ever
+      mentioning it."
   - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
     character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
