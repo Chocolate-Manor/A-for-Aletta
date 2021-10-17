@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Farewell
   m_EditorClassIdentifier: 
   sceneHeading: INT. STRANGE CLASSROOM - DAY
-  backgroundMusic: {fileID: 8300000, guid: 2112596b3e7df3d438fd44cbfab71476, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 77ea0871599e0ad44a4976432f73f122, type: 3}
   hasWhiteTransition: 0
   bloomOn: 1
   hasEnterSound: 0
@@ -797,13 +797,13 @@ MonoBehaviour:
     switchMusic: 0
     text: "You pull her down, \nfeet touching the floor. \nShe still floats, \nlike
       a human-shaped balloon. \nBut now, \nshe's in your hand. "
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 59a12f7a42818bd4a80f748dbd38beb3, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.07
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
@@ -811,8 +811,8 @@ MonoBehaviour:
     text: 'Phew...
 
       I thought...'
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: eb67d8a8b4aa3be408ad058a49de671f, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -831,7 +831,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "You look around. \nYou realize you are no longer inside the classroom.
@@ -845,7 +845,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "You are standing atop a train platform. \nA train platform that's infinitely
@@ -858,17 +858,17 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'Yet you see no train tracks. '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: bbe47528a5511bd439a3bf8950032f8e, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.1
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
@@ -876,14 +876,14 @@ MonoBehaviour:
     text: 'What is...
 
       this?'
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: eb67d8a8b4aa3be408ad058a49de671f, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
+    textSize: 32
     typeSpeed: 0.05
-    screenShake: 0
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -896,7 +896,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "You look towards the direction she points. \nYou realize that's the same
@@ -909,7 +909,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "You see lights. \nYou see something long hiding within the fog. \nYou
@@ -922,7 +922,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "The platform rises. \nHeath lets out a whimper of surprise."
@@ -934,13 +934,13 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "You see the train getting closer and closer. \nYou see its black body
       and golden frame. "
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 5ea3c183a38190347a8b4cee4d994364, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -959,14 +959,14 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: You hear a loud announcement beep.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: a3521e5e94876fc49b291687e5315c61, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: ???
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
@@ -976,8 +976,8 @@ MonoBehaviour:
     switchMusic: 0
     text: "Ladies and Gentlemen, \nthis is the Conductor. \nThe train has temporarily
       resumed customer service. "
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 59a12f7a42818bd4a80f748dbd38beb3, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -988,8 +988,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: The train?
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1000,10 +1000,10 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: a3521e5e94876fc49b291687e5315c61, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: ???
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
@@ -1013,10 +1013,10 @@ MonoBehaviour:
     switchMusic: 0
     text: "The train's current remaining capacity is, \none passenger. \nI repeat,
       \none passenger."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: a3521e5e94876fc49b291687e5315c61, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: ???
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
@@ -1033,12 +1033,12 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Another beep. \nAnd then silence. "
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 13020bfe52d75f14687e5f29091deb58, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1051,8 +1051,8 @@ MonoBehaviour:
     text: 'What does he mean?
 
 '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: ec9f15df6fc14ec4a8882da53420ef87, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1071,12 +1071,12 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: You say nothing.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 13020bfe52d75f14687e5f29091deb58, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1087,8 +1087,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: Jing?
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: ec9f15df6fc14ec4a8882da53420ef87, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1099,8 +1099,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: Heath.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 8199906e0db24364b84468b84688e437, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1111,8 +1111,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: Yes?
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: b2745361606b7204a8b0add0543eb1b6, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1123,8 +1123,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Listen to me. \nI think you need to get on this train."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 13020bfe52d75f14687e5f29091deb58, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1135,8 +1135,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Huh? \nBut it says it can only take one more."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1147,8 +1147,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: That's because this train is for you.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 13020bfe52d75f14687e5f29091deb58, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1159,8 +1159,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: For me?
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: b2745361606b7204a8b0add0543eb1b6, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1172,8 +1172,8 @@ MonoBehaviour:
     switchMusic: 0
     text: "Floris had been wrong. \nThere is another way. \nThere is a way that you
       could be saved. \nThat you could be free."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: eb67d8a8b4aa3be408ad058a49de671f, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1184,8 +1184,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "What? \nBut,"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: f09c4ceb27281da40a57b8defca0df83, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1196,8 +1196,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "But I want to stay with you. \nI..."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: b2745361606b7204a8b0add0543eb1b6, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1209,32 +1209,32 @@ MonoBehaviour:
     switchMusic: 0
     text: "You'd still be an anare. \nYou will be trapped in this world, \ntrapped
       in my mind. \nYou will be hunted, \nhunted to the end of the earth."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 92c9725cd4e33d846aa2dad8605f4bf5, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    textSize: 32
+    typeSpeed: 0.02
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "That doesn't matter! \nDon't you see? \nAs long as we have each other..."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 2757f5f8e62d0044b827818c4e20695d, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
+    typeSpeed: 0.1
     screenShake: 0
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: As long as we have each other...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: b2745361606b7204a8b0add0543eb1b6, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1245,20 +1245,20 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 92c9725cd4e33d846aa2dad8605f4bf5, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    textSize: 32
+    typeSpeed: 0.02
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Yeah! \nWe-"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: ec9f15df6fc14ec4a8882da53420ef87, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1269,20 +1269,20 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "I love you, \nHeath. "
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 59a12f7a42818bd4a80f748dbd38beb3, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    textSize: 32
+    typeSpeed: 0.02
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: Yeah!
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: eb67d8a8b4aa3be408ad058a49de671f, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1293,14 +1293,14 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 92c9725cd4e33d846aa2dad8605f4bf5, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    typeSpeed: 0.03
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -1313,12 +1313,12 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "You pull her close. \nShe blushes."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 9a9aa2aea882e08429da14f348c5f1c8, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1329,8 +1329,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "I love you. \nI want to stay with you forever. "
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 92c9725cd4e33d846aa2dad8605f4bf5, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1341,8 +1341,8 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Ummm, \nI..."
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: e798b3da780407a4a9a113d2c8f2fdef, type: 3}
+    character: {fileID: 11400000, guid: 87b413933eb845b41b53059890fa7feb, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
@@ -1353,14 +1353,14 @@ MonoBehaviour:
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: That's why I must let you go.
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 92c9725cd4e33d846aa2dad8605f4bf5, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    typeSpeed: 0.02
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -1373,30 +1373,30 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'You let go of her hand. '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 7a86c6437b4fb5e46a59f4be3ca489e8, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    textSize: 35
+    typeSpeed: 0.02
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "No!!! \nWhy?!"
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: 7a86c6437b4fb5e46a59f4be3ca489e8, type: 3}
+    character: {fileID: 11400000, guid: 83556d994f20ef04aa77c87a3e9264c4, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
-    textSize: 30
-    typeSpeed: 0.05
-    screenShake: 0
+    textSize: 35
+    typeSpeed: 0.02
+    screenShake: 1
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
@@ -1411,16 +1411,16 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'The train door closes.
 
 '
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
-    nameOverwrite: 
-    hasNameOverwrite: 0
+  - portrait: {fileID: 21300000, guid: a3521e5e94876fc49b291687e5315c61, type: 3}
+    character: {fileID: 11400000, guid: 62c2e9ac0ef521b4ca32d599917c1db2, type: 2}
+    nameOverwrite: ???
+    hasNameOverwrite: 1
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
     textSize: 30
     typeSpeed: 0.05
@@ -1437,11 +1437,11 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "You see her running along the train. \nYou see her knocking on the windows.
-      She is shouting something, \nyet you can't hear a thing."
+      \nShe is shouting something, \nyet you can't hear a thing."
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 
@@ -1450,7 +1450,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "You drop onto the ground. \nYou can no longer bear to look. \nYou close
@@ -1464,9 +1464,9 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
-    musicToSwitchTo: {fileID: 0}
-    switchMusic: 0
+    isNarration: 1
+    musicToSwitchTo: {fileID: 8300000, guid: b71234616aa01654da92d3072f722d7e, type: 3}
+    switchMusic: 1
     text: 'And you sobs. '
   - portrait: {fileID: 0}
     character: {fileID: 0}
@@ -1476,7 +1476,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
@@ -1488,7 +1488,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "It started small, \nbut soon you can no longer control yourself."
@@ -1500,7 +1500,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
@@ -1512,7 +1512,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: 'You had never been a beautiful crier. '
@@ -1524,7 +1524,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
@@ -1536,7 +1536,7 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: ...
@@ -1548,12 +1548,12 @@ MonoBehaviour:
     textSize: 30
     typeSpeed: 0.05
     screenShake: 0
-    isNarration: 0
+    isNarration: 1
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
     text: "Suddenly, \nyou hear boots behind you. "
-  - portrait: {fileID: 0}
-    character: {fileID: 0}
+  - portrait: {fileID: 21300000, guid: bf52198023c3e8d44a758fac06b28d51, type: 3}
+    character: {fileID: 11400000, guid: ff817fee81eabdc4ea6617087dd5008e, type: 2}
     nameOverwrite: 
     hasNameOverwrite: 0
     textColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
