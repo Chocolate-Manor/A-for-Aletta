@@ -697,7 +697,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Whoa-Ouch! \nHey! \nThat's how you pay me for that information!?"
+    text: "Whoa-Ouch! \nHey! \nThat's how you pay me back for that information!?"
   - portrait: {fileID: 0}
     character: {fileID: 0}
     nameOverwrite: 

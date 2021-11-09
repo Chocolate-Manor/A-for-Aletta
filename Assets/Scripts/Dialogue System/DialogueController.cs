@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -35,7 +36,10 @@ public class DialogueController : MonoBehaviour
     public Animation audioFadeAnimation;
     
     private void Awake()
-    {
+    {   
+        //for testing
+        //PlayerPrefs.SetInt("curConvIndex", 41);
+        
         //load the current conversation
         UniversalInfo.Load_ConvIndex();
         curConv = DialogueManager.Instance.dialogues[UniversalInfo.curConvIndex];
@@ -120,6 +124,15 @@ public class DialogueController : MonoBehaviour
     /// </summary>
     private void NextConv()
     {   
+        //ifIndexExceeds the length itself, return to title page and reset index to zero.
+        if (UniversalInfo.curConvIndex >= DialogueManager.Instance.dialogues.Count - 1)
+        {
+            SceneManager.LoadScene("Main Menu");
+            UniversalInfo.curConvIndex = 0;
+            PlayerPrefs.SetInt("curConvIndex", 0);
+            return;
+        }
+        
         //trigger the nextConv event
         UniversalInfo.nextSceneEvent(UniversalInfo.curConvIndex);
         
