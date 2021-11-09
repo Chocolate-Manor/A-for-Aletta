@@ -9,15 +9,20 @@ using UnityEngine.UI;
 public class MainMenuController : MonoBehaviour
 {
     public TextMeshProUGUI startGameText;
+    public AudioSource audSource;
+    public AudioClip startSound;
+    public Animator sceneFader;
     private void Start()
     {   
         //check if a safe already exists
-        startGameText.text = UniversalInfo.curConvIndex == 0 ? "New Game" : "Resume Game";
-
+        startGameText.text = UniversalInfo.Load_ConvIndex() == 0 ? "New Game" : "Continue";
+        
     }
 
     public void StartGame()
-    {
-        SceneManager.LoadScene("ChatScene");
+    {   
+        audSource.Stop();
+        audSource.PlayOneShot(startSound);
+        sceneFader.SetTrigger("FadeOut");
     }
 }

@@ -35,8 +35,9 @@ public class DialogueController : MonoBehaviour
     public Animation audioFadeAnimation;
     
     private void Awake()
-    {   
+    {
         //load the current conversation
+        UniversalInfo.Load_ConvIndex();
         curConv = DialogueManager.Instance.dialogues[UniversalInfo.curConvIndex];
         ClearPanel();
         SetupScene();
@@ -123,7 +124,8 @@ public class DialogueController : MonoBehaviour
         UniversalInfo.nextSceneEvent(UniversalInfo.curConvIndex);
         
         //increment
-        UniversalInfo.curConvIndex++;
+        //UniversalInfo.curConvIndex++;
+        UniversalInfo.Increment_ConvIndex_And_Save();
         curConv = DialogueManager.Instance.dialogues[UniversalInfo.curConvIndex];
         
         //save the change

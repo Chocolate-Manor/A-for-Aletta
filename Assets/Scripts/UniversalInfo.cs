@@ -22,8 +22,9 @@ public static class UniversalInfo
     /// <summary>
     /// Load the current ConvIndex to see 
     /// </summary>
-    public static void Load_ConvIndex()
+    public static int Load_ConvIndex()
     {
         curConvIndex = PlayerPrefs.GetInt("curConvIndex");
+        return curConvIndex;
     }
 }
