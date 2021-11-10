@@ -101,14 +101,14 @@ public class DialogueController : MonoBehaviour
         } 
 
         //turn on bloom
-        if (curConv.bloomOn)
-        {
-            volumeObject.SetActive(true);
-        }
-        else
-        {
-            volumeObject.SetActive(false);
-        }
+        // if (curConv.bloomOn)
+        // {
+        //     volumeObject.SetActive(true);
+        // }
+        // else
+        // {
+        //     volumeObject.SetActive(false);
+        // }
 
         //remember to reset curLineIndex..
         curLineIndex = 0;
