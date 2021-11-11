@@ -25,7 +25,7 @@ public class DialogueController : MonoBehaviour
     //fade in fade out animator
     public Animation fadeAnimation;
     public Image cover;
-    public GameObject volumeObject;
+    //public GameObject volumeObject;
     
     //episode sound
     public AudioClip episodeSound;
@@ -298,7 +298,7 @@ public class DialogueController : MonoBehaviour
             else
             {
                 //if is last episode, first display text
-                volumeObject.SetActive(false);
+                //volumeObject.SetActive(false);
                 StartCoroutine(TypeWriteEpisodeText(curConv.nextEpisodeHeading, episodeText));
                 haveDisplayedEpisodeText = true;
                 return;
