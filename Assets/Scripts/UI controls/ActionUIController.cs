@@ -8,8 +8,8 @@ public class ActionUIController : MonoBehaviour
     public float scrollSpeed = 1000f;
 
     // Update is called once per frame
-    void Update()
-    {
-        scroll.velocity = new Vector2(0, joystick.Vertical * scrollSpeed);
-    }
+    // void Update()
+    // {
+    //     scroll.velocity = new Vector2(0, joystick.Vertical * scrollSpeed);
+    // }
 }
