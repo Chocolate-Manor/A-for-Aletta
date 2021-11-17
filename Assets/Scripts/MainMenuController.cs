@@ -8,19 +8,34 @@ using UnityEngine.UI;
 
 public class MainMenuController : MonoBehaviour
 {
-    public TextMeshProUGUI startGameText;
     public AudioSource audSource;
     public AudioClip startSound;
     public Animator sceneFader;
+    public GameObject continueButton;
+    
     private void Start()
-    {   
-        //check if a safe already exists
-        startGameText.text = UniversalInfo.Load_ConvIndex() == 0 ? "New Game" : "Continue";
-        
+    {
+        if (UniversalInfo.Load_ConvIndex() == 0)
+        {
+            continueButton.SetActive(false);
+        }
+        else
+        {
+            continueButton.SetActive(true);
+        }
     }
 
-    public void StartGame()
-    {   
+    public void StartNewGame()
+    {
+        UniversalInfo.curConvIndex = 0;
+        PlayerPrefs.SetInt("curConvIndex", 0);
+        audSource.Stop();
+        audSource.PlayOneShot(startSound);
+        sceneFader.SetTrigger("FadeOut");
+    }
+
+    public void Continue()
+    {
         audSource.Stop();
         audSource.PlayOneShot(startSound);
         sceneFader.SetTrigger("FadeOut");
