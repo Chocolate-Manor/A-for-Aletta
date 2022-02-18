@@ -231,7 +231,7 @@ MonoBehaviour:
     isNarration: 0
     musicToSwitchTo: {fileID: 0}
     switchMusic: 0
-    text: "Sign. \nHow much was it again?"
+    text: "Sigh. \nHow much was it again?"
   - portrait: {fileID: 21300000, guid: 677e71345c0ba4c48ad36768654b92e4, type: 3}
     character: {fileID: 11400000, guid: ebcf2b7c8b1493944b43f36919122c99, type: 2}
     nameOverwrite: 
