@@ -12,9 +12,14 @@ public class MainMenuController : MonoBehaviour
     public AudioClip startSound;
     public Animator sceneFader;
     public GameObject continueButton;
+    public Animator popUpAnimator;
+
+    private bool popUpIsOpen;
     
     private void Start()
     {
+        popUpIsOpen = false;
+        
         if (UniversalInfo.Load_ConvIndex() == 0)
         {
             continueButton.SetActive(false);
@@ -25,6 +30,15 @@ public class MainMenuController : MonoBehaviour
         }
     }
 
+    public void NewGamePopUp()
+    {
+        if (!popUpIsOpen)
+        {
+            popUpAnimator.SetTrigger("Open");
+            popUpIsOpen = true;
+        }
+    }
+    
     public void StartNewGame()
     {
         UniversalInfo.curConvIndex = 0;
@@ -34,6 +48,11 @@ public class MainMenuController : MonoBehaviour
         sceneFader.SetTrigger("FadeOut");
     }
 
+    public void ClosePopUp()
+    {
+        popUpAnimator.SetTrigger("Close");
+        popUpIsOpen = false;
+    }
     public void Continue()
     {
         audSource.Stop();
