@@ -14,7 +14,11 @@ public class MainMenuController : MonoBehaviour
     public GameObject continueButton;
     public Animator popUpAnimator;
 
+    public TextMeshProUGUI popUpText;
+    public Button popUpYesButton;
+    
     private bool popUpIsOpen;
+    
     
     private void Start()
     {
@@ -32,10 +36,20 @@ public class MainMenuController : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ClickOnQuit();
+        } 
+    }
+
     public void NewGamePopUp()
     {
         if (!popUpIsOpen)
         {
+            popUpYesButton.onClick.AddListener(delegate { StartNewGame();});
+            popUpText.text = "Start a new game?";
             popUpAnimator.SetTrigger("Open");
             popUpIsOpen = true;
         }
@@ -53,12 +67,35 @@ public class MainMenuController : MonoBehaviour
     public void ClosePopUp()
     {
         popUpAnimator.SetTrigger("Close");
+        RemoveAllYesButtonListeners();
         popUpIsOpen = false;
     }
+
+    private void RemoveAllYesButtonListeners()
+    {
+        popUpYesButton.onClick.RemoveAllListeners();
+    }
+    
     public void Continue()
     {
         audSource.Stop();
         audSource.PlayOneShot(startSound);
         sceneFader.SetTrigger("FadeOut");
+    }
+
+    public void ClickOnQuit()
+    {   
+        if (!popUpIsOpen)
+        {
+            popUpYesButton.onClick.AddListener(delegate { QuitGame(); });
+            popUpText.text = "Exit the game?";     
+            popUpAnimator.SetTrigger("Open");
+            popUpIsOpen = true;
+        }
+    }
+
+    private void QuitGame()
+    {
+        Application.Quit();
     }
 }
