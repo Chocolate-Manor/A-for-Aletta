@@ -19,6 +19,8 @@ public class MainMenuController : MonoBehaviour
     private void Start()
     {
         popUpIsOpen = false;
+
+        audSource = GameObject.FindWithTag("audio").GetComponent<AudioSource>();
         
         if (UniversalInfo.Load_ConvIndex() == 0)
         {
