@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SteamManager : MonoBehaviour
+public class SteamManager : SingletonMonoBehavior<SteamManager>
 {
     private void Awake()
     {
